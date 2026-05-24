@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1150</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Study++ Dashboard</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="mainLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="margin" stdset="0">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="sidebar">
+      <property name="minimumSize">
+       <size>
+        <width>220</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>220</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="sidebarLayout">
+       <property name="margin" stdset="0">
+        <number>16</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="appTitle">
+         <property name="text">
+          <string>Study++</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnDashboard">
+         <property name="text">
+          <string>Dashboard</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnTasks">
+         <property name="text">
+          <string>Task</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnStats">
+         <property name="text">
+          <string>Statistics</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Orientation::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="mainStack">
+      <widget class="QWidget" name="pageDashboard">
+       <layout class="QVBoxLayout" name="dashboardLayout">
+        <property name="margin" stdset="0">
+         <number>20</number>
+        </property>
+        <item>
+         <widget class="QLineEdit" name="taskInputHeader">
+          <property name="placeholderText">
+           <string>Enter new task title and press Enter…</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QScrollArea" name="dashboardScroll">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="dashboardContainer">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>888</width>
+             <height>647</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="dashboardContainerLayout"/>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="pageWorkspace">
+       <layout class="QVBoxLayout" name="workspaceLayout">
+        <property name="margin" stdset="0">
+         <number>20</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="rowLayout">
+          <item>
+           <widget class="QLabel" name="lblTaskTitle">
+            <property name="text">
+             <string>Selected Task</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="spacer1">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="lblDeadline">
+            <property name="text">
+             <string>Deadline: None</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lblPomodoroSummary">
+            <property name="text">
+             <string>0 sessions • 0h</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTabWidget" name="workspaceTabs">
+          <widget class="QWidget" name="tabText">
+           <attribute name="title">
+            <string>Text Doc</string>
+           </attribute>
+           <layout class="QVBoxLayout" name="textLayout">
+            <item>
+             <widget class="QTextEdit" name="textEditor"/>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tabDrawing">
+           <attribute name="title">
+            <string>Drawing</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="tabChecklist">
+           <attribute name="title">
+            <string>Checklist</string>
+           </attribute>
+           <layout class="QVBoxLayout" name="checkLayout">
+            <item>
+             <layout class="QHBoxLayout" name="checklistInputLayout">
+              <item>
+               <widget class="QLineEdit" name="checklistInput">
+                <property name="placeholderText">
+                 <string>Add checklist item...</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnAddChecklistItem">
+                <property name="maximumSize">
+                 <size>
+                  <width>60</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>✓ Add</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QListWidget" name="checklist"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="pomodoroLayout">
+          <item>
+           <widget class="QPushButton" name="btnStartPomodoro">
+            <property name="text">
+             <string>⏱ Start Pomodoro</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnSave">
+            <property name="text">
+             <string>💾 Save</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacerPomodoro">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="pageStats">
+       <layout class="QVBoxLayout" name="statsLayout">
+        <property name="margin" stdset="0">
+         <number>20</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="lblStatsHeader">
+          <property name="styleSheet">
+           <string>font-weight: bold; font-size: 18pt; margin-bottom: 10px;</string>
+          </property>
+          <property name="text">
+           <string>Study++ Statistics</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="statsOverview">
+          <property name="frameShape">
+           <enum>QFrame::Shape::StyledPanel</enum>
+          </property>
+          <layout class="QGridLayout" name="statsGridLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="lblTotalTasks">
+             <property name="styleSheet">
+              <string>font-weight: bold;</string>
+             </property>
+             <property name="text">
+              <string>Total Tasks</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="lblTotalTasksValue">
+             <property name="styleSheet">
+              <string>font-size: 14pt; color: #0078d7;</string>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="lblCompletedTasks">
+             <property name="styleSheet">
+              <string>font-weight: bold;</string>
+             </property>
+             <property name="text">
+              <string>Completed Tasks</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLabel" name="lblCompletedTasksValue">
+             <property name="styleSheet">
+              <string>font-size: 14pt; color: #107c10;</string>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="lblTotalDocuments">
+             <property name="styleSheet">
+              <string>font-weight: bold;</string>
+             </property>
+             <property name="text">
+              <string>Total Documents</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="lblTotalDocumentsValue">
+             <property name="styleSheet">
+              <string>font-size: 14pt; color: #0078d7;</string>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="lblPomodoroSessions">
+             <property name="styleSheet">
+              <string>font-weight: bold;</string>
+             </property>
+             <property name="text">
+              <string>Pomodoro Sessions</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLabel" name="lblPomodoroSessionsValue">
+             <property name="styleSheet">
+              <string>font-size: 14pt; color: #d83b01;</string>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="lblTotalFocusTime">
+             <property name="styleSheet">
+              <string>font-weight: bold;</string>
+             </property>
+             <property name="text">
+              <string>Total Focus Time</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLabel" name="lblTotalFocusTimeValue">
+             <property name="styleSheet">
+              <string>font-size: 14pt; color: #d83b01;</string>
+             </property>
+             <property name="text">
+              <string>0h 0m</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lblRecentActivity">
+          <property name="styleSheet">
+           <string>font-weight: bold; font-size: 14pt; margin-top: 20px;</string>
+          </property>
+          <property name="text">
+           <string>Recent Activity</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListWidget" name="recentActivityList">
+          <property name="styleSheet">
+           <string>QListWidget { border: 1px solid #ccc; border-radius: 4px; }</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="statsVerticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

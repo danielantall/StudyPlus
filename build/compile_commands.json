@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/danielantal/VsCodeProjects/git_repos/oop-assignment-2-daniel-rumen/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/assignment2.dir/main.cpp.o -c /Users/danielantal/VsCodeProjects/git_repos/oop-assignment-2-daniel-rumen/main.cpp",
+  "file": "/Users/danielantal/VsCodeProjects/git_repos/oop-assignment-2-daniel-rumen/main.cpp",
+  "output": "CMakeFiles/assignment2.dir/main.cpp.o"
+}
+]

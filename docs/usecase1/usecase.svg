@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="4238px" preserveAspectRatio="none" style="width:1917px;height:4238px;background:#1E1E1E;" version="1.1" viewBox="0 0 1917 4238" width="1917px" zoomAndPan="magnify"><defs><filter height="300%" id="feaamcqml0d57" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="328" x="788.185" y="17.4023">Study++ Enhanced Use Case Diagram</text><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#1A1A1A" filter="url(#feaamcqml0d57)" height="2379" style="stroke:#555555;stroke-width:1.5;" width="1747.37" x="158" y="1642.8892"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="270" x="896.685" y="1658.4244">Study++ All-in-one Productivity App</text><!--MD5=[5ac02ff120f6960437619855ceb47706]
+cluster Task Management--><polygon fill="#252525" filter="url(#feaamcqml0d57)" points="585.91,1685.8892,723.91,1685.8892,730.91,1708.3775,1201.15,1708.3775,1201.15,2429.8892,585.91,2429.8892,585.91,1685.8892" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="585.91" x2="730.91" y1="1708.3775" y2="1708.3775"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="589.91" y="1701.4244">Task Management</text><!--MD5=[ca1435025a53c7c5f788a1f74eb1c14d]
+cluster Task Selector (Smart Navigation)--><polygon fill="#252525" filter="url(#feaamcqml0d57)" points="980.7,2988.8892,1223.7,2988.8892,1230.7,3011.3775,1540.22,3011.3775,1540.22,3213.8892,980.7,3213.8892,980.7,2988.8892" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="980.7" x2="1230.7" y1="3011.3775" y2="3011.3775"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="237" x="984.7" y="3004.4244">Task Selector (Smart Navigation)</text><!--MD5=[11389336384a28347a77a0e87e26cb93]
+cluster Todo List (per Task)--><polygon fill="#252525" filter="url(#feaamcqml0d57)" points="954.19,2453.8892,1107.19,2453.8892,1114.19,2476.3775,1531.19,2476.3775,1531.19,2701.8892,954.19,2701.8892,954.19,2453.8892" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="954.19" x2="1114.19" y1="2476.3775" y2="2476.3775"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="147" x="958.19" y="2469.4244">Todo List (per Task)</text><!--MD5=[d81f09d0d5a517a62e4c0b599585fe25]
+cluster Text / Note Editor (per Task)--><polygon fill="#252525" filter="url(#feaamcqml0d57)" points="203.35,2453.8892,419.35,2453.8892,426.35,2476.3775,786.8,2476.3775,786.8,2782.8892,203.35,2782.8892,203.35,2453.8892" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="203.35" x2="426.35" y1="2476.3775" y2="2476.3775"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="210" x="207.35" y="2469.4244">Text / Note Editor (per Task)</text><!--MD5=[a4c88fc04ed7569a4e189dcf2f313473]
+cluster Drawing Canvas (per Task)--><polygon fill="#252525" filter="url(#feaamcqml0d57)" points="209.25,3086.8892,409.25,3086.8892,416.25,3109.3775,814.2,3109.3775,814.2,3395.8892,209.25,3395.8892,209.25,3086.8892" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="209.25" x2="416.25" y1="3109.3775" y2="3109.3775"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="194" x="213.25" y="3102.4244">Drawing Canvas (per Task)</text><!--MD5=[56be9b3c3c890b365da6110741fc290b]
+cluster Task Calendar (Deadline Visualization)--><polygon fill="#252525" filter="url(#feaamcqml0d57)" points="182.94,3752.8892,469.94,3752.8892,476.94,3775.3775,1189.75,3775.3775,1189.75,3997.8892,182.94,3997.8892,182.94,3752.8892" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="182.94" x2="476.94" y1="3775.3775" y2="3775.3775"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="281" x="186.94" y="3768.4244">Task Calendar (Deadline Visualization)</text><!--MD5=[a0403194b2400f7f0981a2a845a7a302]
+cluster Pomodoro (per Task)--><polygon fill="#252525" filter="url(#feaamcqml0d57)" points="942.16,2725.8892,1100.16,2725.8892,1107.16,2748.3775,1881.37,2748.3775,1881.37,2964.8892,942.16,2964.8892,942.16,2725.8892" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="942.16" x2="1107.16" y1="2748.3775" y2="2748.3775"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="152" x="946.16" y="2741.4244">Pomodoro (per Task)</text><!--MD5=[ea8e100799facb55a6aaf10e2b61775f]
+cluster Dashboard Manager (Global)--><polygon fill="#252525" filter="url(#feaamcqml0d57)" points="209.25,3419.8892,419.25,3419.8892,426.25,3442.3775,811.05,3442.3775,811.05,3728.8892,209.25,3728.8892,209.25,3419.8892" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="209.25" x2="426.25" y1="3442.3775" y2="3442.3775"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="204" x="213.25" y="3435.4244">Dashboard Manager (Global)</text><!--MD5=[b04bfc3852aea378518321540ea208ad]
+cluster Settings / Utilities--><polygon fill="#252525" filter="url(#feaamcqml0d57)" points="182,2806.8892,323,2806.8892,330,2829.3775,817.82,2829.3775,817.82,3062.8892,182,3062.8892,182,2806.8892" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="182" x2="330" y1="2829.3775" y2="2829.3775"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="135" x="186" y="2822.4244">Settings / Utilities</text><ellipse cx="699.8278" cy="1817.8928" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="97.9178" ry="21.9836" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="620.3278" y="1821.1838">Create Task Workspace</text><ellipse cx="699.8312" cy="2392.8855" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="94.3312" ry="21.2662" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="624.3312" y="2396.1765">Open Task Workspace</text><ellipse cx="699.8264" cy="1893.8925" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="84.6664" ry="19.3333" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="635.3264" y="1897.1835">Edit Task Metadata</text><ellipse cx="699.8289" cy="2243.891" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="89.4589" ry="20.2918" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="629.8289" y="2247.182">Mark Task Complete</text><ellipse cx="699.8294" cy="2317.8871" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="81.2394" ry="18.6479" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="639.3294" y="2321.1781">Set Task Deadline</text><ellipse cx="699.8262" cy="1967.8905" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="87.7062" ry="19.9412" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="631.8262" y="1971.1815">Clear Task Deadline</text><ellipse cx="699.8334" cy="1740.8879" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="88.1434" ry="20.0287" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="631.3334" y="1744.1789">Archive/Delete Task</text><ellipse cx="699.8317" cy="2038.8856" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="68.3317" ry="16.0663" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="652.5877" y="2042.8489">Search Tasks</text><ellipse cx="699.8278" cy="2104.8888" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="64.4478" ry="15.2896" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="657.8278" y="2108.9064">Filter Tasks</text><ellipse cx="699.8333" cy="2171.8879" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="73.3433" ry="17.0687" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="648.7156" y="2175.2115">Navigate Tasks</text><ellipse cx="1075.8318" cy="1895.8856" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="70.5818" ry="16.5164" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1026.8484" y="1899.5617">Validate Input</text><ellipse cx="1075.8292" cy="1964.8931" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="77.8692" ry="17.9738" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="1019.3292" y="1968.1841">Init Task Folders</text><ellipse cx="1075.834" cy="1740.886" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="86.834" ry="19.7668" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="1008.834" y="1744.177">Save Task Metadata</text><ellipse cx="1075.8348" cy="2378.8922" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="80.8148" ry="18.563" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1015.8348" y="2382.1832">Load Task Bundle</text><ellipse cx="1075.8312" cy="2201.8875" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="80.3912" ry="18.4782" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1016.3312" y="2205.1785">Persist Task State</text><ellipse cx="1075.8263" cy="1819.8925" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="109.3163" ry="24.2633" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="983.8263" y="1823.1835">Confirm Destructive Action</text><ellipse cx="1075.8318" cy="3040.8856" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="70.5818" ry="16.5164" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1026.8484" y="3044.5617">View Task List</text><ellipse cx="1443.8303" cy="3109.8873" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="72.5403" ry="16.9081" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="1393.3332" y="3113.3133">Search by Title</text><ellipse cx="1443.8304" cy="3040.8873" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="72.9404" ry="16.9881" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1393.0241" y="3044.2623">Filter by Status</text><ellipse cx="1443.8312" cy="3179.8875" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="80.3912" ry="18.4782" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1384.3312" y="3183.1785">Filter by Deadline</text><ellipse cx="1075.8259" cy="3110.8844" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="79.1259" ry="18.2252" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1017.8259" y="3114.1754">Quick Open Task</text><ellipse cx="1075.8309" cy="2661.8874" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="105.6409" ry="23.5282" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="987.8309" y="2665.1784">Add/Edit/Delete Subtasks</text><ellipse cx="1075.8258" cy="2511.8844" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="104.7258" ry="23.3452" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="988.8258" y="2515.1754">Mark Complete / Reorder</text><ellipse cx="1443.8265" cy="2511.8905" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="71.3565" ry="16.6713" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1394.2443" y="2515.4677">Save Checklist</text><ellipse cx="1075.8329" cy="2586.8878" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="72.1429" ry="16.8286" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="1025.6429" y="2590.3646">Load Checklist</text><ellipse cx="323.1623" cy="2744.8937" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="95.6723" ry="21.5345" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="246.1623" y="2748.1847">Create Text Document</text><ellipse cx="323.1575" cy="2509.8907" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="92.1075" ry="20.8215" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="250.1575" y="2513.1817">Open Text Document</text><ellipse cx="323.1593" cy="2667.8871" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="90.3393" ry="20.4679" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="252.1593" y="2671.1781">Edit &amp; Autosave Text</text><ellipse cx="323.1624" cy="2588.8917" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="103.8124" ry="23.1625" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="237.1624" y="2592.1827">Rename/Move Document</text><ellipse cx="699.829" cy="2628.889" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="70.199" ry="16.4398" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="651.1415" y="2632.614">Save Text File</text><ellipse cx="699.8277" cy="2506.8928" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="70.9677" ry="16.5935" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="650.546" y="2510.5196">Load Text File</text><ellipse cx="323.1578" cy="3220.8928" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="97.9178" ry="21.9836" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="243.6578" y="3224.1838">Create Drawing Canvas</text><ellipse cx="323.1558" cy="3294.8904" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="74.1558" ry="17.2312" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="271.1558" y="3298.1814">Freehand Draw</text><ellipse cx="699.8282" cy="3287.8929" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="82.5182" ry="18.9036" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="637.8282" y="3291.1839">Change Pen Color</text><ellipse cx="699.8262" cy="3360.8885" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="82.9462" ry="18.9892" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="637.3262" y="3364.1795">Change Pen Width</text><ellipse cx="323.1617" cy="3362.8856" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="68.3317" ry="16.0663" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="275.9177" y="3366.8489">Clear Canvas</text><ellipse cx="323.1604" cy="3142.8853" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="90.7804" ry="20.5561" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="251.6604" y="3146.1763">Save Drawing as PNG</text><ellipse cx="699.829" cy="3217.889" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="70.199" ry="16.4398" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="651.1415" y="3221.614">Load Drawing</text><ellipse cx="699.8285" cy="3143.8929" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="98.3685" ry="22.0737" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="619.8285" y="3147.1839">Export Drawing Base64</text><ellipse cx="699.8283" cy="3886.8889" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="71.7483" ry="16.7497" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="649.9433" y="3890.416">View Calendar</text><ellipse cx="1075.834" cy="3882.886" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="86.834" ry="19.7668" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="1008.834" y="3886.177">Highlight Deadlines</text><ellipse cx="323.1587" cy="3892.889" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="68.6987" ry="16.1397" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="275.631" y="3896.8055">Filter by Date</text><ellipse cx="1075.8293" cy="3807.8871" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="90.3393" ry="20.4679" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="1004.8293" y="3811.1781">Show Overdue Tasks</text><ellipse cx="1075.8278" cy="3959.8928" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="97.9178" ry="21.9836" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="996.3278" y="3963.1838">Show Completed Tasks</text><ellipse cx="323.1635" cy="3814.8939" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="124.2235" ry="27.2447" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="215.1635" y="3818.1849">Navigate to Task from Calendar</text><ellipse cx="1075.8254" cy="2861.8923" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="117.6654" ry="25.9331" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="974.8254" y="2865.1833">Start / Pause / Resume / Stop</text><ellipse cx="1443.8311" cy="2858.8874" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="82.0911" ry="18.8182" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1382.3311" y="2862.1784">Log Study Session</text><ellipse cx="1776.3497" cy="2800.8932" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="89.0197" ry="20.2039" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1706.8497" y="2804.1842">Save Session History</text><ellipse cx="1075.8288" cy="2780.889" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="89.8988" ry="20.3798" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="1005.3288" y="2784.18">Load Session History</text><ellipse cx="1443.8278" cy="2782.8928" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="97.9178" ry="21.9836" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="1364.3278" y="2786.1838">Show Local Notification</text><ellipse cx="1443.8323" cy="2930.8897" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="77.4523" ry="17.8905" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="1387.8323" y="2934.1807">Play Alert Sound</text><ellipse cx="323.1578" cy="3555.8928" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="97.9178" ry="21.9836" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="243.6578" y="3559.1838">View Global Dashboard</text><ellipse cx="699.8303" cy="3626.8873" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="72.5403" ry="16.9081" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="649.3332" y="3630.3133">Compute Stats</text><ellipse cx="699.8253" cy="3553.8863" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="93.8853" ry="21.1771" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="624.8253" y="3557.1773">View Completion Rate</text><ellipse cx="699.8283" cy="3695.8889" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="71.7483" ry="16.7497" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="649.9433" y="3699.416">Render Charts</text><ellipse cx="699.8347" cy="3475.8942" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="95.2247" ry="21.4449" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="623.3347" y="3479.1852">Load Aggregated Data</text><ellipse cx="323.1578" cy="3476.8928" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="97.9178" ry="21.9836" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="243.6578" y="3480.1838">Quick Actions on Tasks</text><ellipse cx="323.1644" cy="3019.8921" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="125.1644" ry="27.4329" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="214.1644" y="3023.1831">Configure Timer &amp; App Settings</text><ellipse cx="699.8306" cy="2864.8873" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="101.9906" ry="22.7981" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="615.8306" y="2868.1784">Export Task Bundle (Zip)</text><ellipse cx="323.1605" cy="2932.8893" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="110.7005" ry="24.5401" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="229.6605" y="2936.1803">Import Task Bundle (Unzip)</text><ellipse cx="323.1561" cy="2857.8864" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="66.5361" ry="15.7072" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="278.1561" y="2861.904">Backup Data</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><ellipse cx="58.5" cy="2306.6392" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="8" ry="8" style="stroke:#555555;stroke-width:1.5;"/><path d="M58.5,2314.6392 L58.5,2341.6392 M45.5,2322.6392 L71.5,2322.6392 M58.5,2341.6392 L45.5,2356.6392 M58.5,2341.6392 L71.5,2356.6392 " fill="none" filter="url(#feaamcqml0d57)" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="43" y="2375.6744">User</text><!--MD5=[02b0da7e54b74cbea8f6462e138178e8]
+entity FS--><ellipse cx="58.5" cy="755.6392" fill="#2B2B2B" filter="url(#feaamcqml0d57)" rx="8" ry="8" style="stroke:#555555;stroke-width:1.5;"/><path d="M58.5,763.6392 L58.5,790.6392 M45.5,771.6392 L71.5,771.6392 M58.5,790.6392 L45.5,805.6392 M58.5,790.6392 L71.5,805.6392 " fill="none" filter="url(#feaamcqml0d57)" style="stroke:#555555;stroke-width:1.5;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="6" y="824.6744">System Storage</text><path d="M1322.33,4037.5792 L1322.33,4078.2003 L1565.33,4078.2003 L1565.33,4047.5792 L1555.33,4037.5792 L1322.33,4037.5792 " fill="#FBFB77" filter="url(#feaamcqml0d57)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1555.33,4037.5792 L1555.33,4047.5792 L1565.33,4047.5792 L1555.33,4037.5792 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="222" x="1328.33" y="4055.1476">New Feature: Smart task navigation</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="1328.33" y="4070.4581">with search &amp; filter capabilities</text><path d="M951.33,4037.5792 L951.33,4078.2003 L1200.33,4078.2003 L1200.33,4047.5792 L1190.33,4037.5792 L951.33,4037.5792 " fill="#FBFB77" filter="url(#feaamcqml0d57)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1190.33,4037.5792 L1190.33,4047.5792 L1200.33,4047.5792 L1190.33,4037.5792 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="228" x="957.33" y="4055.1476">New Feature: Visual deadline tracker</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="221" x="957.33" y="4070.4581">with color-coded date highlighting</text><path d="M590.83,4037.5792 L590.83,4078.2003 L808.83,4078.2003 L808.83,4047.5792 L798.83,4037.5792 L590.83,4037.5792 " fill="#FBFB77" filter="url(#feaamcqml0d57)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M798.83,4037.5792 L798.83,4047.5792 L808.83,4047.5792 L798.83,4037.5792 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="192" x="596.83" y="4055.1476">Enhanced: Full drawing canvas</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="596.83" y="4070.4581">with customizable pen settings</text><path d="M570.33,4113.5792 L570.33,4154.2003 L829.33,4154.2003 L829.33,4123.5792 L819.33,4113.5792 L570.33,4113.5792 " fill="#FBFB77" filter="url(#feaamcqml0d57)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M819.33,4113.5792 L819.33,4123.5792 L829.33,4123.5792 L819.33,4113.5792 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="238" x="576.33" y="4131.1476">New Feature: Quick task management</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="238" x="576.33" y="4146.4581">from dashboard without opening task</text><path d="M576.33,1586.5792 L576.33,1627.2003 L823.33,1627.2003 L823.33,1596.5792 L813.33,1586.5792 L576.33,1586.5792 " fill="#FBFB77" filter="url(#feaamcqml0d57)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M813.33,1586.5792 L813.33,1596.5792 L823.33,1596.5792 L813.33,1586.5792 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="226" x="582.33" y="1604.1476">New Feature: Track task completion</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="178" x="582.33" y="1619.4581">status with visual indicators</text><!--MD5=[67f42709946432e49599860eb097ca21]
+link User to UC_CreateTask--><path d="M59.71,2296.7292 C61.08,2111.3192 71.46,1359.8092 150,1294.8892 C284.98,1183.2992 448.07,1200.0292 540.33,1348.8892 C590.79,1430.3092 510.63,1703.9792 570.33,1778.8892 C579.89,1790.8792 593.01,1799.2792 607.25,1805.1492 " fill="none" id="User-to-UC_CreateTask" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="611.55,1806.8092,604.5901,1799.8407,606.8844,1805.0115,601.7137,1807.3057,611.55,1806.8092" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[21ee651171bcc7ce31b4122ed5431449]
+link User to UC_OpenTask--><path d="M61.42,2296.8592 C66.19,2235.1992 82.85,2117.5092 141,2038.8892 C260.62,1877.1692 394.12,1687.7492 540.33,1825.8892 C583.04,1866.2392 534,2307.6992 570.33,2353.8892 C580.25,2366.5092 594.14,2375.1592 609.13,2381.0592 " fill="none" id="User-to-UC_OpenTask" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="613.73,2382.7492,606.6706,2375.8815,609.039,2381.0187,603.9018,2383.3871,613.73,2382.7492" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[4a651dff97bd1f448bbbfc1f6ee688b9]
+link User to UC_EditTask--><path d="M59.96,2296.8692 C62.4,2118.7692 76.62,1418.7892 150,1357.8892 C284.67,1246.1192 447.12,1261.7592 540.33,1409.8892 C593.35,1494.1492 507.83,1779.3992 570.33,1856.8892 C581.36,1870.5692 597.11,1879.3892 613.81,1885.0392 " fill="none" id="User-to-UC_EditTask" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="618.56,1886.5192,611.1739,1880.0042,613.7901,1885.0197,608.7747,1887.636,618.56,1886.5192" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[7470db2af99263536fc9e851adfcec2e]
+link User to UC_CompleteTask--><path d="M61.96,2297.0992 C70.69,2159.5192 102.21,1718.8392 150,1678.8892 C283.39,1567.3692 431.34,1569.4292 540.33,1704.8892 C610.38,1791.9592 500.49,2119.6392 570.33,2206.8892 C580.67,2219.7992 595.2,2228.3892 610.8,2234.0692 " fill="none" id="User-to-UC_CompleteTask" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="615.16,2235.5392,607.9169,2228.8656,610.4238,2233.9366,605.3527,2236.4435,615.16,2235.5392" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[b9d8e6a792128459df7d44f137c450e5]
+link User to UC_SetDeadline--><path d="M62.18,2296.6392 C70.85,2169.5892 99.99,1790.5592 141,1754.8892 C274.9,1638.3992 411.31,1633.0092 540.33,1754.8892 C582.96,1795.1592 533.58,2236.1792 570.33,2281.8892 C581.81,2296.1592 598.45,2305.0492 615.98,2310.5192 " fill="none" id="User-to-UC_SetDeadline" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="620.49,2311.8292,612.9526,2305.4899,615.6862,2310.4424,610.7337,2313.176,620.49,2311.8292" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[52a2bec9690de5d20ab2b7490a28ed45]
+link User to UC_ClearDeadline--><path d="M60.24,2296.6492 C63.77,2125.5092 81.57,1477.4592 150,1420.8892 C284.84,1309.4092 446.66,1324.1192 540.33,1471.8892 C595.05,1558.2192 506.23,1851.2692 570.33,1930.8892 C580.96,1944.0892 595.99,1952.7792 612.03,1958.4392 " fill="none" id="User-to-UC_ClearDeadline" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="616.54,1959.9192,609.2309,1953.3179,611.7881,1958.3638,606.7422,1960.921,616.54,1959.9192" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[abcb4f4ebc9ecc119d4a59ec04851346]
+link User to UC_ArchiveTask--><path d="M59.48,2296.8692 C59.83,2104.9192 66.32,1301.7792 150,1232.8892 C285.25,1121.5292 447.58,1139.2592 540.33,1287.8892 C624.62,1422.9692 493.09,1505.6492 570.33,1644.8892 C588.88,1678.3292 624.51,1703.5192 653.56,1719.6892 " fill="none" id="User-to-UC_ArchiveTask" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="657.94,1722.0792,651.9454,1714.2648,653.5478,1719.69,648.1226,1721.2923,657.94,1722.0792" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[bfdcbcc4b86b6a1a58cdd5b008a68245]
+link User to UC_ViewTaskList--><path d="M59.29,2296.8992 C58.69,2098.4492 61.31,1243.8992 150,1170.8892 C252.36,1086.6092 320.52,1135.5992 448.33,1170.8892 C753.94,1255.2692 826.89,1402.2292 921.33,1704.8892 C931.76,1738.2992 916.08,2934.9192 934.16,2964.8892 C952.98,2996.0792 989.48,3015.2692 1020.58,3026.5592 " fill="none" id="User-to-UC_ViewTaskList" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1025.29,3028.2092,1018.1012,3021.4771,1020.5669,3026.5683,1015.4757,3029.034,1025.29,3028.2092" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[36d51e4742421dbb4f5bf91f198d9620]
+link User to UC_SearchTasks--><path d="M60.58,2296.7692 C65.3,2133.3992 86.78,1536.5492 150,1483.8892 C284.29,1372.0092 445.04,1385.3592 540.33,1531.8892 C597.75,1620.1792 503.47,1923.5092 570.33,2004.8892 C583.99,2021.5192 604.77,2030.5492 625.65,2035.2992 " fill="none" id="User-to-UC_SearchTasks" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="630.35,2036.2792,622.3671,2030.5109,625.4573,2035.2492,620.719,2038.3393,630.35,2036.2792" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[8d04c0deeafed130f4624132636dbac1]
+link User to UC_FilterTasks--><path d="M60.97,2296.7192 C66.95,2141.2892 91.95,1596.4192 150,1547.8892 C283.93,1435.9092 442.69,1447.1592 540.33,1591.8892 C600.22,1680.6692 501.79,1990.5992 570.33,2072.8892 C584.79,2090.2492 607.08,2098.9892 629.06,2103.1792 " fill="none" id="User-to-UC_FilterTasks" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="633.75,2103.9892,625.5531,2098.5294,628.8215,2103.1464,624.2045,2106.4149,633.75,2103.9892" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[8e740d30fcb0d127c3a979e700359fa2]
+link User to UC_NavigateTasks--><path d="M61.43,2296.8892 C68.75,2150.1192 97.13,1657.2392 150,1612.8892 C283.46,1500.9092 437.76,1508.0692 540.33,1648.8892 C604.43,1736.8892 501.31,2053.6892 570.33,2137.8892 C583,2153.3492 601.81,2162.2392 621.15,2167.2292 " fill="none" id="User-to-UC_NavigateTasks" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="625.97,2168.3692,618.1381,2162.3975,621.1054,2167.2137,616.2892,2170.181,625.97,2168.3692" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[219a5f85fdc1b81b8b08b69386e228de]
+link User to UC_Subtasks--><path d="M59.15,2378.7992 C57.42,2621.1092 53.33,3862.2192 150,3997.8892 C267.33,4162.5492 372.02,4132.4592 570.33,4171.8892 C683.23,4194.3292 730.73,4231.2892 829.33,4171.8892 C904.26,4126.7492 899.83,4082.6792 921.33,3997.8892 C929.88,3964.1492 916.75,2775.0192 934.16,2744.8892 C950.52,2716.5792 980.68,2696.9292 1008.9,2683.8892 " fill="none" id="User-to-UC_Subtasks" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1013.13,2681.9892,1003.2812,2682.0207,1008.5675,2684.0345,1006.5536,2689.3208,1013.13,2681.9892" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[0a9a34f9c9a0042980c3555660e5fe3c]
+link User to UC_CheckReorder--><path d="M60.26,2296.8992 C64.7,2067.5692 88.94,952.0792 141,902.8892 C393.09,664.7092 675.07,658.6892 921.33,902.8892 C951.45,932.7592 912.88,2393.1992 934.16,2429.8892 C950.39,2457.8492 980.19,2477.1892 1008.2,2490.0392 " fill="none" id="User-to-UC_CheckReorder" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1012.76,2492.0692,1006.1645,2484.7549,1008.1921,2490.0359,1002.9111,2492.0635,1012.76,2492.0692" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[098575b85a820751f111391032092e7d]
+link User to UC_NewText--><path d="M69.01,2378.9692 C91.02,2473.7492 144.07,2700.0592 150,2705.8892 C169.23,2724.7692 195.57,2735.2792 221.86,2740.9492 " fill="none" id="User-to-UC_NewText" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="226.7,2741.9192,218.6656,2736.2228,221.7982,2740.9331,217.0879,2744.0657,226.7,2741.9192" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[9f3d9aa17a59cebbe84064ca25784341]
+link User to UC_OpenText--><path d="M74.44,2359.1892 C89.87,2380.4892 115.28,2413.6292 141,2438.8892 C169.48,2466.8592 210.26,2484.1392 245.93,2494.6292 " fill="none" id="User-to-UC_OpenText" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="250.61,2495.9692,243.0502,2489.6566,245.8013,2494.5994,240.8585,2497.3505,250.61,2495.9692" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[6c35840715516148ef146d5b7e6e3604]
+link User to UC_EditText--><path d="M74.39,2371.3792 C93.16,2415.0192 125.02,2494.1392 142,2564.8892 C145.4,2579.0392 140.21,2619.1192 150,2629.8892 C169.43,2651.2592 197.93,2662.0292 226.17,2667.1292 " fill="none" id="User-to-UC_EditText" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="231.08,2667.9392,222.8524,2662.5257,226.1469,2667.1242,221.5483,2670.4186,231.08,2667.9392" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[f55ba1b80a18a70427865fc228f0b8b6]
+link User to UC_MoveText--><path d="M74.44,2369.0992 C91.73,2405.7392 120.56,2468.5492 142,2523.8892 C146.06,2534.3692 141.71,2540.2892 150,2547.8892 C168.38,2564.7192 192.4,2574.9992 216.64,2581.1892 " fill="none" id="User-to-UC_MoveText" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="221.34,2582.3292,213.5247,2576.3358,216.4786,2581.1602,211.6542,2584.1141,221.34,2582.3292" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[1d3de16a80453c1664bc16171659b302]
+link User to UC_NewDraw--><path d="M67.73,2379.0492 C85.13,2468.1192 125.41,2685.5692 142,2869.8892 C143.55,2887.0992 139.08,3167.4892 150,3180.8892 C166.97,3201.6892 192.44,3212.9492 218.63,3218.7492 " fill="none" id="User-to-UC_NewDraw" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="223.46,3219.7392,215.4416,3214.0204,218.561,3218.7394,213.8419,3221.8588,223.46,3219.7392" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[4fe574efca06224578c4f86149eec4ed]
+link User to UC_FreeDraw--><path d="M66.8,2379.1092 C83.62,2476.0092 124.92,2726.0492 142,2936.8892 C143.45,2954.7792 138.47,3246.1292 150,3259.8892 C172.87,3287.1792 210.68,3296.8592 245.05,3299.3092 " fill="none" id="User-to-UC_FreeDraw" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="249.91,3299.5992,241.1665,3295.0659,244.919,3299.2989,240.686,3303.0514,249.91,3299.5992" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[4737ad93a66d295ad621318a1377189f]
+link User to UC_PenColor--><path d="M74.36,2329.6592 C147.58,2289.6292 469.36,2119.8992 540.33,2188.8892 C582.69,2230.0692 533.97,3205.3192 570.33,3251.8892 C581.41,3266.0792 597.6,3274.9692 614.79,3280.4692 " fill="none" id="User-to-UC_PenColor" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="619.2,3281.7792,611.6975,3275.3986,614.4039,3280.3661,609.4364,3283.0725,619.2,3281.7792" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[2863750ddcdce16651ffac733729a95c]
+link User to UC_PenWidth--><path d="M74.37,2341.1792 C129.94,2352.5792 328.42,2385.1092 448.33,2297.8892 C475.04,2278.4592 450.66,2247.9292 478.33,2229.8892 C501.41,2214.8392 520.58,2210.6692 540.33,2229.8892 C583.91,2272.2892 533.1,3275.8192 570.33,3323.8892 C581.44,3338.2292 597.74,3347.2692 615.04,3352.8992 " fill="none" id="User-to-UC_PenWidth" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="619.48,3354.2392,612.0177,3347.8116,614.6928,3352.7959,609.7085,3355.471,619.48,3354.2392" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[ae008fc8062c329dff2626fbeac1e553]
+link User to UC_ClearCanvas--><path d="M65.76,2379.0392 C81.72,2485.9192 123.97,2781.2592 142,3028.8892 C143.22,3045.5692 139.17,3317.1392 150,3329.8892 C174.67,3358.9392 216.42,3367.4692 252.62,3368.5892 " fill="none" id="User-to-UC_ClearCanvas" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="257.33,3368.6892,248.4118,3364.5101,252.331,3368.5892,248.2518,3372.5085,257.33,3368.6892" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[ed633a388c6bdadfa82812c3e2f87f70]
+link User to UC_SaveDrawing--><path d="M68.55,2378.9492 C86.28,2461.4392 125.34,2653.3992 142,2816.8892 C143.39,2830.4892 142.46,3051.4792 150,3062.8892 C171.99,3096.1492 211.66,3115.8492 247.38,3127.3592 " fill="none" id="User-to-UC_SaveDrawing" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="252.09,3128.8292,244.6861,3122.3344,247.3161,3127.3427,242.3077,3129.9727,252.09,3128.8292" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[956f0f6226e70c47596a539f60b3e3c5]
+link User to UC_ViewCalendar--><path d="M74.4,2345.0692 C130.09,2370.7692 328.94,2452.1092 448.33,2364.8892 C483.74,2339.0192 442.92,2296.7592 478.33,2270.8892 C500.58,2254.6292 520.64,2251.5992 540.33,2270.8892 C598.2,2327.5792 542.42,3652.8292 570.33,3728.8892 C591.49,3786.5492 643.1,3838.6992 674.09,3866.2792 " fill="none" id="User-to-UC_ViewCalendar" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="677.74,3869.4892,673.6176,3860.5446,673.9833,3866.1896,668.3383,3866.5553,677.74,3869.4892" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[f21d8ab007a57bc564d6959773bb6e8d]
+link User to UC_FilterByDate--><path d="M60.52,2378.8692 C66.62,2615.8892 99.59,3802.7092 150,3859.8892 C174.92,3888.1592 216.02,3896.7992 251.81,3898.1892 " fill="none" id="User-to-UC_FilterByDate" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="256.45,3898.3192,247.5558,3894.0892,251.4517,3898.1907,247.3502,3902.0865,256.45,3898.3192" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[ff6ce48cf9e4d908cb37a7ad28954cd5]
+link User to UC_ShowOverdue--><path d="M59.1,2296.8892 C57.56,2097.3792 55.88,1234.3492 141,1154.8892 C272.77,1031.8792 403.01,1109.1092 540.33,1225.8892 C747.55,1402.1092 840.52,1445.1492 921.33,1704.8892 C946.23,1784.9392 924.08,3130.6592 934.16,3213.8892 C961.17,3436.9092 1039.9,3697.8592 1066.18,3781.0192 " fill="none" id="User-to-UC_ShowOverdue" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1067.66,3785.7092,1068.7501,3775.9209,1066.1475,3780.9435,1061.1249,3778.3409,1067.66,3785.7092" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[fc04cd156ff703c2b34a8ea26bbdb153]
+link User to UC_CalendarNav--><path d="M59.76,2378.9592 C61.48,2597.0592 73.56,3613.7892 150,3728.8892 C169.84,3758.7592 203.3,3778.6992 235.48,3791.7792 " fill="none" id="User-to-UC_CalendarNav" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="240.06,3793.5892,233.1706,3786.5511,235.4127,3791.7446,230.2192,3793.9867,240.06,3793.5892" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[da06419326c58d1dec6e299645dbf99b]
+link User to UC_TimerCtl--><path d="M60.39,2296.7592 C65.39,2074.0092 91.6,1020.4292 141,973.8892 C247.97,873.1092 884.99,1002.9892 921.33,1044.8892 C953.62,1082.1092 904.71,2779.3792 934.16,2818.8892 C943.05,2830.7992 955.16,2839.5192 968.57,2845.8792 " fill="none" id="User-to-UC_TimerCtl" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="973.01,2847.8492,966.406,2840.5426,968.4398,2845.8212,963.1611,2847.8549,973.01,2847.8492" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[9ddca501026765b338e0ed7f013e0cfa]
+link User to UC_ViewDash--><path d="M62.65,2379.0992 C78.55,2587.4592 149.41,3515.1992 150,3515.8892 C167.4,3536.1492 192.86,3547.2492 218.9,3553.0892 " fill="none" id="User-to-UC_ViewDash" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="223.69,3554.0892,215.7037,3548.3256,218.7966,3553.062,214.0602,3556.155,223.69,3554.0892" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[ce2be2b295a6710c2edb632c2fef6b1a]
+link User to UC_QuickActions--><path d="M64.5,2379.0292 C79.02,2500.2492 121.47,2866.6692 142,3171.8892 C142.84,3184.3092 143.14,3385.4892 150,3395.8892 C171.41,3428.3292 209.53,3448.0692 244.46,3459.9192 " fill="none" id="User-to-UC_QuickActions" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="249.05,3461.4192,241.7409,3454.8179,244.2981,3459.8638,239.2522,3462.421,249.05,3461.4192" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[3c711aba596abdb41c754012b7261632]
+link User to UC_Settings--><path d="M69.4,2378.9592 C87.43,2455.7692 125.33,2626.6292 142,2772.8892 C143.27,2784.0492 142.96,2966.1392 150,2974.8892 C162.72,2990.6992 180.25,3001.3692 199.29,3008.4792 " fill="none" id="User-to-UC_Settings" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="203.81,3010.0692,196.6458,3003.311,199.0929,3008.4111,193.9928,3010.8583,203.81,3010.0692" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[0e0b354d70e19705d2f8a16384669e77]
+link User to UC_Export--><path d="M74.35,2317.2592 C137.36,2231.9892 386.49,1918.3492 540.33,2065.8892 C597.88,2121.0792 530.55,2713.7792 570.33,2782.8892 C585.8,2809.7592 614.02,2829.2092 640.09,2842.4092 " fill="none" id="User-to-UC_Export" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="644.26,2844.4592,637.9409,2836.9048,639.7708,2842.2575,634.4182,2844.0875,644.26,2844.4592" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[8e1ae80e9f0ac3f83e94d123760818d7]
+link User to UC_Import--><path d="M70.4,2378.9992 C88.7,2449.9892 125.26,2600.3892 142,2729.8892 C144.3,2747.6492 138.59,2877.0792 150,2890.8892 C164.84,2908.8492 185.97,2919.8592 208.36,2926.4592 " fill="none" id="User-to-UC_Import" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="212.94,2927.7192,205.3236,2921.4749,208.1192,2926.3928,203.2013,2929.1883,212.94,2927.7192" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[58c223bec95b2bb93ddd4cc18876d2d4]
+link UC_CreateTask to UC_ValidateInput--><path d="M767.4,1834.0692 C795.68,1840.7792 829.06,1848.4792 859.33,1854.8892 C910.82,1865.7892 969.52,1876.8692 1012.64,1884.7592 " fill="none" id="UC_CreateTask-to-UC_ValidateInput" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1017.4,1885.6292,1009.2678,1880.0734,1012.4818,1884.7285,1007.8267,1887.9425,1017.4,1885.6292" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="1851.4576">«include»</text><!--MD5=[6437e644fb3654a9b35389651b92b605]
+link UC_CreateTask to UC_InitFolders--><path d="M774.36,1832.4392 C793.23,1838.2092 812.83,1846.1192 829.33,1856.8892 C846.48,1868.0892 843.22,1879.2292 859.33,1891.8892 C888.66,1914.9292 899.21,1916.8592 934.16,1929.8892 C958.08,1938.7992 985.13,1946.1492 1009.07,1951.7692 " fill="none" id="UC_CreateTask-to-UC_InitFolders" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1013.94,1952.8892,1006.075,1946.9612,1009.069,1951.7607,1004.2694,1954.7548,1013.94,1952.8892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="1888.4576">«include»</text><!--MD5=[9d04a1b9b5c62f17a00ec2616b8e1ddf]
+link UC_CreateTask to UC_SaveTaskMeta--><path d="M775.69,1832.1392 C821.53,1836.6892 879.26,1834.5292 921.33,1805.8892 C932.65,1798.1792 923.69,1786.6992 934.16,1777.8892 C949.93,1764.6292 969.93,1756.0692 989.86,1750.5492 " fill="none" id="UC_CreateTask-to-UC_SaveTaskMeta" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="994.57,1749.3192,984.8493,1747.7357,989.7339,1750.5889,986.8807,1755.4735,994.57,1749.3192" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="1802.4576">«include»</text><!--MD5=[a127ea58afe0d94135f8e20cb3004be9]
+link UC_OpenTask to UC_LoadBundle--><path d="M793.28,2389.4292 C853.28,2387.1792 930.91,2384.2692 989.45,2382.0792 " fill="none" id="UC_OpenTask-to-UC_LoadBundle" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="994.26,2381.8992,985.1177,2378.236,989.2634,2382.0848,985.4147,2386.2305,994.26,2381.8992" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="2381.1976">«include»</text><!--MD5=[6ba9b6a747ae0a3adb7092be6eea560c]
+link UC_EditTask to UC_PersistTask--><path d="M767.83,1905.7092 C788.57,1911.2892 810.81,1919.3392 829.33,1930.8892 C936.88,1997.9492 1025.99,2125.2292 1060.01,2178.0192 " fill="none" id="UC_EditTask-to-UC_PersistTask" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1062.5,2181.9092,1061.0129,2172.1733,1059.8027,2177.6992,1054.2768,2176.4889,1062.5,2181.9092" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="1949.8476">«include»</text><!--MD5=[7ea040d2b345570bf3c30fac940ecf7e]
+link UC_CompleteTask to UC_PersistTask--><path d="M788.5,2240.6792 C829.03,2238.5892 877.73,2235.2292 921.33,2229.8892 C950.33,2226.3292 982.13,2220.8092 1009.24,2215.5992 " fill="none" id="UC_CompleteTask-to-UC_PersistTask" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1013.82,2214.7092,1004.2213,2212.5036,1008.9122,2215.6651,1005.7507,2220.356,1013.82,2214.7092" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="2226.4576">«include»</text><!--MD5=[f5e25dc91c93c0f088488c178642700a]
+link UC_SetDeadline to UC_PersistTask--><path d="M758.91,2304.7892 C803.68,2294.2292 866.92,2278.3092 921.33,2260.8892 C958.42,2249.0092 999.56,2233.0392 1029.91,2220.7092 " fill="none" id="UC_SetDeadline-to-UC_PersistTask" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1034.43,2218.8592,1024.586,2218.5505,1029.7995,2220.7457,1027.6044,2225.9593,1034.43,2218.8592" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="2257.4576">«include»</text><!--MD5=[2bdbb8b50c2392d9b55c6dc7093acad2]
+link UC_ClearDeadline to UC_PersistTask--><path d="M778.41,1977.1292 C797.03,1982.6292 815.51,1991.2992 829.33,2004.8892 C861.81,2036.8292 829.34,2068.5992 859.33,2102.8892 C898.58,2147.7592 962.38,2173.5492 1010.39,2187.4792 " fill="none" id="UC_ClearDeadline-to-UC_PersistTask" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1015.01,2188.7892,1007.4502,2182.4766,1010.2013,2187.4194,1005.2585,2190.1705,1015.01,2188.7892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="2099.4576">«include»</text><!--MD5=[2d5e3a4fdb58d70df4ce1822674d55c5]
+link UC_ArchiveTask to UC_Confirm--><path d="M767.99,1753.7992 C811.73,1762.3292 869.99,1773.9092 921.33,1784.8892 C944.64,1789.8692 969.88,1795.5192 993.03,1800.7992 " fill="none" id="UC_ArchiveTask-to-UC_Confirm" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="997.71,1801.8692,989.8285,1795.9631,992.8359,1800.7543,988.0447,1803.7617,997.71,1801.8692" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="1768.8576">«include»</text><!--MD5=[845257a64b9706f189b7ba3b910fea81]
+link UC_ViewTaskList to UC_SearchByTitle--><path d="M1132.02,3051.2892 C1198.61,3063.8492 1310.28,3084.8992 1380.08,3098.0592 " fill="none" id="UC_ViewTaskList-to-UC_SearchByTitle" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1384.8,3098.9492,1376.6992,3093.3478,1379.8869,3098.0209,1375.2138,3101.2087,1384.8,3098.9492" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1231.33" y="3067.8276">«include»</text><!--MD5=[45a47ee33ace0ecf1a1c46fbbca11abc]
+link UC_ViewTaskList to UC_FilterStatus--><path d="M1146.53,3040.8892 C1208.72,3040.8892 1299.68,3040.8892 1364.39,3040.8892 " fill="none" id="UC_ViewTaskList-to-UC_FilterStatus" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1369.06,3040.8892,1360.06,3036.8892,1364.06,3040.8892,1360.06,3044.8892,1369.06,3040.8892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1231.33" y="3037.4576">«include»</text><!--MD5=[7904d08d98a5d6b1ff6b259ef77c6d7f]
+link UC_ViewTaskList to UC_FilterDeadline--><path d="M1140.24,3047.8692 C1163.44,3052.7292 1188.94,3060.9492 1209.15,3074.8892 C1222.58,3084.1492 1217.62,3094.6392 1230.33,3104.8892 C1264.9,3132.7592 1280.54,3128.8392 1322.33,3143.8892 C1342.34,3151.0892 1364.57,3158.0292 1384.44,3163.8592 " fill="none" id="UC_ViewTaskList-to-UC_FilterDeadline" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1389.07,3165.1992,1381.55,3158.8392,1384.27,3163.7992,1379.31,3166.5192,1389.07,3165.1992" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1231.33" y="3101.4576">«include»</text><!--MD5=[6536b577b1d8b70cceb99dbf18220e0d]
+link UC_NavigateTasks to UC_QuickOpen--><path d="M772.48,2174.8292 C793.99,2179.4592 815.52,2188.5692 829.33,2205.8892 C889.98,2281.9392 794.21,3008.6192 859.33,3080.8892 C894.84,3120.2992 956.25,3125.4992 1004.45,3122.1592 " fill="none" id="UC_NavigateTasks-to-UC_QuickOpen" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1009.35,3121.7792,1000.0683,3118.4853,1004.3649,3122.1649,1000.6853,3126.4615,1009.35,3121.7792" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="3077.4576">«include»</text><!--MD5=[665ad0f62dcaa9f07364a759b8de952e]
+link UC_SearchTasks to UC_ViewTaskList--><path d="M767.88,2040.8992 C790.64,2045.0992 814.13,2053.9692 829.33,2071.8892 C878.41,2129.7192 846.58,2337.1192 859.33,2411.8892 C878.07,2521.7592 905.16,2544.6092 921.33,2654.8892 C926.33,2688.9992 915.9,2935.6492 934.16,2964.8892 C953.47,2995.7892 989.95,3014.9792 1020.93,3026.3492 " fill="none" id="UC_SearchTasks-to-UC_ViewTaskList" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1025.61,3028.0092,1018.464,3021.2317,1020.8974,3026.3384,1015.7907,3028.7718,1025.61,3028.0092" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="2408.4576">«include»</text><!--MD5=[6dfafe739df14d8c6aff15711d3a8bdb]
+link UC_FilterTasks to UC_ViewTaskList--><path d="M764.69,2105.2992 C788.63,2108.9492 813.78,2117.6692 829.33,2136.8892 C891.42,2213.6392 790.94,2953.6892 859.33,3024.8892 C900.2,3067.4392 972.19,3063.7492 1021.63,3054.5692 " fill="none" id="UC_FilterTasks-to-UC_ViewTaskList" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1026.36,3053.6492,1016.7601,3051.4488,1021.4527,3054.6078,1018.2938,3059.3004,1026.36,3053.6492" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="3021.4576">«include»</text><!--MD5=[f4dce64be2729507f96d40bd69b8dfda]
+link UC_NewText to UC_SaveText--><path d="M392.41,2729.7092 C435.25,2719.6392 491.44,2705.4592 540.33,2689.8892 C581.19,2676.8792 626.79,2658.9592 658.54,2645.9092 " fill="none" id="UC_NewText-to-UC_SaveText" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="662.91,2644.1092,653.0649,2643.8373,658.2866,2646.013,656.1109,2651.2347,662.91,2644.1092" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="2686.4576">«include»</text><!--MD5=[21a57f5b0eaba4dc7c41e2f2e7f84d15]
+link UC_OpenText to UC_LoadText--><path d="M415.34,2509.1592 C478.66,2508.6492 562.1,2507.9792 622.03,2507.4992 " fill="none" id="UC_OpenText-to-UC_LoadText" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="626.98,2507.4592,617.946,2503.5365,621.9802,2507.5021,618.0146,2511.5362,626.98,2507.4592" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="2504.7776">«include»</text><!--MD5=[dd043b24dd286364bdbe6c1effc51133]
+link UC_EditText to UC_SaveText--><path d="M413.8,2667.6992 C452.78,2666.8092 498.92,2664.6692 540.33,2659.8892 C574.65,2655.9192 612.66,2648.5892 642.85,2642.0492 " fill="none" id="UC_EditText-to-UC_SaveText" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="647.69,2640.9892,638.0421,2639.0099,642.8061,2642.0603,639.7557,2646.8242,647.69,2640.9892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="2656.4576">«include»</text><!--MD5=[9c1d997bbaa74f0b01246735b21b6854]
+link UC_MoveText to UC_SaveText--><path d="M417.26,2598.8292 C482.81,2605.8292 569.18,2615.0492 628.9,2621.4192 " fill="none" id="UC_MoveText-to-UC_SaveText" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="633.81,2621.9492,625.2819,2617.0227,628.8379,2621.4221,624.4385,2624.9781,633.81,2621.9492" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="2603.0576">«include»</text><!--MD5=[7e02dbaf96f8843b7f96040d90d7c5e6]
+link UC_NewDraw to UC_LoadDrawing--><path d="M421.14,3220.1092 C484,3219.6092 564.72,3218.9592 622.91,3218.4992 " fill="none" id="UC_NewDraw-to-UC_LoadDrawing" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="627.66,3218.4592,618.626,3214.5365,622.6602,3218.5021,618.6946,3222.5362,627.66,3218.4592" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="3215.7776">«include»</text><!--MD5=[90554b2a157e0953b3e7bb642d3a865b]
+link UC_FreeDraw to UC_PenColor--><path d="M397.29,3293.5192 C458.46,3292.3792 545.9,3290.7392 610.88,3289.5292 " fill="none" id="UC_FreeDraw-to-UC_PenColor" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="615.58,3289.4392,606.5018,3285.62,610.581,3289.5392,606.6618,3293.6184,615.58,3289.4392" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="480.83" y="3287.5376">«extend»</text><!--MD5=[fe1982e8ee4fb9797af35addcdb7dca2]
+link UC_FreeDraw to UC_PenWidth--><path d="M383.12,3305.2692 C449.03,3316.8792 555.8,3335.6892 626.65,3348.1692 " fill="none" id="UC_FreeDraw-to-UC_PenWidth" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="631.48,3349.0192,623.3139,3343.5133,626.5564,3348.1487,621.921,3351.3911,631.48,3349.0192" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="480.83" y="3320.5076">«extend»</text><!--MD5=[4cd06260364a834bf161694e4c2789f5]
+link UC_SaveDrawing to UC_ExportDraw--><path d="M414.38,3143.1292 C468.7,3143.2692 538.06,3143.4592 594.7,3143.6092 " fill="none" id="UC_SaveDrawing-to-UC_ExportDraw" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="599.67,3143.6192,590.6815,3139.5935,594.67,3143.6049,590.6586,3147.5935,599.67,3143.6192" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="3139.8976">«include»</text><!--MD5=[37386a888f0b3f03f4acd3345ac076ea]
+link UC_ViewCalendar to UC_HighlightDates--><path d="M771.62,3886.1292 C831.42,3885.4892 917.49,3884.5692 982.66,3883.8692 " fill="none" id="UC_ViewCalendar-to-UC_HighlightDates" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="987.39,3883.8192,978.3449,3879.9223,982.3903,3883.8764,978.4363,3887.9218,987.39,3883.8192" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="3881.0976">«include»</text><!--MD5=[c333deb55e00a021f27a32ec7fdad1a4]
+link UC_ViewCalendar to UC_ShowOverdue--><path d="M754.02,3875.6492 C819.14,3861.8992 929.73,3838.5392 1002.53,3823.1592 " fill="none" id="UC_ViewCalendar-to-UC_ShowOverdue" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1007.1,3822.1892,997.4702,3820.1235,1002.2066,3823.2164,999.1137,3827.9528,1007.1,3822.1892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="3836.8776">«include»</text><!--MD5=[bb9968722bcf3f800581d63b382a53e0]
+link UC_ViewCalendar to UC_ShowCompleted--><path d="M756.01,3897.6592 C819.06,3909.9592 922.78,3930.2092 994.72,3944.2492 " fill="none" id="UC_ViewCalendar-to-UC_ShowCompleted" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="999.22,3945.1292,991.1507,3939.4824,994.3122,3944.1733,989.6213,3947.3349,999.22,3945.1292" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="3915.5876">«include»</text><!--MD5=[fb44c3a2212574332f47fcfe589d1920]
+link UC_FilterByDate to UC_ViewCalendar--><path d="M392.01,3891.7992 C456.67,3890.7692 553.92,3889.2092 621.53,3888.1292 " fill="none" id="UC_FilterByDate-to-UC_ViewCalendar" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="626.47,3888.0492,617.4028,3884.2041,621.4707,3888.1349,617.5399,3892.2029,626.47,3888.0492" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="480.83" y="3886.0976">«extend»</text><!--MD5=[e1babaf9aaf4b30f84de707bcac23c02]
+link UC_CalendarNav to UC_OpenTask--><path d="M381.03,3790.4192 C406.35,3776.3492 433.71,3756.0092 448.33,3728.8892 C481.45,3667.4492 437.59,2529.5592 478.33,2472.8892 C507.56,2432.2192 559.59,2412.1692 605.77,2402.2992 " fill="none" id="UC_CalendarNav-to-UC_OpenTask" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="610.47,2401.3392,600.846,2399.2466,605.5738,2402.3527,602.4676,2407.0805,610.47,2401.3392" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="2422.6376">«include»</text><!--MD5=[2af89bc515ddd68de113664ba7258271]
+link UC_Subtasks to UC_SaveChecklist--><path d="M1143.05,2643.2992 C1164.37,2636.7992 1187.94,2629.0692 1209.15,2620.8892 C1281.23,2593.0492 1362.35,2553.1992 1407.55,2530.1892 " fill="none" id="UC_Subtasks-to-UC_SaveChecklist" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1411.8,2528.0192,1401.965,2528.5418,1407.3451,2530.2895,1405.5974,2535.6696,1411.8,2528.0192" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1231.33" y="2584.4676">«include»</text><!--MD5=[fd1385138ff1feadf9c37ce6bc1954a9]
+link UC_CheckReorder to UC_SaveChecklist--><path d="M1180.73,2511.8892 C1239.52,2511.8892 1311.8,2511.8892 1365.56,2511.8892 " fill="none" id="UC_CheckReorder-to-UC_SaveChecklist" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1370.51,2511.8892,1361.51,2507.8892,1365.51,2511.8892,1361.51,2515.8892,1370.51,2511.8892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1231.33" y="2508.4576">«include»</text><!--MD5=[fa24ab1bdb55bc1da98e27c1e8134038]
+link UC_OpenTask to UC_LoadChecklist--><path d="M751.46,2410.9492 C779.41,2423.7192 811.9,2443.8092 829.33,2472.8892 C881.31,2559.6092 785.51,2857.7892 859.33,2926.8892 C879.45,2945.7192 901.44,2945.9592 921.33,2926.8892 C945.89,2903.3292 912.56,2647.1792 934.16,2620.8892 C949.54,2602.1792 973.27,2592.7392 996.9,2588.2392 " fill="none" id="UC_OpenTask-to-UC_LoadChecklist" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1001.73,2587.3992,992.1845,2584.9736,996.8015,2588.2421,993.5331,2592.8591,1001.73,2587.3992" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="2923.4576">«include»</text><!--MD5=[e86786a7ce964a8923ea236009c3c101]
+link UC_TimerCtl to UC_LogSession--><path d="M1193.89,2860.9292 C1246.13,2860.4992 1306.65,2859.9992 1354.94,2859.6092 " fill="none" id="UC_TimerCtl-to-UC_LogSession" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1359.85,2859.5692,1350.8273,2855.6207,1354.8501,2859.5978,1350.873,2863.6206,1359.85,2859.5692" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1231.33" y="2856.7776">«include»</text><!--MD5=[56dd4e20a5eff0b96a71b9caa46f403e]
+link UC_LogSession to UC_SaveSess--><path d="M1510.13,2847.4292 C1564.31,2837.9192 1641.46,2824.3792 1698.59,2814.3592 " fill="none" id="UC_LogSession-to-UC_SaveSess" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1703.26,2813.5392,1693.701,2811.1673,1698.3364,2814.4098,1695.0939,2819.0451,1703.26,2813.5392" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1596.33" y="2819.5576">«include»</text><!--MD5=[8a91acde7e5dbf4b5b5eae8fcdb85cf1]
+link UC_OpenTask to UC_LoadSess--><path d="M751.84,2411.0692 C779.73,2423.8292 812.04,2443.8792 829.33,2472.8892 C857.42,2520.0292 819.36,2928.2792 859.33,2965.8892 C981.63,3080.9692 891.92,2869.3392 934.16,2818.8892 C946.82,2803.7692 964.81,2794.3392 983.71,2788.5292 " fill="none" id="UC_OpenTask-to-UC_LoadSess" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="988.14,2787.2492,978.3837,2785.9024,983.3362,2788.636,980.6026,2793.5886,988.14,2787.2492" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="2962.4576">«include»</text><!--MD5=[aa8c023d37b5c17eae7ce2f586e6b8dc]
+link UC_TimerCtl to UC_Notify--><path d="M1161.26,2843.6592 C1223,2830.3392 1306.07,2812.4092 1365.97,2799.4792 " fill="none" id="UC_TimerCtl-to-UC_Notify" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1370.58,2798.4792,1360.9376,2796.473,1365.6931,2799.5366,1362.6295,2804.2921,1370.58,2798.4792" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="1232.83" y="2814.2276">«extend»</text><!--MD5=[53fee3ab91e412aa6f1ee07903b93653]
+link UC_TimerCtl to UC_Sound--><path d="M1166.36,2878.7692 C1231.29,2891.0092 1317.69,2907.2892 1376.5,2918.3792 " fill="none" id="UC_TimerCtl-to-UC_Sound" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1381.33,2919.2892,1373.2292,2913.6878,1376.4169,2918.3609,1371.7438,2921.5487,1381.33,2919.2892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="1232.83" y="2888.8276">«extend»</text><!--MD5=[bc4749cf1a092f1a8fdbc76744064e8b]
+link UC_ViewDash to UC_Stats--><path d="M399.08,3570.0792 C468.59,3583.2592 570.87,3602.6392 636.16,3615.0092 " fill="none" id="UC_ViewDash-to-UC_Stats" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="640.87,3615.8992,632.7692,3610.2978,635.9569,3614.9709,631.2838,3618.1587,640.87,3615.8992" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="3583.7076">«include»</text><!--MD5=[d7321d8d75c97217c64e343fea771056]
+link UC_ViewDash to UC_CompletionRate--><path d="M421.14,3555.3692 C475.84,3555.0792 544.05,3554.7092 599.18,3554.4192 " fill="none" id="UC_ViewDash-to-UC_CompletionRate" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="603.98,3554.3892,594.9573,3550.4407,598.9801,3554.4178,595.003,3558.4406,603.98,3554.3892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="3551.3376">«include»</text><!--MD5=[3058a416569145029f2f0744de5b52f5]
+link UC_ViewDash to UC_Charts--><path d="M366.16,3575.8992 C414.61,3598.4892 497.04,3635.4092 570.33,3660.8892 C593.49,3668.9392 619.5,3676.3192 642.04,3682.2092 " fill="none" id="UC_ViewDash-to-UC_Charts" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="646.84,3683.4592,639.1168,3677.3475,641.9969,3682.2163,637.1282,3685.0964,646.84,3683.4592" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="3623.1676">«include»</text><!--MD5=[b4092e195c394efa60bfb077ca7c82e9]
+link UC_ViewDash to UC_LoadAgg--><path d="M395.52,3540.6492 C460.62,3526.7492 556.52,3506.2692 622.99,3492.0792 " fill="none" id="UC_ViewDash-to-UC_LoadAgg" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="627.85,3491.0392,618.2133,3489.0061,622.9602,3492.083,619.8833,3496.8298,627.85,3491.0392" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="3507.6676">«include»</text><!--MD5=[53365a53c505b7ce0324cd68fe4e8d97]
+link UC_QuickActions to UC_CompleteTask--><path d="M374.49,3457.7892 C401.44,3444.7192 432.3,3424.5192 448.33,3395.8892 C506.33,3292.3092 414.51,2427.9792 478.33,2327.8892 C506.58,2283.5792 561.87,2262.5892 610.02,2252.6692 " fill="none" id="UC_QuickActions-to-UC_CompleteTask" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="614.67,2251.7492,605.0701,2249.5488,609.7627,2252.7078,606.6038,2257.4004,614.67,2251.7492" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="480.83" y="2272.6076">«extend»</text><!--MD5=[41dc804d7eb828fa265e1f084a9ddc7e]
+link UC_QuickActions to UC_SetDeadline--><path d="M374.48,3457.7792 C401.41,3444.7092 432.27,3424.5092 448.33,3395.8892 C503.31,3297.8692 411.42,2475.1792 478.33,2384.8892 C496.31,2360.6192 569.8,2341.6692 627.05,2330.2092 " fill="none" id="UC_QuickActions-to-UC_SetDeadline" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="631.75,2329.2792,622.144,2327.1058,626.8455,2330.2515,623.6997,2334.953,631.75,2329.2792" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="480.83" y="2348.8376">«extend»</text><!--MD5=[f9be84270134773be44a5a120c77fdec]
+link UC_Export to UC_LoadBundle--><path d="M744.02,2844.1492 C798.27,2815.2492 888.25,2757.1392 921.33,2675.8892 C938.37,2634.0192 911.61,2512.0592 934.16,2472.8892 C954.58,2437.4192 994.44,2412.7192 1026.53,2397.5692 " fill="none" id="UC_Export-to-UC_LoadBundle" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1031.05,2395.4792,1021.2024,2395.6366,1026.514,2397.5827,1024.5679,2402.8943,1031.05,2395.4792" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="860.33" y="2672.4576">«include»</text><!--MD5=[1a721d52a4f3935d953b4a9b0270577f]
+link UC_Import to UC_InitFolders--><path d="M423.54,2943.6292 C552.06,2955.3692 766.84,2967.0292 829.33,2921.8892 C832.42,2919.6492 920.63,2666.6392 921.33,2662.8892 C931.41,2608.5692 916.88,2218.3492 934.16,2165.8892 C958.39,2092.3292 1019.17,2021.8592 1052.35,1987.1992 " fill="none" id="UC_Import-to-UC_InitFolders" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1055.6,1983.8392,1046.4661,1987.5231,1052.1222,1987.4315,1052.2138,1993.0876,1055.6,1983.8392" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="669.83" y="2918.4576">«include»</text><!--MD5=[587999acdce29a38a37ed51f72ad8479]
+link UC_Import to UC_PersistTask--><path d="M383.44,2953.7992 C432.74,2970.0192 505.14,2991.1692 570.33,2999.8892 C684.43,3015.1392 740.36,3072.9192 829.33,2999.8892 C882.22,2956.4692 810.08,2896.3892 859.33,2848.8892 C879.42,2829.5092 902.96,2859.8992 921.33,2838.8892 C939.47,2818.1292 923.3,2368.2192 934.16,2342.8892 C956.47,2290.8492 1007.79,2247.6992 1041.88,2223.3492 " fill="none" id="UC_Import-to-UC_PersistTask" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1045.96,2220.4792,1036.3011,2222.4041,1041.876,2223.3638,1040.9163,2228.9386,1045.96,2220.4792" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="669.83" y="2996.4576">«include»</text><!--MD5=[a880f45aee6c84ed988c492d7e35065a]
+link UC_Backup to UC_Export--><path d="M389.85,2859.1092 C445.56,2860.1592 526.55,2861.6692 591.64,2862.8792 " fill="none" id="UC_Backup-to-UC_Export" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="596.37,2862.9692,587.4399,2858.8155,591.3707,2862.8835,587.3028,2866.8144,596.37,2862.9692" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="479.33" y="2857.5376">«include»</text><!--MD5=[0c19f8422defdc0fd26458d7628d0391]
+link FS to UC_InitFolders--><path d="M63.24,745.8492 C71.61,664.4392 94.82,487.1992 141,450.8892 C227.88,382.5592 858.33,475.4092 921.33,547.8892 C946.51,576.8592 910.38,1899.7492 934.16,1929.8892 C948.2,1947.6692 969.76,1957.2792 991.82,1962.2592 " fill="none" id="FS-to-UC_InitFolders" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="996.57,1963.2392,988.5516,1957.5204,991.671,1962.2394,986.9519,1965.3588,996.57,1963.2392" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[74896f21b344654e961440bc35fa943f]
+link FS to UC_SaveTaskMeta--><path d="M64.15,745.7592 C73.75,669.2192 98.47,509.6792 141,476.8892 C256.46,387.8592 898.2,524.2692 921.33,547.8892 C1006.25,634.6192 1063.54,1547.9192 1073.33,1714.7892 " fill="none" id="FS-to-UC_SaveTaskMeta" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1073.6,1719.3392,1077.08,1710.1257,1073.3148,1714.3474,1069.0931,1710.5821,1073.6,1719.3392" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[cc610a7862fe0f918601fde7b5dfae16]
+link FS to UC_LoadBundle--><path d="M63.65,745.9192 C70.76,699.7892 89.88,626.8592 141,592.8892 C402.17,419.3192 570.19,571.2992 829.33,747.8892 C880.05,782.4492 899.18,793.6392 921.33,850.8892 C949.13,922.7592 904.39,2166.8092 934.16,2237.8892 C956.13,2290.3192 1007.9,2333.5592 1042.13,2357.7892 " fill="none" id="FS-to-UC_LoadBundle" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1045.81,2360.3592,1040.713,2351.9319,1041.7078,2357.5005,1036.1391,2358.4954,1045.81,2360.3592" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[f68d3e895d0e1bc80a37cfbda77a0b36]
+link FS to UC_PersistTask--><path d="M66.65,745.7192 C76.07,705.5292 96.91,646.5092 141,618.8892 C447.63,426.8292 790.45,513.5692 921.33,850.8892 C944.42,910.3992 914.71,1939.0892 934.16,1999.8892 C957.79,2073.6992 1018.53,2144.3092 1051.95,2179.2092 " fill="none" id="FS-to-UC_PersistTask" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1055.23,2182.5992,1051.8438,2173.3508,1051.7522,2179.0069,1046.0961,2178.9153,1055.23,2182.5992" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[f12bf511eb23452098f733ecd0d46bdd]
+link FS to UC_SaveChecklist--><path d="M59.36,745.9892 C59.93,633.9292 68.23,326.1992 141,263.8892 C417.42,27.1992 688.48,232.2292 921.33,511.8892 C1194.61,840.0992 1410.58,2287.2292 1439.53,2488.5992 " fill="none" id="FS-to-UC_SaveChecklist" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1440.23,2493.4792,1442.9055,2484.0007,1439.5169,2488.5303,1434.9873,2485.1417,1440.23,2493.4792" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[9aba6824c7a99da3a22f9bbd9beb0772]
+link FS to UC_LoadChecklist--><path d="M82.1,745.7992 C96.06,724.8992 116.08,701.4992 141,689.8892 C301.99,614.8792 393.78,604.5492 540.33,704.8892 C562.03,719.7392 549.02,740.4792 570.33,755.8892 C699.66,849.4292 820.65,708.0292 921.33,831.8892 C951.48,868.9892 904.46,2515.4292 934.16,2552.8892 C949.28,2571.9492 973.09,2581.4592 996.86,2585.9092 " fill="none" id="FS-to-UC_LoadChecklist" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1001.73,2586.7292,993.5177,2581.2925,996.7992,2585.9003,992.1914,2589.1818,1001.73,2586.7292" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[1867c0f2c0d220ba6e64376400c9d71e]
+link FS to UC_SaveText--><path d="M59.01,827.9192 C59.21,927.5792 68.17,1188.6892 150,1385.8892 C244.07,1612.5692 321.78,1640.8692 478.33,1829.8892 C504.21,1861.1292 524.66,1859.4692 540.33,1896.8892 C595.67,2029.0292 500.58,2415.7392 570.33,2540.8892 C588.96,2574.3192 626.28,2597.6892 655.92,2611.8992 " fill="none" id="FS-to-UC_SaveText" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="660.37,2613.9792,653.9072,2606.5474,655.8394,2611.864,650.5228,2613.7963,660.37,2613.9792" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[f7750c885d6ddbcaf4f9013566198f4f]
+link FS to UC_LoadText--><path d="M111.43,808.0992 C122.59,814.4792 133.55,822.3692 142,831.8892 C458.07,1187.7092 438.61,1360.9492 540.33,1825.8892 C554.69,1891.5292 535.77,2372.2592 570.33,2429.8892 C588,2459.3492 621.65,2478.9092 650.09,2490.9392 " fill="none" id="FS-to-UC_LoadText" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="654.67,2492.8192,647.8444,2485.7192,650.0395,2490.9327,644.826,2493.1279,654.67,2492.8192" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[ee8dc5f4404be76df38936a89c15c3a0]
+link FS to UC_SaveDrawing--><path d="M61.36,827.7992 C70.82,1036.2292 114.12,2000.9392 142,2790.8892 C142.53,2805.9992 141.68,3050.2592 150,3062.8892 C171.94,3096.1892 211.6,3115.8792 247.33,3127.3892 " fill="none" id="FS-to-UC_SaveDrawing" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="252.05,3128.8592,244.6461,3122.3644,247.2761,3127.3727,242.2677,3130.0027,252.05,3128.8592" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[149dc071fa164c4972abe0debc619ef5]
+link FS to UC_LoadDrawing--><path d="M62.3,827.9792 C72.27,973.7392 107.28,1479.6692 141,1896.8892 C144.67,1942.2492 120.88,1963.9192 150,1998.8892 C207.59,2068.0392 484.84,2036.0292 540.33,2106.8892 C614.14,2201.1392 495.99,3090.0492 570.33,3183.8892 C583.38,3200.3592 603.41,3209.4192 623.8,3214.2492 " fill="none" id="FS-to-UC_LoadDrawing" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="628.65,3215.2992,620.6995,3209.4864,623.7631,3214.2418,619.0076,3217.3054,628.65,3215.2992" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[9391fe1d5ab337aa8ae43d7084a68873]
+link FS to UC_ExportDraw--><path d="M60.28,827.9092 C64.27,1019.0592 84.73,1816.8392 150,1904.8892 C261.06,2054.7092 433.12,1906.2892 540.33,2058.8892 C604.49,2150.2092 514.96,2965.9892 570.33,3062.8892 C585.84,3090.0392 614.55,3109.4092 640.9,3122.3892 " fill="none" id="FS-to-UC_ExportDraw" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="645.12,3124.4092,638.7241,3116.9197,640.6086,3122.2535,635.2749,3124.138,645.12,3124.4092" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[26f794f86698465899fcef6f69176e8e]
+link FS to UC_SaveSess--><path d="M61.94,745.7892 C71.44,626.7192 116.49,289.8892 322.16,289.8892 C322.16,289.8892 322.16,289.8892 1444.83,289.8892 C1709.05,289.8892 1768.48,2503.4992 1774.76,2773.9292 " fill="none" id="FS-to-UC_SaveSess" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1774.87,2778.7892,1778.6633,2769.7002,1774.7557,2773.7905,1770.6654,2769.883,1774.87,2778.7892" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[02c71f1576fbab6042141a9d0cef33c3]
+link FS to UC_LoadSess--><path d="M111.47,790.9892 C284.44,805.9292 834.66,864.1292 921.33,1005.8892 C945.9,1046.0792 910.21,2661.3192 934.16,2701.8892 C951.38,2731.0592 983.73,2750.2992 1013.06,2762.4792 " fill="none" id="FS-to-UC_LoadSess" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1017.48,2764.2592,1010.6168,2757.1955,1012.8396,2762.3973,1007.6378,2764.6201,1017.48,2764.2592" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[837594830ff5d3a87ef34bc9c276150d]
+link FS to UC_LoadAgg--><path d="M61.58,827.8692 C69.52,981.4992 99.56,1537.7392 141,1994.8892 C144.19,2030.0792 128.8,2045.6092 150,2073.8892 C262.86,2224.4492 434.16,2082.5292 540.33,2237.8892 C612.95,2344.1492 506.38,3284.1892 570.33,3395.8892 C585.87,3423.0292 614.74,3442.2292 641.18,3454.9992 " fill="none" id="FS-to-UC_LoadAgg" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="645.41,3456.9892,638.9664,3449.5407,640.8849,3454.8623,635.5633,3456.7808,645.41,3456.9892" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[d9cfbc612962f0242264bc7b3405f5fa]
+link FS to UC_Export--><path d="M60.69,827.9392 C66.26,1007.9492 91.86,1721.9392 150,1801.8892 C260.88,1954.3492 433.46,1812.5892 540.33,1967.8892 C591.7,2042.5392 525.32,2704.2392 570.33,2782.8892 C585.73,2809.7992 613.95,2829.2492 640.03,2842.4392 " fill="none" id="FS-to-UC_Export" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="644.2,2844.4892,637.9003,2836.9187,639.7165,2842.276,634.3591,2844.0923,644.2,2844.4892" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[f46314644be7da8daafe47912d7ff86e]
+link FS to UC_Import--><path d="M61.51,828.1192 C71.2,1028.1692 113.88,1917.7292 142,2646.8892 C142.52,2660.4392 141.45,2880.3592 150,2890.8892 C164.69,2908.9692 185.76,2920.0292 208.14,2926.6392 " fill="none" id="FS-to-UC_Import" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="212.71,2927.9092,205.1156,2921.6382,207.8938,2926.5658,202.9662,2929.3441,212.71,2927.9092" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[9b261feddb8151d0fd288fe6f5f8438b]
+link FS to UC_Backup--><path d="M61.4,828.0392 C70.51,1024.8492 110.45,1889.8592 142,2598.8892 C142.45,2609.1092 144.21,2774.4492 150,2782.8892 C175.05,2819.3692 221.94,2838.2492 260.46,2847.9392 " fill="none" id="FS-to-UC_Backup" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="265.1,2849.0592,257.2887,2843.0606,260.2394,2847.8869,255.413,2850.8376,265.1,2849.0592" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[979eb86855589d3d4e99871bd1896daa]
+link UC_ViewTaskList to GMN171--><path d="M1145.15,3044.3892 C1168.22,3048.8992 1192.36,3057.7992 1209.15,3074.8892 C1227.1,3093.1692 1407.09,3897.6192 1438.25,4037.3192 " fill="none" id="UC_ViewTaskList-GMN171" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[362ac2b2735052577456f2a908a6d624]
+link UC_ViewCalendar to GMN174--><path d="M731.97,3902.1992 C776.52,3923.9892 861.17,3964.9692 934.16,3997.8892 C964.05,4011.3692 997.84,4025.7992 1024.81,4037.1392 " fill="none" id="UC_ViewCalendar-GMN174" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[fbc56ee44e88061181daaad883c1fb36]
+link UC_FreeDraw to GMN177--><path d="M395.62,3299.0092 C415.63,3303.8192 435.42,3312.7392 448.33,3328.8892 C494.78,3387.0192 431.83,3939.7892 478.33,3997.8892 C505.23,4031.4892 548.93,4047.3892 590.37,4054.5492 " fill="none" id="UC_FreeDraw-GMN177" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[0efd8db0218b22336d9c1c14674bfff3]
+link UC_QuickActions to GMN180--><path d="M407.06,3488.4092 C423.02,3494.4192 437.97,3503.4292 448.33,3516.8892 C525.29,3616.8692 397.01,3987.4092 478.33,4083.8892 C501.16,4110.9792 535.3,4125.1792 569.93,4132.2092 " fill="none" id="UC_QuickActions-GMN180" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[cc87301b3d4d310cdd5bc884a72185f5]
+link UC_CompleteTask to GMN183--><path d="M610.8,2241.0892 C573.29,2234.9392 532.93,2220.7092 509.33,2189.3892 C446.88,2106.4992 458.41,1812.8092 509.33,1722.3892 C535.8,1675.3792 589.99,1645.2992 633.83,1627.6692 " fill="none" id="UC_CompleteTask-GMN183" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[6ddef766b5374c9f104980487536bc47]
+@startuml usecase
+left to right direction
+
+skinparam backgroundColor #1e1e1e
+skinparam actorBackgroundColor #2b2b2b
+skinparam actorBorderColor #555
+skinparam actorFontColor #e0e0e0
+skinparam usecaseBackgroundColor #2b2b2b
+skinparam usecaseBorderColor #555
+skinparam usecaseFontColor #e0e0e0
+skinparam packageBackgroundColor #252525
+skinparam packageBorderColor #555
+skinparam packageFontColor #e0e0e0
+skinparam arrowColor #888
+skinparam rectangleBackgroundColor #1a1a1a
+skinparam rectangleBorderColor #555
+skinparam rectangleFontColor #e0e0e0
+
+title Study++ Enhanced Use Case Diagram
+
+actor User
+actor "System Storage" as FS
+
+rectangle "Study++ All-in-one Productivity App" as System {
+
+  ' - - - TASK MANAGEMENT - - -
+  package "Task Management" {
+    usecase "Create Task Workspace" as UC_CreateTask
+    usecase "Open Task Workspace" as UC_OpenTask
+    usecase "Edit Task Metadata" as UC_EditTask
+    usecase "Mark Task Complete" as UC_CompleteTask
+    usecase "Set Task Deadline" as UC_SetDeadline
+    usecase "Clear Task Deadline" as UC_ClearDeadline
+    usecase "Archive/Delete Task" as UC_ArchiveTask
+    usecase "Search Tasks" as UC_SearchTasks
+    usecase "Filter Tasks" as UC_FilterTasks
+    usecase "Navigate Tasks" as UC_NavigateTasks
+
+    usecase "Validate Input" as UC_ValidateInput
+    usecase "Init Task Folders" as UC_InitFolders
+    usecase "Save Task Metadata" as UC_SaveTaskMeta
+    usecase "Load Task Bundle" as UC_LoadBundle
+    usecase "Persist Task State" as UC_PersistTask
+    usecase "Confirm Destructive Action" as UC_Confirm
+  }
+  
+  ' - - - TASK SELECTOR (NEW) - - -
+  package "Task Selector (Smart Navigation)" {
+    usecase "View Task List" as UC_ViewTaskList
+    usecase "Search by Title" as UC_SearchByTitle
+    usecase "Filter by Status" as UC_FilterStatus
+    usecase "Filter by Deadline" as UC_FilterDeadline
+    usecase "Quick Open Task" as UC_QuickOpen
+  }
+
+  ' - - - TODO LIST (per Task) - - -
+  package "Todo List (per Task)" {
+    usecase "Add/Edit/Delete Subtasks" as UC_Subtasks
+    usecase "Mark Complete / Reorder" as UC_CheckReorder
+    usecase "Save Checklist" as UC_SaveChecklist
+    usecase "Load Checklist" as UC_LoadChecklist
+  }
+
+  ' - - - TEXT / NOTE EDITOR (per Task) - - -
+  package "Text / Note Editor (per Task)" {
+    usecase "Create Text Document" as UC_NewText
+    usecase "Open Text Document" as UC_OpenText
+    usecase "Edit & Autosave Text" as UC_EditText
+    usecase "Rename/Move Document" as UC_MoveText
+    usecase "Save Text File" as UC_SaveText
+    usecase "Load Text File" as UC_LoadText
+  }
+
+  ' - - - DRAWING (per Task) - ENHANCED - - -
+  package "Drawing Canvas (per Task)" {
+    usecase "Create Drawing Canvas" as UC_NewDraw
+    usecase "Freehand Draw" as UC_FreeDraw
+    usecase "Change Pen Color" as UC_PenColor
+    usecase "Change Pen Width" as UC_PenWidth
+    usecase "Clear Canvas" as UC_ClearCanvas
+    usecase "Save Drawing as PNG" as UC_SaveDrawing
+    usecase "Load Drawing" as UC_LoadDrawing
+    usecase "Export Drawing Base64" as UC_ExportDraw
+  }
+
+  ' - - - CALENDAR (NEW) - - -
+  package "Task Calendar (Deadline Visualization)" {
+    usecase "View Calendar" as UC_ViewCalendar
+    usecase "Highlight Deadlines" as UC_HighlightDates
+    usecase "Filter by Date" as UC_FilterByDate
+    usecase "Show Overdue Tasks" as UC_ShowOverdue
+    usecase "Show Completed Tasks" as UC_ShowCompleted
+    usecase "Navigate to Task from Calendar" as UC_CalendarNav
+  }
+
+  ' - - - POMODORO (per Task) - - -
+  package "Pomodoro (per Task)" {
+    usecase "Start / Pause / Resume / Stop" as UC_TimerCtl
+    usecase "Log Study Session" as UC_LogSession
+    usecase "Save Session History" as UC_SaveSess
+    usecase "Load Session History" as UC_LoadSess
+    usecase "Show Local Notification" as UC_Notify
+    usecase "Play Alert Sound" as UC_Sound
+  }
+
+  ' - - - DASHBOARD MANAGER (Global) - - -
+  package "Dashboard Manager (Global)" {
+    usecase "View Global Dashboard" as UC_ViewDash
+    usecase "Compute Stats" as UC_Stats
+    usecase "View Completion Rate" as UC_CompletionRate
+    usecase "Render Charts" as UC_Charts
+    usecase "Load Aggregated Data" as UC_LoadAgg
+    usecase "Quick Actions on Tasks" as UC_QuickActions
+  }
+
+  ' - - - SETTINGS / UTILITIES - - -
+  package "Settings / Utilities" {
+    usecase "Configure Timer & App Settings" as UC_Settings
+    usecase "Export Task Bundle (Zip)" as UC_Export
+    usecase "Import Task Bundle (Unzip)" as UC_Import
+    usecase "Backup Data" as UC_Backup
+  }
+}
+
+' - - - - USER to primary flows - - - -
+User - -> UC_CreateTask
+User - -> UC_OpenTask
+User - -> UC_EditTask
+User - -> UC_CompleteTask
+User - -> UC_SetDeadline
+User - -> UC_ClearDeadline
+User - -> UC_ArchiveTask
+
+' Task Selector flows
+User - -> UC_ViewTaskList
+User - -> UC_SearchTasks
+User - -> UC_FilterTasks
+User - -> UC_NavigateTasks
+
+' Todo flows
+User - -> UC_Subtasks
+User - -> UC_CheckReorder
+
+' Document flows
+User - -> UC_NewText
+User - -> UC_OpenText
+User - -> UC_EditText
+User - -> UC_MoveText
+
+' Drawing flows (enhanced)
+User - -> UC_NewDraw
+User - -> UC_FreeDraw
+User - -> UC_PenColor
+User - -> UC_PenWidth
+User - -> UC_ClearCanvas
+User - -> UC_SaveDrawing
+
+' Calendar flows (new)
+User - -> UC_ViewCalendar
+User - -> UC_FilterByDate
+User - -> UC_ShowOverdue
+User - -> UC_CalendarNav
+
+' Pomodoro flows
+User - -> UC_TimerCtl
+
+' Dashboard flows
+User - -> UC_ViewDash
+User - -> UC_QuickActions
+
+' Settings flows
+User - -> UC_Settings
+User - -> UC_Export
+User - -> UC_Import
+
+' - - - - Includes / Extends - - - -
+
+' Task Creation includes
+UC_CreateTask ..> UC_ValidateInput : <<include>>
+UC_CreateTask ..> UC_InitFolders : <<include>>
+UC_CreateTask ..> UC_SaveTaskMeta : <<include>>
+
+' Task Management includes
+UC_OpenTask ..> UC_LoadBundle : <<include>>
+UC_EditTask ..> UC_PersistTask : <<include>>
+UC_CompleteTask ..> UC_PersistTask : <<include>>
+UC_SetDeadline ..> UC_PersistTask : <<include>>
+UC_ClearDeadline ..> UC_PersistTask : <<include>>
+UC_ArchiveTask ..> UC_Confirm : <<include>>
+
+' Task Selector includes (new)
+UC_ViewTaskList ..> UC_SearchByTitle : <<include>>
+UC_ViewTaskList ..> UC_FilterStatus : <<include>>
+UC_ViewTaskList ..> UC_FilterDeadline : <<include>>
+UC_NavigateTasks ..> UC_QuickOpen : <<include>>
+UC_SearchTasks ..> UC_ViewTaskList : <<include>>
+UC_FilterTasks ..> UC_ViewTaskList : <<include>>
+
+' Document includes
+UC_NewText ..> UC_SaveText : <<include>>
+UC_OpenText ..> UC_LoadText : <<include>>
+UC_EditText ..> UC_SaveText : <<include>>
+UC_MoveText ..> UC_SaveText : <<include>>
+
+' Drawing includes (enhanced)
+UC_NewDraw ..> UC_LoadDrawing : <<include>>
+UC_FreeDraw ..> UC_PenColor : <<extend>>
+UC_FreeDraw ..> UC_PenWidth : <<extend>>
+UC_SaveDrawing ..> UC_ExportDraw : <<include>>
+
+' Calendar includes (new)
+UC_ViewCalendar ..> UC_HighlightDates : <<include>>
+UC_ViewCalendar ..> UC_ShowOverdue : <<include>>
+UC_ViewCalendar ..> UC_ShowCompleted : <<include>>
+UC_FilterByDate ..> UC_ViewCalendar : <<extend>>
+UC_CalendarNav ..> UC_OpenTask : <<include>>
+
+' Checklist includes
+UC_Subtasks ..> UC_SaveChecklist : <<include>>
+UC_CheckReorder ..> UC_SaveChecklist : <<include>>
+UC_OpenTask ..> UC_LoadChecklist : <<include>>
+
+' Pomodoro includes
+UC_TimerCtl ..> UC_LogSession : <<include>>
+UC_LogSession ..> UC_SaveSess : <<include>>
+UC_OpenTask ..> UC_LoadSess : <<include>>
+UC_TimerCtl ..> UC_Notify : <<extend>>
+UC_TimerCtl ..> UC_Sound : <<extend>>
+
+' Dashboard includes
+UC_ViewDash ..> UC_Stats : <<include>>
+UC_ViewDash ..> UC_CompletionRate : <<include>>
+UC_ViewDash ..> UC_Charts : <<include>>
+UC_ViewDash ..> UC_LoadAgg : <<include>>
+UC_QuickActions ..> UC_CompleteTask : <<extend>>
+UC_QuickActions ..> UC_SetDeadline : <<extend>>
+
+' Export/Import includes
+UC_Export ..> UC_LoadBundle : <<include>>
+UC_Import ..> UC_InitFolders : <<include>>
+UC_Import ..> UC_PersistTask : <<include>>
+UC_Backup ..> UC_Export : <<include>>
+
+' - - - - System Storage associations - - - -
+FS - -> UC_InitFolders
+FS - -> UC_SaveTaskMeta
+FS - -> UC_LoadBundle
+FS - -> UC_PersistTask
+
+FS - -> UC_SaveChecklist
+FS - -> UC_LoadChecklist
+
+FS - -> UC_SaveText
+FS - -> UC_LoadText
+
+FS - -> UC_SaveDrawing
+FS - -> UC_LoadDrawing
+FS - -> UC_ExportDraw
+
+FS - -> UC_SaveSess
+FS - -> UC_LoadSess
+
+FS - -> UC_LoadAgg
+FS - -> UC_Export
+FS - -> UC_Import
+FS - -> UC_Backup
+
+' - - - - Notes for new features - - - -
+note right of UC_ViewTaskList
+  New Feature: Smart task navigation
+  with search & filter capabilities
+end note
+
+note right of UC_ViewCalendar
+  New Feature: Visual deadline tracker
+  with color-coded date highlighting
+end note
+
+note right of UC_FreeDraw
+  Enhanced: Full drawing canvas
+  with customizable pen settings
+end note
+
+note right of UC_QuickActions
+  New Feature: Quick task management
+  from dashboard without opening task
+end note
+
+note bottom of UC_CompleteTask
+  New Feature: Track task completion
+  status with visual indicators
+end note
+
+@enduml
+
+@startuml usecase
+left to right direction
+
+skinparam backgroundColor #1e1e1e
+skinparam actorBackgroundColor #2b2b2b
+skinparam actorBorderColor #555
+skinparam actorFontColor #e0e0e0
+skinparam usecaseBackgroundColor #2b2b2b
+skinparam usecaseBorderColor #555
+skinparam usecaseFontColor #e0e0e0
+skinparam packageBackgroundColor #252525
+skinparam packageBorderColor #555
+skinparam packageFontColor #e0e0e0
+skinparam arrowColor #888
+skinparam rectangleBackgroundColor #1a1a1a
+skinparam rectangleBorderColor #555
+skinparam rectangleFontColor #e0e0e0
+
+title Study++ Enhanced Use Case Diagram
+
+actor User
+actor "System Storage" as FS
+
+rectangle "Study++ All-in-one Productivity App" as System {
+
+  package "Task Management" {
+    usecase "Create Task Workspace" as UC_CreateTask
+    usecase "Open Task Workspace" as UC_OpenTask
+    usecase "Edit Task Metadata" as UC_EditTask
+    usecase "Mark Task Complete" as UC_CompleteTask
+    usecase "Set Task Deadline" as UC_SetDeadline
+    usecase "Clear Task Deadline" as UC_ClearDeadline
+    usecase "Archive/Delete Task" as UC_ArchiveTask
+    usecase "Search Tasks" as UC_SearchTasks
+    usecase "Filter Tasks" as UC_FilterTasks
+    usecase "Navigate Tasks" as UC_NavigateTasks
+
+    usecase "Validate Input" as UC_ValidateInput
+    usecase "Init Task Folders" as UC_InitFolders
+    usecase "Save Task Metadata" as UC_SaveTaskMeta
+    usecase "Load Task Bundle" as UC_LoadBundle
+    usecase "Persist Task State" as UC_PersistTask
+    usecase "Confirm Destructive Action" as UC_Confirm
+  }
+  
+  package "Task Selector (Smart Navigation)" {
+    usecase "View Task List" as UC_ViewTaskList
+    usecase "Search by Title" as UC_SearchByTitle
+    usecase "Filter by Status" as UC_FilterStatus
+    usecase "Filter by Deadline" as UC_FilterDeadline
+    usecase "Quick Open Task" as UC_QuickOpen
+  }
+
+  package "Todo List (per Task)" {
+    usecase "Add/Edit/Delete Subtasks" as UC_Subtasks
+    usecase "Mark Complete / Reorder" as UC_CheckReorder
+    usecase "Save Checklist" as UC_SaveChecklist
+    usecase "Load Checklist" as UC_LoadChecklist
+  }
+
+  package "Text / Note Editor (per Task)" {
+    usecase "Create Text Document" as UC_NewText
+    usecase "Open Text Document" as UC_OpenText
+    usecase "Edit & Autosave Text" as UC_EditText
+    usecase "Rename/Move Document" as UC_MoveText
+    usecase "Save Text File" as UC_SaveText
+    usecase "Load Text File" as UC_LoadText
+  }
+
+  package "Drawing Canvas (per Task)" {
+    usecase "Create Drawing Canvas" as UC_NewDraw
+    usecase "Freehand Draw" as UC_FreeDraw
+    usecase "Change Pen Color" as UC_PenColor
+    usecase "Change Pen Width" as UC_PenWidth
+    usecase "Clear Canvas" as UC_ClearCanvas
+    usecase "Save Drawing as PNG" as UC_SaveDrawing
+    usecase "Load Drawing" as UC_LoadDrawing
+    usecase "Export Drawing Base64" as UC_ExportDraw
+  }
+
+  package "Task Calendar (Deadline Visualization)" {
+    usecase "View Calendar" as UC_ViewCalendar
+    usecase "Highlight Deadlines" as UC_HighlightDates
+    usecase "Filter by Date" as UC_FilterByDate
+    usecase "Show Overdue Tasks" as UC_ShowOverdue
+    usecase "Show Completed Tasks" as UC_ShowCompleted
+    usecase "Navigate to Task from Calendar" as UC_CalendarNav
+  }
+
+  package "Pomodoro (per Task)" {
+    usecase "Start / Pause / Resume / Stop" as UC_TimerCtl
+    usecase "Log Study Session" as UC_LogSession
+    usecase "Save Session History" as UC_SaveSess
+    usecase "Load Session History" as UC_LoadSess
+    usecase "Show Local Notification" as UC_Notify
+    usecase "Play Alert Sound" as UC_Sound
+  }
+
+  package "Dashboard Manager (Global)" {
+    usecase "View Global Dashboard" as UC_ViewDash
+    usecase "Compute Stats" as UC_Stats
+    usecase "View Completion Rate" as UC_CompletionRate
+    usecase "Render Charts" as UC_Charts
+    usecase "Load Aggregated Data" as UC_LoadAgg
+    usecase "Quick Actions on Tasks" as UC_QuickActions
+  }
+
+  package "Settings / Utilities" {
+    usecase "Configure Timer & App Settings" as UC_Settings
+    usecase "Export Task Bundle (Zip)" as UC_Export
+    usecase "Import Task Bundle (Unzip)" as UC_Import
+    usecase "Backup Data" as UC_Backup
+  }
+}
+
+User - -> UC_CreateTask
+User - -> UC_OpenTask
+User - -> UC_EditTask
+User - -> UC_CompleteTask
+User - -> UC_SetDeadline
+User - -> UC_ClearDeadline
+User - -> UC_ArchiveTask
+
+User - -> UC_ViewTaskList
+User - -> UC_SearchTasks
+User - -> UC_FilterTasks
+User - -> UC_NavigateTasks
+
+User - -> UC_Subtasks
+User - -> UC_CheckReorder
+
+User - -> UC_NewText
+User - -> UC_OpenText
+User - -> UC_EditText
+User - -> UC_MoveText
+
+User - -> UC_NewDraw
+User - -> UC_FreeDraw
+User - -> UC_PenColor
+User - -> UC_PenWidth
+User - -> UC_ClearCanvas
+User - -> UC_SaveDrawing
+
+User - -> UC_ViewCalendar
+User - -> UC_FilterByDate
+User - -> UC_ShowOverdue
+User - -> UC_CalendarNav
+
+User - -> UC_TimerCtl
+
+User - -> UC_ViewDash
+User - -> UC_QuickActions
+
+User - -> UC_Settings
+User - -> UC_Export
+User - -> UC_Import
+
+
+UC_CreateTask ..> UC_ValidateInput : <<include>>
+UC_CreateTask ..> UC_InitFolders : <<include>>
+UC_CreateTask ..> UC_SaveTaskMeta : <<include>>
+
+UC_OpenTask ..> UC_LoadBundle : <<include>>
+UC_EditTask ..> UC_PersistTask : <<include>>
+UC_CompleteTask ..> UC_PersistTask : <<include>>
+UC_SetDeadline ..> UC_PersistTask : <<include>>
+UC_ClearDeadline ..> UC_PersistTask : <<include>>
+UC_ArchiveTask ..> UC_Confirm : <<include>>
+
+UC_ViewTaskList ..> UC_SearchByTitle : <<include>>
+UC_ViewTaskList ..> UC_FilterStatus : <<include>>
+UC_ViewTaskList ..> UC_FilterDeadline : <<include>>
+UC_NavigateTasks ..> UC_QuickOpen : <<include>>
+UC_SearchTasks ..> UC_ViewTaskList : <<include>>
+UC_FilterTasks ..> UC_ViewTaskList : <<include>>
+
+UC_NewText ..> UC_SaveText : <<include>>
+UC_OpenText ..> UC_LoadText : <<include>>
+UC_EditText ..> UC_SaveText : <<include>>
+UC_MoveText ..> UC_SaveText : <<include>>
+
+UC_NewDraw ..> UC_LoadDrawing : <<include>>
+UC_FreeDraw ..> UC_PenColor : <<extend>>
+UC_FreeDraw ..> UC_PenWidth : <<extend>>
+UC_SaveDrawing ..> UC_ExportDraw : <<include>>
+
+UC_ViewCalendar ..> UC_HighlightDates : <<include>>
+UC_ViewCalendar ..> UC_ShowOverdue : <<include>>
+UC_ViewCalendar ..> UC_ShowCompleted : <<include>>
+UC_FilterByDate ..> UC_ViewCalendar : <<extend>>
+UC_CalendarNav ..> UC_OpenTask : <<include>>
+
+UC_Subtasks ..> UC_SaveChecklist : <<include>>
+UC_CheckReorder ..> UC_SaveChecklist : <<include>>
+UC_OpenTask ..> UC_LoadChecklist : <<include>>
+
+UC_TimerCtl ..> UC_LogSession : <<include>>
+UC_LogSession ..> UC_SaveSess : <<include>>
+UC_OpenTask ..> UC_LoadSess : <<include>>
+UC_TimerCtl ..> UC_Notify : <<extend>>
+UC_TimerCtl ..> UC_Sound : <<extend>>
+
+UC_ViewDash ..> UC_Stats : <<include>>
+UC_ViewDash ..> UC_CompletionRate : <<include>>
+UC_ViewDash ..> UC_Charts : <<include>>
+UC_ViewDash ..> UC_LoadAgg : <<include>>
+UC_QuickActions ..> UC_CompleteTask : <<extend>>
+UC_QuickActions ..> UC_SetDeadline : <<extend>>
+
+UC_Export ..> UC_LoadBundle : <<include>>
+UC_Import ..> UC_InitFolders : <<include>>
+UC_Import ..> UC_PersistTask : <<include>>
+UC_Backup ..> UC_Export : <<include>>
+
+FS - -> UC_InitFolders
+FS - -> UC_SaveTaskMeta
+FS - -> UC_LoadBundle
+FS - -> UC_PersistTask
+
+FS - -> UC_SaveChecklist
+FS - -> UC_LoadChecklist
+
+FS - -> UC_SaveText
+FS - -> UC_LoadText
+
+FS - -> UC_SaveDrawing
+FS - -> UC_LoadDrawing
+FS - -> UC_ExportDraw
+
+FS - -> UC_SaveSess
+FS - -> UC_LoadSess
+
+FS - -> UC_LoadAgg
+FS - -> UC_Export
+FS - -> UC_Import
+FS - -> UC_Backup
+
+note right of UC_ViewTaskList
+  New Feature: Smart task navigation
+  with search & filter capabilities
+end note
+
+note right of UC_ViewCalendar
+  New Feature: Visual deadline tracker
+  with color-coded date highlighting
+end note
+
+note right of UC_FreeDraw
+  Enhanced: Full drawing canvas
+  with customizable pen settings
+end note
+
+note right of UC_QuickActions
+  New Feature: Quick task management
+  from dashboard without opening task
+end note
+
+note bottom of UC_CompleteTask
+  New Feature: Track task completion
+  status with visual indicators
+end note
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 05:25:05 EST 2021)
+(MIT source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: CA
+--></g></svg>

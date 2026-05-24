@@ -3,6 +3,7 @@
 
 *~
 *.autosave
+*.vscode
 *.a
 *.core
 *.moc

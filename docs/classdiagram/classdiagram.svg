@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="3082px" preserveAspectRatio="none" style="width:2694px;height:3082px;background:#1E1E1E;" version="1.1" viewBox="0 0 2694 3082" width="2694px" zoomAndPan="magnify"><defs><filter height="300%" id="f41ki97vk0p" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="295" x="1192.22" y="17.4023">Study++ Enhanced Class Diagram</text><!--MD5=[2944b4f20809bfedc28f5cbd68b83aae]
+cluster UI Layer--><polygon fill="#252525" filter="url(#f41ki97vk0p)" points="923.94,123.1992,987.94,123.1992,994.94,145.6875,2036.94,145.6875,2036.94,994.9492,923.94,994.9492,923.94,123.1992" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="923.94" x2="994.94" y1="145.6875" y2="145.6875"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="927.94" y="138.7344">UI Layer</text><!--MD5=[06bd82e5b492608958b48858ad586d33]
+cluster Controller Layer--><polygon fill="#252525" filter="url(#f41ki97vk0p)" points="1025.94,1043.9492,1147.94,1043.9492,1154.94,1066.4375,1465.94,1066.4375,1465.94,1764.7992,1025.94,1764.7992,1025.94,1043.9492" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="1025.94" x2="1154.94" y1="1066.4375" y2="1066.4375"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="116" x="1029.94" y="1059.4844">Controller Layer</text><!--MD5=[40646afb4e9f093d182dfbfb12415427]
+cluster Core Models--><polygon fill="#252525" filter="url(#f41ki97vk0p)" points="1025.94,2223.8092,1121.94,2223.8092,1128.94,2246.2975,2027.94,2246.2975,2027.94,3075.0092,1025.94,3075.0092,1025.94,2223.8092" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="1025.94" x2="1128.94" y1="2246.2975" y2="2246.2975"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="1029.94" y="2239.3444">Core Models</text><!--MD5=[f060eb928a1fbf104d41fdd2d5ca74bf]
+cluster Pomodoro System--><polygon fill="#252525" filter="url(#f41ki97vk0p)" points="246.94,1277.1392,383.94,1277.1392,390.94,1299.6275,1001.94,1299.6275,1001.94,2494.3592,246.94,2494.3592,246.94,1277.1392" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="246.94" x2="390.94" y1="1299.6275" y2="1299.6275"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="250.94" y="1292.6744">Pomodoro System</text><!--MD5=[9ddaf8ee8bcae11a9a9232f969198262]
+cluster Infrastructure--><polygon fill="#252525" filter="url(#f41ki97vk0p)" points="2166.94,1332.3092,2271.94,1332.3092,2278.94,1354.7975,2482.94,1354.7975,2482.94,2053.7292,2166.94,2053.7292,2166.94,1332.3092" style="stroke:#555555;stroke-width:1.5;"/><line style="stroke:#555555;stroke-width:1.5;" x1="2166.94" x2="2278.94" y1="1354.7975" y2="1354.7975"/><text fill="#E0E0E0" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="99" x="2170.94" y="1347.8444">Infrastructure</text><!--MD5=[e6c809820d88acc3564faeb20394ab9d]
+class MainWindow--><rect codeLine="19" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="462.5625" id="MainWindow" style="stroke:#555555;stroke-width:1.5;" width="327" x="945.44" y="158.1992"/><ellipse cx="1069.19" cy="174.1992" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1071.6631,180.3423 Q1071.0821,180.6411 1070.4429,180.7905 Q1069.8038,180.9399 1069.0982,180.9399 Q1066.5914,180.9399 1065.2715,179.2881 Q1063.9517,177.6362 1063.9517,174.5151 Q1063.9517,171.3857 1065.2715,169.7339 Q1066.5914,168.082 1069.0982,168.082 Q1069.8038,168.082 1070.4512,168.2314 Q1071.0987,168.3809 1071.6631,168.6797 L1071.6631,171.4023 Q1071.0323,170.8213 1070.4388,170.5515 Q1069.8453,170.2817 1069.2144,170.2817 Q1067.8697,170.2817 1067.1849,171.3484 Q1066.5001,172.415 1066.5001,174.5151 Q1066.5001,176.6069 1067.1849,177.6736 Q1067.8697,178.7402 1069.2144,178.7402 Q1069.8453,178.7402 1070.4388,178.4705 Q1071.0323,178.2007 1071.6631,177.6196 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="1089.69" y="178.7344">MainWindow</text><line style="stroke:#555555;stroke-width:1.5;" x1="946.44" x2="1271.44" y1="190.1992" y2="190.1992"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="198.1992"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="965.44" y="204.834">ui: Ui::MainWindow*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="211.1543"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="298" x="965.44" y="217.7891">dashboardManager_: unique_ptr&lt;DashboardManager&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="224.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="263" x="965.44" y="230.7441">pomodoroManager_: PomodoroSessionManager*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="237.0645"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="202" x="965.44" y="243.6992">pomodoroWidget_: PomodoroWidget*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="250.0195"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="173" x="965.44" y="256.6543">pomodoroDock_: QDockWidget*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="262.9746"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="182" x="965.44" y="269.6094">drawingCanvas_: DrawingCanvas*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="275.9297"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="965.44" y="282.5645">calendarWidget_: TaskCalendar*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="288.8848"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="965.44" y="295.5195">taskSelector_: TaskSelector*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="301.8398"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="175" x="965.44" y="308.4746">documentDashboard_: QWidget*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="314.7949"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="198" x="965.44" y="321.4297">documentListLayout_: QVBoxLayout*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="327.75"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="965.44" y="334.3848">currentTask_: Task*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="953.44" y="340.7051"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="158" x="965.44" y="347.3398">currentDocumentId_: QString</text><line style="stroke:#555555;stroke-width:1.5;" x1="946.44" x2="1271.44" y1="353.6602" y2="353.6602"/><ellipse cx="956.44" cy="364.6602" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="165" x="965.44" y="368.2949">MainWindow(parent: QWidget*)</text><ellipse cx="956.44" cy="377.6152" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="965.44" y="381.25">~MainWindow()</text><ellipse cx="956.44" cy="390.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="215" x="965.44" y="394.2051">createTaskCard(task: const Task&amp;): void</text><ellipse cx="956.44" cy="403.5254" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="965.44" y="407.1602">openTask(task: Task*): void</text><ellipse cx="956.44" cy="416.4805" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="222" x="965.44" y="420.1152">loadTaskIntoWorkspace(task: Task*): void</text><ellipse cx="956.44" cy="429.4355" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="239" x="965.44" y="433.0703">setupDocumentDashboard(task: Task*): void</text><ellipse cx="956.44" cy="442.3906" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="189" x="965.44" y="446.0254">setupDrawingTab(task: Task*): void</text><ellipse cx="956.44" cy="455.3457" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="965.44" y="458.9805">setupCalendarView(): void</text><ellipse cx="956.44" cy="468.3008" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="965.44" y="471.9355">setupTaskSelector(): void</text><ellipse cx="956.44" cy="481.2559" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="209" x="965.44" y="484.8906">setupTaskMetadataUI(task: Task*): void</text><ellipse cx="956.44" cy="494.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="965.44" y="497.8457">refreshDashboard(): void</text><ellipse cx="956.44" cy="507.166" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="208" x="965.44" y="510.8008">refreshDocumentList(task: Task*): void</text><ellipse cx="956.44" cy="520.1211" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="301" x="965.44" y="523.7559">createDocumentCard(doc: Document*, task: Task*): void</text><ellipse cx="956.44" cy="533.0762" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="965.44" y="536.7109">saveDrawing(): void</text><ellipse cx="956.44" cy="546.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="247" x="965.44" y="549.666">updateTaskCompletion(completed: bool): void</text><ellipse cx="956.44" cy="558.9863" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="223" x="965.44" y="562.6211">updateDeadline(date: const QDate&amp;): void</text><ellipse cx="956.44" cy="571.9414" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="965.44" y="575.5762">startPomodoroSession(): void</text><ellipse cx="956.44" cy="584.8965" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="965.44" y="588.5313">updateStatistics(): void</text><ellipse cx="956.44" cy="597.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="965.44" y="601.4863">addChecklistItem(): void</text><ellipse cx="956.44" cy="610.8066" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="965.44" y="614.4414">refreshChecklist(): void</text><!--MD5=[47261b600dd3f7fbba7d2cfd9fb77ab0]
+class TaskSelector--><rect codeLine="55" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="216.416" id="TaskSelector" style="stroke:#555555;stroke-width:1.5;" width="362" x="1341.94" y="730.1492"/><ellipse cx="1482.19" cy="746.1492" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1484.6631,752.2923 Q1484.0821,752.5911 1483.4429,752.7405 Q1482.8038,752.8899 1482.0982,752.8899 Q1479.5914,752.8899 1478.2715,751.2381 Q1476.9517,749.5862 1476.9517,746.4651 Q1476.9517,743.3357 1478.2715,741.6839 Q1479.5914,740.032 1482.0982,740.032 Q1482.8038,740.032 1483.4512,740.1814 Q1484.0987,740.3309 1484.6631,740.6297 L1484.6631,743.3523 Q1484.0323,742.7713 1483.4388,742.5015 Q1482.8453,742.2317 1482.2144,742.2317 Q1480.8697,742.2317 1480.1849,743.2984 Q1479.5001,744.365 1479.5001,746.4651 Q1479.5001,748.5569 1480.1849,749.6236 Q1480.8697,750.6902 1482.2144,750.6902 Q1482.8453,750.6902 1483.4388,750.4205 Q1484.0323,750.1507 1484.6631,749.5696 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="1502.69" y="750.6844">TaskSelector</text><line style="stroke:#555555;stroke-width:1.5;" x1="1342.94" x2="1702.94" y1="762.1492" y2="762.1492"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1349.94" y="770.1492"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="169" x="1361.94" y="776.784">manager_: DashboardManager*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1349.94" y="783.1043"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="1361.94" y="789.7391">taskList_: QListWidget*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1349.94" y="796.0594"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="1361.94" y="802.6941">searchBox_: QLineEdit*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1349.94" y="809.0145"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="1361.94" y="815.6492">filterCombo_: QComboBox*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1349.94" y="821.9695"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="1361.94" y="828.6043">countLabel_: QLabel*</text><line style="stroke:#555555;stroke-width:1.5;" x1="1342.94" x2="1702.94" y1="834.9246" y2="834.9246"/><ellipse cx="1352.94" cy="845.9246" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="336" x="1361.94" y="849.5594">TaskSelector(manager: DashboardManager*, parent: QWidget*)</text><ellipse cx="1352.94" cy="858.8797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="1361.94" y="862.5145">refreshTaskList(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1349.94" y="868.8348"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="176" x="1361.94" y="875.4695">onFilterChanged(index: int): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1349.94" y="881.7898"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="268" x="1361.94" y="888.4246">onSearchTextChanged(text: const QString&amp;): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1349.94" y="894.7449"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="325" x="1361.94" y="901.3797">populateTaskList(searchText: QString, filter: FilterType): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1349.94" y="907.7"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="291" x="1361.94" y="914.3348">matchesFilter(task: const Task*, filter: FilterType): bool</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1364.94" y="927.2898"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="1361.94" y="940.2449">«signal» taskSelected(task: Task*)</text><!--MD5=[ad3771a21d2f81ab962c1416b15e21e1]
+class TaskCalendar--><rect codeLine="72" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="190.5059" id="TaskCalendar" style="stroke:#555555;stroke-width:1.5;" width="367" x="939.44" y="743.0992"/><ellipse cx="1078.69" cy="759.0992" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1081.1631,765.2423 Q1080.5821,765.5411 1079.9429,765.6905 Q1079.3038,765.8399 1078.5982,765.8399 Q1076.0914,765.8399 1074.7715,764.1881 Q1073.4517,762.5362 1073.4517,759.4151 Q1073.4517,756.2857 1074.7715,754.6339 Q1076.0914,752.982 1078.5982,752.982 Q1079.3038,752.982 1079.9512,753.1314 Q1080.5987,753.2809 1081.1631,753.5797 L1081.1631,756.3023 Q1080.5323,755.7213 1079.9388,755.4515 Q1079.3453,755.1817 1078.7144,755.1817 Q1077.3697,755.1817 1076.6849,756.2484 Q1076.0001,757.315 1076.0001,759.4151 Q1076.0001,761.5069 1076.6849,762.5736 Q1077.3697,763.6402 1078.7144,763.6402 Q1079.3453,763.6402 1079.9388,763.3705 Q1080.5323,763.1007 1081.1631,762.5196 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="1099.19" y="763.6344">TaskCalendar</text><line style="stroke:#555555;stroke-width:1.5;" x1="940.44" x2="1305.44" y1="775.0992" y2="775.0992"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="947.44" y="783.0992"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="169" x="959.44" y="789.734">manager_: DashboardManager*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="947.44" y="796.0543"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="959.44" y="802.6891">calendar_: QCalendarWidget*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="947.44" y="809.0094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="959.44" y="815.6441">taskList_: QListWidget*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="947.44" y="821.9645"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="959.44" y="828.5992">dateLabel_: QLabel*</text><line style="stroke:#555555;stroke-width:1.5;" x1="940.44" x2="1305.44" y1="834.9195" y2="834.9195"/><ellipse cx="950.44" cy="845.9195" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="341" x="959.44" y="849.5543">TaskCalendar(manager: DashboardManager*, parent: QWidget*)</text><ellipse cx="950.44" cy="858.8746" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="959.44" y="862.5094">refreshCalendar(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="947.44" y="868.8297"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="222" x="959.44" y="875.4645">onDateSelected(date: const QDate&amp;): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="947.44" y="881.7848"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="250" x="959.44" y="888.4195">updateTasksForDate(date: const QDate&amp;): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="947.44" y="894.7398"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="161" x="959.44" y="901.3746">highlightDeadlineDates(): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="962.44" y="914.3297"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="959.44" y="927.2848">«signal» taskSelected(task: Task*)</text><!--MD5=[4ec1604f6c53df711f5997318a8b9f70]
+class DrawingCanvas--><rect codeLine="87" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="281.1914" id="DrawingCanvas" style="stroke:#555555;stroke-width:1.5;" width="281" x="1739.44" y="697.7592"/><ellipse cx="1831.69" cy="713.7592" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1834.1631,719.9023 Q1833.5821,720.2011 1832.9429,720.3505 Q1832.3038,720.4999 1831.5982,720.4999 Q1829.0914,720.4999 1827.7715,718.8481 Q1826.4517,717.1962 1826.4517,714.0751 Q1826.4517,710.9457 1827.7715,709.2939 Q1829.0914,707.642 1831.5982,707.642 Q1832.3038,707.642 1832.9512,707.7914 Q1833.5987,707.9409 1834.1631,708.2397 L1834.1631,710.9623 Q1833.5323,710.3813 1832.9388,710.1115 Q1832.3453,709.8417 1831.7144,709.8417 Q1830.3697,709.8417 1829.6849,710.9084 Q1829.0001,711.975 1829.0001,714.0751 Q1829.0001,716.1669 1829.6849,717.2336 Q1830.3697,718.3002 1831.7144,718.3002 Q1832.3453,718.3002 1832.9388,718.0305 Q1833.5323,717.7607 1834.1631,717.1796 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="1852.19" y="718.2944">DrawingCanvas</text><line style="stroke:#555555;stroke-width:1.5;" x1="1740.44" x2="2019.44" y1="729.7592" y2="729.7592"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1747.44" y="737.7592"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="1759.44" y="744.394">image_: QImage</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1747.44" y="750.7143"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="1759.44" y="757.3491">drawing_: bool</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1747.44" y="763.6694"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="1759.44" y="770.3041">lastPoint_: QPoint</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1747.44" y="776.6245"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="1759.44" y="783.2592">currentPen_: QPen</text><line style="stroke:#555555;stroke-width:1.5;" x1="1740.44" x2="2019.44" y1="789.5795" y2="789.5795"/><ellipse cx="1750.44" cy="800.5795" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="182" x="1759.44" y="804.2143">DrawingCanvas(parent: QWidget*)</text><ellipse cx="1750.44" cy="813.5346" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="1759.44" y="817.1694">clearCanvas(): void</text><ellipse cx="1750.44" cy="826.4897" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="216" x="1759.44" y="830.1245">setPenColor(color: const QColor&amp;): void</text><ellipse cx="1750.44" cy="839.4448" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="1759.44" y="843.0795">setPenWidth(width: int): void</text><ellipse cx="1750.44" cy="852.3998" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="1759.44" y="856.0346">getImage(): QImage</text><ellipse cx="1750.44" cy="865.3549" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="205" x="1759.44" y="868.9897">setImage(image: const QImage&amp;): void</text><ellipse cx="1750.44" cy="878.31" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="1759.44" y="881.9448">toBase64(): QString</text><ellipse cx="1750.44" cy="891.2651" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="212" x="1759.44" y="894.8998">fromBase64(data: const QString&amp;): void</text><polygon fill="#FFFF44" points="1750.44,899.2202,1754.44,903.2202,1750.44,907.2202,1746.44,903.2202" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="197" x="1759.44" y="907.8549">paintEvent(event: QPaintEvent*): void</text><polygon fill="#FFFF44" points="1750.44,912.1752,1754.44,916.1752,1750.44,920.1752,1746.44,916.1752" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="244" x="1759.44" y="920.81">mousePressEvent(event: QMouseEvent*): void</text><polygon fill="#FFFF44" points="1750.44,925.1303,1754.44,929.1303,1750.44,933.1303,1746.44,929.1303" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="243" x="1759.44" y="933.7651">mouseMoveEvent(event: QMouseEvent*): void</text><polygon fill="#FFFF44" points="1750.44,938.0854,1754.44,942.0854,1750.44,946.0854,1746.44,942.0854" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="255" x="1759.44" y="946.7202">mouseReleaseEvent(event: QMouseEvent*): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1762.44" y="959.6752"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="146" x="1759.44" y="972.6303">«signal» drawingChanged()</text><!--MD5=[0af6ac412b54d8552ddd5d108e861d9e]
+class DashboardManager--><rect codeLine="111" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="669.8438" id="DashboardManager" style="stroke:#555555;stroke-width:1.5;" width="408" x="1041.94" y="1078.9492"/><ellipse cx="1184.69" cy="1094.9492" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1187.1631,1101.0923 Q1186.5821,1101.3911 1185.9429,1101.5405 Q1185.3038,1101.6899 1184.5982,1101.6899 Q1182.0914,1101.6899 1180.7715,1100.0381 Q1179.4517,1098.3862 1179.4517,1095.2651 Q1179.4517,1092.1357 1180.7715,1090.4839 Q1182.0914,1088.832 1184.5982,1088.832 Q1185.3038,1088.832 1185.9512,1088.9814 Q1186.5987,1089.1309 1187.1631,1089.4297 L1187.1631,1092.1523 Q1186.5323,1091.5713 1185.9388,1091.3015 Q1185.3453,1091.0317 1184.7144,1091.0317 Q1183.3697,1091.0317 1182.6849,1092.0984 Q1182.0001,1093.165 1182.0001,1095.2651 Q1182.0001,1097.3569 1182.6849,1098.4236 Q1183.3697,1099.4902 1184.7144,1099.4902 Q1185.3453,1099.4902 1185.9388,1099.2205 Q1186.5323,1098.9507 1187.1631,1098.3696 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="114" x="1205.19" y="1099.4844">DashboardManager</text><line style="stroke:#555555;stroke-width:1.5;" x1="1042.94" x2="1448.94" y1="1110.9492" y2="1110.9492"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1118.9492"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="1061.94" y="1125.584">tasks_: vector&lt;unique_ptr&lt;Task&gt;&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1131.9043"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="256" x="1061.94" y="1138.5391">documents_: vector&lt;unique_ptr&lt;Document&gt;&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1144.8594"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="369" x="1061.94" y="1151.4941">sessionsByTask_: unordered_map&lt;string, vector&lt;SessionRecord&gt;&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1157.8145"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="1061.94" y="1164.4492">storage_: FileSystemStorage</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1170.7695"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="278" x="1061.94" y="1177.4043">documentFactory_: unique_ptr&lt;DocumentFactory&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1183.7246"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="1061.94" y="1190.3594">currentTask_: Task*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1196.6797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="158" x="1061.94" y="1203.3145">currentDocumentId_: QString</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1209.6348"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="1061.94" y="1216.2695">tasksFilePath_: QString</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1222.5898"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="1061.94" y="1229.2246">sessionsFilePath_: QString</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1235.5449"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="1061.94" y="1242.1797">documentsFilePath_: QString</text><line style="stroke:#555555;stroke-width:1.5;" x1="1042.94" x2="1448.94" y1="1248.5" y2="1248.5"/><ellipse cx="1052.94" cy="1259.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="203" x="1061.94" y="1263.1348">DashboardManager(parent: QObject*)</text><ellipse cx="1052.94" cy="1272.4551" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="190" x="1061.94" y="1276.0898">addTask(title: const QString&amp;): void</text><ellipse cx="1052.94" cy="1285.4102" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="274" x="1061.94" y="1289.0449">addTaskWithDocuments(title: const QString&amp;): void</text><ellipse cx="1052.94" cy="1298.3652" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="200" x="1061.94" y="1302">removeTask(id: const QString&amp;): void</text><ellipse cx="1052.94" cy="1311.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="1061.94" y="1314.9551">findTaskById(id: const QString&amp;): Task*</text><ellipse cx="1052.94" cy="1324.2754" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="237" x="1061.94" y="1327.9102">tasks(): const vector&lt;unique_ptr&lt;Task&gt;&gt;&amp;</text><ellipse cx="1052.94" cy="1337.2305" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="286" x="1061.94" y="1340.8652">createDocument(taskId: QString, name: QString): void</text><ellipse cx="1052.94" cy="1350.1855" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="286" x="1061.94" y="1353.8203">deleteDocument(docId: QString, taskId: QString): void</text><ellipse cx="1052.94" cy="1363.1406" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="290" x="1061.94" y="1366.7754">findDocumentById(docId: const QString&amp;): Document*</text><ellipse cx="1052.94" cy="1376.0957" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="299" x="1061.94" y="1379.7305">documents(): const vector&lt;unique_ptr&lt;Document&gt;&gt;&amp;</text><ellipse cx="1052.94" cy="1389.0508" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="240" x="1061.94" y="1392.6855">setCurrentTask(taskId: const QString&amp;): void</text><ellipse cx="1052.94" cy="1402.0059" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="1061.94" y="1405.6406">getCurrentTask(): Task*</text><ellipse cx="1052.94" cy="1414.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="268" x="1061.94" y="1418.5957">setCurrentDocument(docId: const QString&amp;): void</text><ellipse cx="1052.94" cy="1427.916" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="1061.94" y="1431.5508">getCurrentDocumentId(): QString</text><ellipse cx="1052.94" cy="1440.8711" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="282" x="1061.94" y="1444.5059">addChecklistItem(taskId: QString, text: QString): void</text><ellipse cx="1052.94" cy="1453.8262" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="295" x="1061.94" y="1457.4609">toggleChecklistItem(taskId: QString, index: size_t): void</text><ellipse cx="1052.94" cy="1466.7813" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="301" x="1061.94" y="1470.416">removeChecklistItem(taskId: QString, index: size_t): void</text><ellipse cx="1052.94" cy="1479.7363" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="307" x="1061.94" y="1483.3711">setTaskCompleted(taskId: QString, completed: bool): void</text><ellipse cx="1052.94" cy="1492.6914" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="301" x="1061.94" y="1496.3262">setTaskDrawingData(taskId: QString, data: QString): void</text><ellipse cx="1052.94" cy="1505.6465" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="281" x="1061.94" y="1509.2813">recordSession(session: const SessionRecord&amp;): void</text><ellipse cx="1052.94" cy="1518.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="1061.94" y="1522.2363">getTotalTasks(): int</text><ellipse cx="1052.94" cy="1531.5566" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="134" x="1061.94" y="1535.1914">getCompletedTasks(): int</text><ellipse cx="1052.94" cy="1544.5117" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="1061.94" y="1548.1465">getTotalDocuments(): int</text><ellipse cx="1052.94" cy="1557.4668" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="175" x="1061.94" y="1561.1016">getTotalPomodoroSessions(): int</text><ellipse cx="1052.94" cy="1570.4219" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="146" x="1061.94" y="1574.0566">getTotalFocusMinutes(): int</text><ellipse cx="1052.94" cy="1583.377" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="1061.94" y="1587.0117">saveToJson(): void</text><ellipse cx="1052.94" cy="1596.332" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="1061.94" y="1599.9668">loadFromJson(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1606.2871"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="234" x="1061.94" y="1612.9219">taskToJson(task: const Task&amp;): QJsonObject</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1619.2422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="320" x="1061.94" y="1625.877">taskFromJson(obj: const QJsonObject&amp;): unique_ptr&lt;Task&gt;</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1632.1973"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="294" x="1061.94" y="1638.832">documentToJson(doc: const Document&amp;): QJsonObject</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1049.94" y="1645.1523"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="382" x="1061.94" y="1651.7871">documentFromJson(obj: const QJsonObject&amp;): unique_ptr&lt;Document&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1064.94" y="1664.7422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="1061.94" y="1677.6973">«signal» tasksUpdated()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="1061.94" y="1690.6523">«signal» sessionsUpdated()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="160" x="1061.94" y="1703.6074">«signal» documentsUpdated()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="226" x="1061.94" y="1716.5625">«signal» checklistUpdated(taskId: QString)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="226" x="1061.94" y="1729.5176">«signal» currentTaskChanged(task: Task*)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="275" x="1061.94" y="1742.4727">«signal» currentDocumentChanged(docId: QString)</text><!--MD5=[59b530d44ae785dc18db921986a9c15c]
+class Document--><rect codeLine="165" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="190.5059" id="Document" style="stroke:#555555;stroke-width:1.5;" width="262" x="1041.94" y="2694.7292"/><ellipse cx="1139.69" cy="2710.7292" fill="#A9DCDF" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1139.5533,2706.0774 L1138.3995,2711.1491 L1140.7154,2711.1491 Z M1138.0591,2703.8362 L1141.0557,2703.8362 L1144.4009,2716.2292 L1141.9522,2716.2292 L1141.1885,2713.1662 L1137.9097,2713.1662 L1137.1627,2716.2292 L1134.7139,2716.2292 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="58" x="1160.19" y="2715.2644">Document</text><line style="stroke:#555555;stroke-width:1.5;" x1="1042.94" x2="1302.94" y1="2726.7292" y2="2726.7292"/><polygon fill="none" points="1052.94,2732.7292,1056.94,2736.7292,1052.94,2740.7292,1048.94,2736.7292" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="1061.94" y="2741.364">id_: string</text><polygon fill="none" points="1052.94,2745.6843,1056.94,2749.6843,1052.94,2753.6843,1048.94,2749.6843" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="1061.94" y="2754.3191">name_: string</text><polygon fill="none" points="1052.94,2758.6394,1056.94,2762.6394,1052.94,2766.6394,1048.94,2762.6394" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="232" x="1061.94" y="2767.2741">created_: chrono::system_clock::time_point</text><polygon fill="none" points="1052.94,2771.5945,1056.94,2775.5945,1052.94,2779.5945,1048.94,2775.5945" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="236" x="1061.94" y="2780.2292">updated_: chrono::system_clock::time_point</text><line style="stroke:#555555;stroke-width:1.5;" x1="1042.94" x2="1302.94" y1="2786.5495" y2="2786.5495"/><ellipse cx="1052.94" cy="2797.5495" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="1061.94" y="2801.1843">Document(id: string, name: string)</text><ellipse cx="1052.94" cy="2810.5046" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="70" x="1061.94" y="2814.1394">~Document()</text><ellipse cx="1052.94" cy="2823.4597" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="1061.94" y="2827.0945">id(): const string&amp;</text><ellipse cx="1052.94" cy="2836.4148" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="1061.94" y="2840.0495">name(): const string&amp;</text><ellipse cx="1052.94" cy="2849.3698" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="1061.94" y="2853.0046">created(): time_point</text><ellipse cx="1052.94" cy="2862.3249" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="1061.94" y="2865.9597">updated(): time_point</text><ellipse cx="1052.94" cy="2875.28" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="99" x="1061.94" y="2878.9148">type(): const char*</text><!--MD5=[539ebbc0583ff51c5f863b8ab3b5a107]
+class TextDocument--><rect codeLine="180" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="112.7754" id="TextDocument" style="stroke:#555555;stroke-width:1.5;" width="242" x="1051.94" y="2946.2292"/><ellipse cx="1126.69" cy="2962.2292" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1129.1631,2968.3723 Q1128.5821,2968.6711 1127.9429,2968.8205 Q1127.3038,2968.9699 1126.5982,2968.9699 Q1124.0914,2968.9699 1122.7715,2967.3181 Q1121.4517,2965.6662 1121.4517,2962.5451 Q1121.4517,2959.4157 1122.7715,2957.7639 Q1124.0914,2956.112 1126.5982,2956.112 Q1127.3038,2956.112 1127.9512,2956.2614 Q1128.5987,2956.4109 1129.1631,2956.7097 L1129.1631,2959.4323 Q1128.5323,2958.8513 1127.9388,2958.5815 Q1127.3453,2958.3117 1126.7144,2958.3117 Q1125.3697,2958.3117 1124.6849,2959.3784 Q1124.0001,2960.445 1124.0001,2962.5451 Q1124.0001,2964.6369 1124.6849,2965.7036 Q1125.3697,2966.7702 1126.7144,2966.7702 Q1127.3453,2966.7702 1127.9388,2966.5005 Q1128.5323,2966.2307 1129.1631,2965.6496 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="84" x="1147.19" y="2966.7644">TextDocument</text><line style="stroke:#555555;stroke-width:1.5;" x1="1052.94" x2="1292.94" y1="2978.2292" y2="2978.2292"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1059.94" y="2986.2292"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="1071.94" y="2992.864">content_: string</text><line style="stroke:#555555;stroke-width:1.5;" x1="1052.94" x2="1292.94" y1="2999.1843" y2="2999.1843"/><ellipse cx="1062.94" cy="3010.1843" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="208" x="1071.94" y="3013.8191">TextDocument(id: string, name: string)</text><ellipse cx="1062.94" cy="3023.1394" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="1071.94" y="3026.7741">content(): const string&amp;</text><ellipse cx="1062.94" cy="3036.0945" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="216" x="1071.94" y="3039.7292">setContent(content: const string&amp;): void</text><ellipse cx="1062.94" cy="3049.0495" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="1071.94" y="3052.6843">type(): const char* override</text><!--MD5=[b34797a66dc35cbf1d65f7e3ca75530e]
+class Task--><rect codeLine="189" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="358.9219" id="Task" style="stroke:#555555;stroke-width:1.5;" width="323" x="1225.44" y="2258.8092"/><ellipse cx="1368.69" cy="2274.8092" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1371.1631,2280.9523 Q1370.5821,2281.2511 1369.9429,2281.4005 Q1369.3038,2281.5499 1368.5982,2281.5499 Q1366.0914,2281.5499 1364.7715,2279.8981 Q1363.4517,2278.2462 1363.4517,2275.1251 Q1363.4517,2271.9957 1364.7715,2270.3439 Q1366.0914,2268.692 1368.5982,2268.692 Q1369.3038,2268.692 1369.9512,2268.8414 Q1370.5987,2268.9909 1371.1631,2269.2897 L1371.1631,2272.0123 Q1370.5323,2271.4313 1369.9388,2271.1615 Q1369.3453,2270.8917 1368.7144,2270.8917 Q1367.3697,2270.8917 1366.6849,2271.9584 Q1366.0001,2273.025 1366.0001,2275.1251 Q1366.0001,2277.2169 1366.6849,2278.2836 Q1367.3697,2279.3502 1368.7144,2279.3502 Q1369.3453,2279.3502 1369.9388,2279.0805 Q1370.5323,2278.8107 1371.1631,2278.2296 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="28" x="1389.19" y="2279.3444">Task</text><line style="stroke:#555555;stroke-width:1.5;" x1="1226.44" x2="1547.44" y1="2290.8092" y2="2290.8092"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1233.44" y="2298.8092"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="1245.44" y="2305.444">id_: string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1233.44" y="2311.7643"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="1245.44" y="2318.3991">title_: string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1233.44" y="2324.7194"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="1245.44" y="2331.3541">deadline_: optional&lt;QDate&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1233.44" y="2337.6745"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="166" x="1245.44" y="2344.3092">documentIds_: vector&lt;string&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1233.44" y="2350.6295"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="212" x="1245.44" y="2357.2643">checklistItems_: vector&lt;ChecklistItem&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1233.44" y="2363.5846"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="1245.44" y="2370.2194">completed_: bool</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1233.44" y="2376.5397"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="1245.44" y="2383.1745">drawingData_: string</text><line style="stroke:#555555;stroke-width:1.5;" x1="1226.44" x2="1547.44" y1="2389.4948" y2="2389.4948"/><ellipse cx="1236.44" cy="2400.4948" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="297" x="1245.44" y="2404.1295">Task(id: string, title: string, deadline: optional&lt;QDate&gt;)</text><ellipse cx="1236.44" cy="2413.4498" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="1245.44" y="2417.0846">id(): const string&amp;</text><ellipse cx="1236.44" cy="2426.4049" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="1245.44" y="2430.0397">title(): const string&amp;</text><ellipse cx="1236.44" cy="2439.36" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="195" x="1245.44" y="2442.9948">deadline(): const optional&lt;QDate&gt;&amp;</text><ellipse cx="1236.44" cy="2452.3151" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="1245.44" y="2455.9498">isCompleted(): bool</text><ellipse cx="1236.44" cy="2465.2702" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="1245.44" y="2468.9049">getDrawingData(): const string&amp;</text><ellipse cx="1236.44" cy="2478.2252" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="134" x="1245.44" y="2481.86">setTitle(title: string): void</text><ellipse cx="1236.44" cy="2491.1803" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="245" x="1245.44" y="2494.8151">setDeadline(deadline: optional&lt;QDate&gt;): void</text><ellipse cx="1236.44" cy="2504.1354" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="197" x="1245.44" y="2507.7702">setCompleted(completed: bool): void</text><ellipse cx="1236.44" cy="2517.0905" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="182" x="1245.44" y="2520.7252">setDrawingData(data: string): void</text><ellipse cx="1236.44" cy="2530.0455" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="190" x="1245.44" y="2533.6803">addDocumentId(docId: string): void</text><ellipse cx="1236.44" cy="2543.0006" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="1245.44" y="2546.6354">removeDocumentId(docId: string): void</text><ellipse cx="1236.44" cy="2555.9557" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="227" x="1245.44" y="2559.5905">getDocumentIds(): const vector&lt;string&gt;&amp;</text><ellipse cx="1236.44" cy="2568.9108" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="229" x="1245.44" y="2572.5455">addChecklistItem(text: const string&amp;): void</text><ellipse cx="1236.44" cy="2581.8659" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="1245.44" y="2585.5006">toggleChecklistItem(index: size_t): void</text><ellipse cx="1236.44" cy="2594.8209" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="216" x="1245.44" y="2598.4557">removeChecklistItem(index: size_t): void</text><ellipse cx="1236.44" cy="2607.776" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="274" x="1245.44" y="2611.4108">getChecklistItems(): const vector&lt;ChecklistItem&gt;&amp;</text><!--MD5=[cefc1a8480047cf770e8bcf16048ca4e]
+class ChecklistItem--><rect codeLine="217" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="93.1309" id="ChecklistItem" style="stroke:#555555;stroke-width:1.5;" width="257" x="1338.44" y="2743.4192"/><ellipse cx="1424.69" cy="2762.552" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1427.1631,2768.6951 Q1426.5821,2768.9939 1425.9429,2769.1433 Q1425.3038,2769.2928 1424.5982,2769.2928 Q1422.0914,2769.2928 1420.7715,2767.6409 Q1419.4517,2765.989 1419.4517,2762.8679 Q1419.4517,2759.7386 1420.7715,2758.0867 Q1422.0914,2756.4348 1424.5982,2756.4348 Q1425.3038,2756.4348 1425.9512,2756.5843 Q1426.5987,2756.7337 1427.1631,2757.0325 L1427.1631,2759.7552 Q1426.5323,2759.1741 1425.9388,2758.9043 Q1425.3453,2758.6346 1424.7144,2758.6346 Q1423.3697,2758.6346 1422.6849,2759.7012 Q1422.0001,2760.7679 1422.0001,2762.8679 Q1422.0001,2764.9597 1422.6849,2766.0264 Q1423.3697,2767.093 1424.7144,2767.093 Q1425.3453,2767.093 1425.9388,2766.8233 Q1426.5323,2766.5535 1427.1631,2765.9724 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="44" x="1461.19" y="2760.0208">«struct»</text><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="1445.19" y="2774.1536">ChecklistItem</text><line style="stroke:#555555;stroke-width:1.5;" x1="1339.44" x2="1594.44" y1="2781.6848" y2="2781.6848"/><ellipse cx="1349.44" cy="2792.6848" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="1358.44" y="2796.3196">text: string</text><ellipse cx="1349.44" cy="2805.6399" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="1358.44" y="2809.2747">completed: bool</text><line style="stroke:#555555;stroke-width:1.5;" x1="1339.44" x2="1594.44" y1="2815.595" y2="2815.595"/><ellipse cx="1349.44" cy="2826.595" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="231" x="1358.44" y="2830.2298">ChecklistItem(text: string, completed: bool)</text><!--MD5=[a514e6ed460a720b9a633430b6ae161f]
+class DocumentFactory--><rect codeLine="224" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="67.2207" id="DocumentFactory" style="stroke:#555555;stroke-width:1.5;" width="381" x="1605.44" y="2404.6592"/><ellipse cx="1742.19" cy="2423.792" fill="#B4A7E5" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1738.6177,2420.0572 L1738.6177,2417.899 L1745.9971,2417.899 L1745.9971,2420.0572 L1743.5318,2420.0572 L1743.5318,2428.1338 L1745.9971,2428.1338 L1745.9971,2430.292 L1738.6177,2430.292 L1738.6177,2428.1338 L1741.0831,2428.1338 L1741.0831,2420.0572 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="62" x="1781.19" y="2421.2608">«interface»</text><text fill="#E0E0E0" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="99" x="1762.69" y="2435.3936">DocumentFactory</text><line style="stroke:#555555;stroke-width:1.5;" x1="1606.44" x2="1985.44" y1="2442.9248" y2="2442.9248"/><line style="stroke:#555555;stroke-width:1.5;" x1="1606.44" x2="1985.44" y1="2450.9248" y2="2450.9248"/><ellipse cx="1616.44" cy="2461.9248" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="355" x="1625.44" y="2465.5596">createDocument(id: string, name: string): unique_ptr&lt;Document&gt;</text><!--MD5=[2b4d6a7530700c914d04fdebe9736211]
+class TextDocumentFactory--><rect codeLine="228" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="60.9551" id="TextDocumentFactory" style="stroke:#555555;stroke-width:1.5;" width="381" x="1630.44" y="2759.4992"/><ellipse cx="1754.19" cy="2775.4992" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1756.6631,2781.6423 Q1756.0821,2781.9411 1755.4429,2782.0905 Q1754.8038,2782.2399 1754.0982,2782.2399 Q1751.5914,2782.2399 1750.2715,2780.5881 Q1748.9517,2778.9362 1748.9517,2775.8151 Q1748.9517,2772.6857 1750.2715,2771.0339 Q1751.5914,2769.382 1754.0982,2769.382 Q1754.8038,2769.382 1755.4512,2769.5314 Q1756.0987,2769.6809 1756.6631,2769.9797 L1756.6631,2772.7023 Q1756.0323,2772.1213 1755.4388,2771.8515 Q1754.8453,2771.5817 1754.2144,2771.5817 Q1752.8697,2771.5817 1752.1849,2772.6484 Q1751.5001,2773.715 1751.5001,2775.8151 Q1751.5001,2777.9069 1752.1849,2778.9736 Q1752.8697,2780.0402 1754.2144,2780.0402 Q1754.8453,2780.0402 1755.4388,2779.7705 Q1756.0323,2779.5007 1756.6631,2778.9196 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="125" x="1774.69" y="2780.0344">TextDocumentFactory</text><line style="stroke:#555555;stroke-width:1.5;" x1="1631.44" x2="2010.44" y1="2791.4992" y2="2791.4992"/><line style="stroke:#555555;stroke-width:1.5;" x1="1631.44" x2="2010.44" y1="2799.4992" y2="2799.4992"/><ellipse cx="1641.44" cy="2810.4992" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="355" x="1650.44" y="2814.134">createDocument(id: string, name: string): unique_ptr&lt;Document&gt;</text><!--MD5=[126afc84625bc45145b62b34e07d97aa]
+class PomodoroInterval--><rect codeLine="234" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="190.5059" id="PomodoroInterval" style="stroke:#555555;stroke-width:1.5;" width="263" x="263.44" y="1318.6192"/><ellipse cx="340.19" cy="1334.6192" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M342.6631,1340.7623 Q342.0821,1341.0611 341.4429,1341.2105 Q340.8038,1341.3599 340.0982,1341.3599 Q337.5914,1341.3599 336.2715,1339.7081 Q334.9517,1338.0562 334.9517,1334.9351 Q334.9517,1331.8057 336.2715,1330.1539 Q337.5914,1328.502 340.0982,1328.502 Q340.8038,1328.502 341.4512,1328.6514 Q342.0987,1328.8009 342.6631,1329.0997 L342.6631,1331.8223 Q342.0323,1331.2413 341.4388,1330.9715 Q340.8453,1330.7017 340.2144,1330.7017 Q338.8697,1330.7017 338.1849,1331.7684 Q337.5001,1332.835 337.5001,1334.9351 Q337.5001,1337.0269 338.1849,1338.0936 Q338.8697,1339.1602 340.2144,1339.1602 Q340.8453,1339.1602 341.4388,1338.8905 Q342.0323,1338.6207 342.6631,1338.0396 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="360.69" y="1339.1544">PomodoroInterval</text><line style="stroke:#555555;stroke-width:1.5;" x1="264.44" x2="525.44" y1="1350.6192" y2="1350.6192"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="271.44" y="1358.6192"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="283.44" y="1365.254">duration_: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="271.44" y="1371.5743"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="283.44" y="1378.2091">type_: string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="271.44" y="1384.5294"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="283.44" y="1391.1641">startTime_: time_point</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="271.44" y="1397.4845"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="283.44" y="1404.1192">endTime_: time_point</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="271.44" y="1410.4395"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="283.44" y="1417.0743">completed_: bool</text><line style="stroke:#555555;stroke-width:1.5;" x1="264.44" x2="525.44" y1="1423.3946" y2="1423.3946"/><ellipse cx="274.44" cy="1434.3946" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="237" x="283.44" y="1438.0294">PomodoroInterval(duration: int, type: string)</text><ellipse cx="274.44" cy="1447.3497" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="283.44" y="1450.9845">start(): void</text><ellipse cx="274.44" cy="1460.3048" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="283.44" y="1463.9395">complete(): void</text><ellipse cx="274.44" cy="1473.2598" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="283.44" y="1476.8946">isCompleted(): bool</text><ellipse cx="274.44" cy="1486.2149" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="283.44" y="1489.8497">getDuration(): int</text><ellipse cx="274.44" cy="1499.17" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="283.44" y="1502.8048">getType(): const string&amp;</text><!--MD5=[48aa4f017c00c2ab8f0138536f64be1d]
+class IntervalRecord--><rect codeLine="249" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="80.1758" id="IntervalRecord" style="stroke:#555555;stroke-width:1.5;" width="134" x="576.94" y="2398.1792"/><ellipse cx="600.49" cy="2417.312" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M602.9631,2423.4551 Q602.3821,2423.7539 601.7429,2423.9033 Q601.1038,2424.0528 600.3982,2424.0528 Q597.8914,2424.0528 596.5715,2422.4009 Q595.2517,2420.749 595.2517,2417.6279 Q595.2517,2414.4986 596.5715,2412.8467 Q597.8914,2411.1948 600.3982,2411.1948 Q601.1038,2411.1948 601.7512,2411.3443 Q602.3987,2411.4937 602.9631,2411.7925 L602.9631,2414.5152 Q602.3323,2413.9341 601.7388,2413.6643 Q601.1453,2413.3946 600.5144,2413.3946 Q599.1697,2413.3946 598.4849,2414.4612 Q597.8001,2415.5279 597.8001,2417.6279 Q597.8001,2419.7197 598.4849,2420.7864 Q599.1697,2421.853 600.5144,2421.853 Q601.1453,2421.853 601.7388,2421.5833 Q602.3323,2421.3135 602.9631,2420.7324 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="44" x="635.89" y="2414.7808">«struct»</text><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="83" x="616.39" y="2428.9136">IntervalRecord</text><line style="stroke:#555555;stroke-width:1.5;" x1="577.94" x2="709.94" y1="2436.4448" y2="2436.4448"/><ellipse cx="587.94" cy="2447.4448" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="596.94" y="2451.0796">type: IntervalType</text><ellipse cx="587.94" cy="2460.3999" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="596.94" y="2464.0347">durationMinutes: int</text><line style="stroke:#555555;stroke-width:1.5;" x1="577.94" x2="709.94" y1="2470.355" y2="2470.355"/><!--MD5=[2853c17b08c500bc346018a66f8aa703]
+class SessionRecord--><rect codeLine="254" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="131.9961" id="SessionRecord" style="stroke:#555555;stroke-width:1.5;" width="208" x="777.94" y="1928.2992"/><ellipse cx="836.19" cy="1947.432" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M838.6631,1953.5751 Q838.0821,1953.8739 837.4429,1954.0233 Q836.8038,1954.1728 836.0982,1954.1728 Q833.5914,1954.1728 832.2715,1952.5209 Q830.9517,1950.869 830.9517,1947.7479 Q830.9517,1944.6186 832.2715,1942.9667 Q833.5914,1941.3148 836.0982,1941.3148 Q836.8038,1941.3148 837.4512,1941.4643 Q838.0987,1941.6137 838.6631,1941.9125 L838.6631,1944.6352 Q838.0323,1944.0541 837.4388,1943.7843 Q836.8453,1943.5146 836.2144,1943.5146 Q834.8697,1943.5146 834.1849,1944.5812 Q833.5001,1945.6479 833.5001,1947.7479 Q833.5001,1949.8397 834.1849,1950.9064 Q834.8697,1951.973 836.2144,1951.973 Q836.8453,1951.973 837.4388,1951.7033 Q838.0323,1951.4335 838.6631,1950.8524 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="44" x="876.19" y="1944.9008">«struct»</text><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="83" x="856.69" y="1959.0336">SessionRecord</text><line style="stroke:#555555;stroke-width:1.5;" x1="778.94" x2="984.94" y1="1966.5648" y2="1966.5648"/><ellipse cx="788.94" cy="1977.5648" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="797.94" y="1981.1996">taskId: string</text><ellipse cx="788.94" cy="1990.5199" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="797.94" y="1994.1547">startTime: QDateTime</text><ellipse cx="788.94" cy="2003.475" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="797.94" y="2007.1098">endTime: QDateTime</text><ellipse cx="788.94" cy="2016.4301" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="182" x="797.94" y="2020.0648">intervals: vector&lt;IntervalRecord&gt;</text><line style="stroke:#555555;stroke-width:1.5;" x1="778.94" x2="984.94" y1="2026.3852" y2="2026.3852"/><ellipse cx="788.94" cy="2037.3852" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="146" x="797.94" y="2041.0199">getTotalFocusMinutes(): int</text><ellipse cx="788.94" cy="2050.3402" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="797.94" y="2053.975">getIntervalCount(): int</text><!--MD5=[cad6c10f0826138b9706513fbfaec3df]
+class PomodoroSessionManager--><rect codeLine="264" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="333.0117" id="PomodoroSessionManager" style="stroke:#555555;stroke-width:1.5;" width="408" x="334.94" y="1827.7992"/><ellipse cx="459.19" cy="1843.7992" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M461.6631,1849.9423 Q461.0821,1850.2411 460.4429,1850.3905 Q459.8038,1850.5399 459.0982,1850.5399 Q456.5914,1850.5399 455.2715,1848.8881 Q453.9517,1847.2362 453.9517,1844.1151 Q453.9517,1840.9857 455.2715,1839.3339 Q456.5914,1837.682 459.0982,1837.682 Q459.8038,1837.682 460.4512,1837.8314 Q461.0987,1837.9809 461.6631,1838.2797 L461.6631,1841.0023 Q461.0323,1840.4213 460.4388,1840.1515 Q459.8453,1839.8817 459.2144,1839.8817 Q457.8697,1839.8817 457.1849,1840.9484 Q456.5001,1842.015 456.5001,1844.1151 Q456.5001,1846.2069 457.1849,1847.2736 Q457.8697,1848.3402 459.2144,1848.3402 Q459.8453,1848.3402 460.4388,1848.0705 Q461.0323,1847.8007 461.6631,1847.2196 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="151" x="479.69" y="1848.3344">PomodoroSessionManager</text><line style="stroke:#555555;stroke-width:1.5;" x1="335.94" x2="741.94" y1="1859.7992" y2="1859.7992"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="342.94" y="1867.7992"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="354.94" y="1874.434">task_: Task*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="342.94" y="1880.7543"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="354.94" y="1887.3891">sessionId_: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="342.94" y="1893.7094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="354.94" y="1900.3441">currentSession_: SessionRecord</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="342.94" y="1906.6645"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="188" x="354.94" y="1913.2992">intervals_: vector&lt;IntervalRecord&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="342.94" y="1919.6195"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="193" x="354.94" y="1926.2543">currentInterval_: PomodoroInterval*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="342.94" y="1932.5746"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="354.94" y="1939.2094">timer_: QTimer*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="342.94" y="1945.5297"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="354.94" y="1952.1645">state_: SessionState</text><line style="stroke:#555555;stroke-width:1.5;" x1="335.94" x2="741.94" y1="1958.4848" y2="1958.4848"/><ellipse cx="345.94" cy="1969.4848" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="382" x="354.94" y="1973.1195">PomodoroSessionManager(task: Task*, sessionId: int, parent: QObject*)</text><ellipse cx="345.94" cy="1982.4398" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="354.94" y="1986.0746">start(): void</text><ellipse cx="345.94" cy="1995.3949" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="354.94" y="1999.0297">pause(): void</text><ellipse cx="345.94" cy="2008.35" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="354.94" y="2011.9848">resume(): void</text><ellipse cx="345.94" cy="2021.3051" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="354.94" y="2024.9398">skip(): void</text><ellipse cx="345.94" cy="2034.2602" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="354.94" y="2037.8949">end(): void</text><ellipse cx="345.94" cy="2047.2152" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="354.94" y="2050.85">getTask(): Task*</text><ellipse cx="345.94" cy="2060.1703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="234" x="354.94" y="2063.8051">getCurrentSession(): const SessionRecord&amp;</text><ellipse cx="345.94" cy="2073.1254" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="354.94" y="2076.7602">getState(): SessionState</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="342.94" y="2083.0805"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="354.94" y="2089.7152">onIntervalComplete(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="342.94" y="2096.0355"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="354.94" y="2102.6703">startNextInterval(): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="357.94" y="2115.6254"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="291" x="354.94" y="2128.5805">«signal» sessionEnded(record: const SessionRecord&amp;)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="267" x="354.94" y="2141.5355">«signal» intervalChanged(interval: IntervalRecord)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="197" x="354.94" y="2154.4906">«signal» timeUpdated(remaining: int)</text><!--MD5=[fee37f48b610a8e257db8d85ffd046b1]
+class PomodoroWidget--><rect codeLine="290" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="203.4609" id="PomodoroWidget" style="stroke:#555555;stroke-width:1.5;" width="424" x="561.94" y="1312.1392"/><ellipse cx="720.69" cy="1328.1392" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M723.1631,1334.2823 Q722.5821,1334.5811 721.9429,1334.7305 Q721.3038,1334.8799 720.5982,1334.8799 Q718.0914,1334.8799 716.7715,1333.2281 Q715.4517,1331.5762 715.4517,1328.4551 Q715.4517,1325.3257 716.7715,1323.6739 Q718.0914,1322.022 720.5982,1322.022 Q721.3038,1322.022 721.9512,1322.1714 Q722.5987,1322.3209 723.1631,1322.6197 L723.1631,1325.3423 Q722.5323,1324.7613 721.9388,1324.4915 Q721.3453,1324.2217 720.7144,1324.2217 Q719.3697,1324.2217 718.6849,1325.2884 Q718.0001,1326.355 718.0001,1328.4551 Q718.0001,1330.5469 718.6849,1331.6136 Q719.3697,1332.6802 720.7144,1332.6802 Q721.3453,1332.6802 721.9388,1332.4105 Q722.5323,1332.1407 723.1631,1331.5596 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="741.19" y="1332.6744">PomodoroWidget</text><line style="stroke:#555555;stroke-width:1.5;" x1="562.94" x2="984.94" y1="1344.1392" y2="1344.1392"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="569.94" y="1352.1392"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="247" x="581.94" y="1358.774">sessionManager_: PomodoroSessionManager*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="569.94" y="1365.0943"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="581.94" y="1371.7291">timeLabel_: QLabel*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="569.94" y="1378.0494"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="581.94" y="1384.6841">intervalLabel_: QLabel*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="569.94" y="1391.0045"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="581.94" y="1397.6392">startButton_: QPushButton*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="569.94" y="1403.9595"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="581.94" y="1410.5943">pauseButton_: QPushButton*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="569.94" y="1416.9146"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="581.94" y="1423.5494">skipButton_: QPushButton*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="569.94" y="1429.8697"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="581.94" y="1436.5045">endButton_: QPushButton*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="569.94" y="1442.8248"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="581.94" y="1449.4595">progressBar_: QProgressBar*</text><line style="stroke:#555555;stroke-width:1.5;" x1="562.94" x2="984.94" y1="1455.7798" y2="1455.7798"/><ellipse cx="572.94" cy="1466.7798" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="398" x="581.94" y="1470.4146">PomodoroWidget(manager: PomodoroSessionManager*, parent: QWidget*)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="569.94" y="1476.7349"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="581.94" y="1483.3697">updateDisplay(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="569.94" y="1489.69"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="581.94" y="1496.3248">onStateChanged(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="569.94" y="1502.6451"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="581.94" y="1509.2798">playSound(): void</text><!--MD5=[e8cfd755308414781c0123d0000bbf77]
+class IStorage--><rect codeLine="308" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="93.1309" id="IStorage" style="stroke:#555555;stroke-width:1.5;" width="285" x="2182.44" y="1367.3092"/><ellipse cx="2291.69" cy="1386.442" fill="#B4A7E5" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M2288.1177,1382.7072 L2288.1177,1380.549 L2295.4971,1380.549 L2295.4971,1382.7072 L2293.0318,1382.7072 L2293.0318,1390.7838 L2295.4971,1390.7838 L2295.4971,1392.942 L2288.1177,1392.942 L2288.1177,1390.7838 L2290.5831,1390.7838 L2290.5831,1382.7072 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="62" x="2310.19" y="1383.9108">«interface»</text><text fill="#E0E0E0" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="46" x="2318.19" y="1398.0436">IStorage</text><line style="stroke:#555555;stroke-width:1.5;" x1="2183.44" x2="2466.44" y1="1405.5748" y2="1405.5748"/><line style="stroke:#555555;stroke-width:1.5;" x1="2183.44" x2="2466.44" y1="1413.5748" y2="1413.5748"/><ellipse cx="2193.44" cy="1424.5748" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="194" x="2202.44" y="1428.2096">ensureDir(path: const string&amp;): bool</text><ellipse cx="2193.44" cy="1437.5299" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="235" x="2202.44" y="1441.1647">writeText(path: string, content: string): bool</text><ellipse cx="2193.44" cy="1450.485" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="259" x="2202.44" y="1454.1198">readText(path: const string&amp;): optional&lt;string&gt;</text><!--MD5=[ff5d270a34ffde92ae9143201071a985]
+class FileSystemStorage--><rect codeLine="314" fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="86.8652" id="FileSystemStorage" style="stroke:#555555;stroke-width:1.5;" width="285" x="2182.44" y="1950.8692"/><ellipse cx="2269.69" cy="1966.8692" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M2272.1631,1973.0123 Q2271.5821,1973.3111 2270.9429,1973.4605 Q2270.3038,1973.6099 2269.5982,1973.6099 Q2267.0914,1973.6099 2265.7715,1971.9581 Q2264.4517,1970.3062 2264.4517,1967.1851 Q2264.4517,1964.0557 2265.7715,1962.4039 Q2267.0914,1960.752 2269.5982,1960.752 Q2270.3038,1960.752 2270.9512,1960.9014 Q2271.5987,1961.0509 2272.1631,1961.3497 L2272.1631,1964.0723 Q2271.5323,1963.4913 2270.9388,1963.2215 Q2270.3453,1962.9517 2269.7144,1962.9517 Q2268.3697,1962.9517 2267.6849,1964.0184 Q2267.0001,1965.085 2267.0001,1967.1851 Q2267.0001,1969.2769 2267.6849,1970.3436 Q2268.3697,1971.4102 2269.7144,1971.4102 Q2270.3453,1971.4102 2270.9388,1971.1405 Q2271.5323,1970.8707 2272.1631,1970.2896 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="2290.19" y="1971.4044">FileSystemStorage</text><line style="stroke:#555555;stroke-width:1.5;" x1="2183.44" x2="2466.44" y1="1982.8692" y2="1982.8692"/><line style="stroke:#555555;stroke-width:1.5;" x1="2183.44" x2="2466.44" y1="1990.8692" y2="1990.8692"/><ellipse cx="2193.44" cy="2001.8692" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="2202.44" y="2005.504">ensureDir(path: const string&amp;): bool</text><ellipse cx="2193.44" cy="2014.8243" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="235" x="2202.44" y="2018.4591">writeText(path: string, content: string): bool</text><ellipse cx="2193.44" cy="2027.7794" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="259" x="2202.44" y="2031.4141">readText(path: const string&amp;): optional&lt;string&gt;</text><!--MD5=[16d025dde850bca9df54fb6533f05466]
+class QMainWindow--><rect fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="48" id="QMainWindow" style="stroke:#555555;stroke-width:1.5;" width="112" x="1052.94" y="28.1992"/><ellipse cx="1067.94" cy="44.1992" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M1070.4131,50.3423 Q1069.8321,50.6411 1069.1929,50.7905 Q1068.5538,50.9399 1067.8482,50.9399 Q1065.3414,50.9399 1064.0215,49.2881 Q1062.7017,47.6362 1062.7017,44.5151 Q1062.7017,41.3857 1064.0215,39.7339 Q1065.3414,38.082 1067.8482,38.082 Q1068.5538,38.082 1069.2012,38.2314 Q1069.8487,38.3809 1070.4131,38.6797 L1070.4131,41.4023 Q1069.7823,40.8213 1069.1888,40.5515 Q1068.5953,40.2817 1067.9644,40.2817 Q1066.6197,40.2817 1065.9349,41.3484 Q1065.2501,42.415 1065.2501,44.5151 Q1065.2501,46.6069 1065.9349,47.6736 Q1066.6197,48.7402 1067.9644,48.7402 Q1068.5953,48.7402 1069.1888,48.4705 Q1069.7823,48.2007 1070.4131,47.6196 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="1081.94" y="48.7344">QMainWindow</text><line style="stroke:#555555;stroke-width:1.5;" x1="1053.94" x2="1163.94" y1="60.1992" y2="60.1992"/><line style="stroke:#555555;stroke-width:1.5;" x1="1053.94" x2="1163.94" y1="68.1992" y2="68.1992"/><!--MD5=[3e3f16721f1fb369e45a968cb01568b2]
+class QWidget--><rect fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="48" id="QWidget" style="stroke:#555555;stroke-width:1.5;" width="80" x="2052.94" y="365.4792"/><ellipse cx="2067.94" cy="381.4792" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M2070.4131,387.6223 Q2069.8321,387.9211 2069.1929,388.0705 Q2068.5538,388.2199 2067.8482,388.2199 Q2065.3414,388.2199 2064.0215,386.5681 Q2062.7017,384.9162 2062.7017,381.7951 Q2062.7017,378.6657 2064.0215,377.0139 Q2065.3414,375.362 2067.8482,375.362 Q2068.5538,375.362 2069.2012,375.5114 Q2069.8487,375.6609 2070.4131,375.9597 L2070.4131,378.6823 Q2069.7823,378.1013 2069.1888,377.8315 Q2068.5953,377.5617 2067.9644,377.5617 Q2066.6197,377.5617 2065.9349,378.6284 Q2065.2501,379.695 2065.2501,381.7951 Q2065.2501,383.8869 2065.9349,384.9536 Q2066.6197,386.0202 2067.9644,386.0202 Q2068.5953,386.0202 2069.1888,385.7505 Q2069.7823,385.4807 2070.4131,384.8996 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="2081.94" y="386.0144">QWidget</text><line style="stroke:#555555;stroke-width:1.5;" x1="2053.94" x2="2131.94" y1="397.4792" y2="397.4792"/><line style="stroke:#555555;stroke-width:1.5;" x1="2053.94" x2="2131.94" y1="405.4792" y2="405.4792"/><!--MD5=[8dd17ccd1ae0e0e4eb0a7117370c35f4]
+class QObject--><rect fill="#2B2B2B" filter="url(#f41ki97vk0p)" height="48" id="QObject" style="stroke:#555555;stroke-width:1.5;" width="79" x="725.44" y="814.3592"/><ellipse cx="740.44" cy="830.3592" fill="#ADD1B2" rx="11" ry="11" style="stroke:#555555;stroke-width:1.0;"/><path d="M742.9131,836.5023 Q742.3321,836.8011 741.6929,836.9505 Q741.0538,837.0999 740.3482,837.0999 Q737.8414,837.0999 736.5215,835.4481 Q735.2017,833.7962 735.2017,830.6751 Q735.2017,827.5457 736.5215,825.8939 Q737.8414,824.242 740.3482,824.242 Q741.0538,824.242 741.7012,824.3914 Q742.3487,824.5409 742.9131,824.8397 L742.9131,827.5623 Q742.2823,826.9813 741.6888,826.7115 Q741.0953,826.4417 740.4644,826.4417 Q739.1197,826.4417 738.4349,827.5084 Q737.7501,828.575 737.7501,830.6751 Q737.7501,832.7669 738.4349,833.8336 Q739.1197,834.9002 740.4644,834.9002 Q741.0953,834.9002 741.6888,834.6305 Q742.2823,834.3607 742.9131,833.7796 Z " fill="#000000"/><text fill="#E0E0E0" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="754.44" y="834.8944">QObject</text><line style="stroke:#555555;stroke-width:1.5;" x1="726.44" x2="803.44" y1="846.3592" y2="846.3592"/><line style="stroke:#555555;stroke-width:1.5;" x1="726.44" x2="803.44" y1="854.3592" y2="854.3592"/><path d="M2044.44,2402.6492 L2044.44,2473.8914 L2215.44,2473.8914 L2215.44,2412.6492 L2205.44,2402.6492 L2044.44,2402.6492 " fill="#3A3A3A" filter="url(#f41ki97vk0p)" style="stroke:#555555;stroke-width:1.0;"/><path d="M2205.44,2402.6492 L2205.44,2412.6492 L2215.44,2412.6492 L2205.44,2402.6492 " fill="#3A3A3A" style="stroke:#555555;stroke-width:1.0;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="2050.44" y="2420.2176">Enhanced with:</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="2050.44" y="2435.5281">- completion status</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="150" x="2050.44" y="2450.8387">- deadline management</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="2050.44" y="2466.1492">- drawing data storage</text><path d="M2502.44,1370.5992 L2502.44,1457.152 L2685.44,1457.152 L2685.44,1380.5992 L2675.44,1370.5992 L2502.44,1370.5992 " fill="#3A3A3A" filter="url(#f41ki97vk0p)" style="stroke:#555555;stroke-width:1.0;"/><path d="M2675.44,1370.5992 L2675.44,1380.5992 L2685.44,1380.5992 L2675.44,1370.5992 " fill="#3A3A3A" style="stroke:#555555;stroke-width:1.0;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="2508.44" y="1388.1676">Central controller for:</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98" x="2508.44" y="1403.4781">- Task lifecycle</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="2508.44" y="1418.7887">- Document management</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="2508.44" y="1434.0992">- Session tracking</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="2508.44" y="1449.4098">- Persistence</text><path d="M1968.44,1385.9092 L1968.44,1441.8409 A0,0 0 0 0 1968.44,1441.8409 L2147.44,1441.8409 A0,0 0 0 0 2147.44,1441.8409 L2147.44,1395.9092 L2137.44,1385.9092 L2053.48,1385.9092 L1923.37,979.2892 L2045.48,1385.9092 L1968.44,1385.9092 A0,0 0 0 0 1968.44,1385.9092 " fill="#3A3A3A" filter="url(#f41ki97vk0p)" style="stroke:#555555;stroke-width:1.0;"/><path d="M2137.44,1385.9092 L2137.44,1395.9092 L2147.44,1395.9092 L2137.44,1385.9092 " fill="#3A3A3A" style="stroke:#555555;stroke-width:1.0;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="1974.44" y="1403.4776">New feature:</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="1974.44" y="1418.7881">Freehand drawing canvas</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="148" x="1974.44" y="1434.0987">with pen customization</text><path d="M1484.94,1385.9092 L1484.94,1441.8409 L1648.94,1441.8409 L1648.94,1395.9092 L1638.94,1385.9092 L1484.94,1385.9092 " fill="#3A3A3A" filter="url(#f41ki97vk0p)" style="stroke:#555555;stroke-width:1.0;"/><path d="M1638.94,1385.9092 L1638.94,1395.9092 L1648.94,1395.9092 L1638.94,1385.9092 " fill="#3A3A3A" style="stroke:#555555;stroke-width:1.0;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="1490.94" y="1403.4776">New feature:</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="1490.94" y="1418.7881">Visual deadline tracker</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="1490.94" y="1434.0987">with date highlighting</text><path d="M1683.94,1385.9092 L1683.94,1441.8409 L1841.94,1441.8409 L1841.94,1395.9092 L1831.94,1385.9092 L1683.94,1385.9092 " fill="#3A3A3A" filter="url(#f41ki97vk0p)" style="stroke:#555555;stroke-width:1.0;"/><path d="M1831.94,1385.9092 L1831.94,1395.9092 L1841.94,1395.9092 L1831.94,1385.9092 " fill="#3A3A3A" style="stroke:#555555;stroke-width:1.0;"/><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="1689.94" y="1403.4776">New feature:</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="1689.94" y="1418.7881">Smart task navigation</text><text fill="#E0E0E0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="1689.94" y="1434.0987">with search &amp; filters</text><!--MD5=[aa1d4debd0ada103afc51dc81be02f71]
+reverse link Document to TextDocument--><path codeLine="322" d="M1172.94,2906.8992 C1172.94,2920.4692 1172.94,2933.7992 1172.94,2945.9792 " fill="none" id="Document-backto-TextDocument" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="none" points="1165.94,2907.0292,1172.94,2887.0292,1179.94,2907.0292,1165.94,2907.0292" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[02dda3d4d9876c30b9ed61f08e4ecf0a]
+reverse link DocumentFactory to TextDocumentFactory--><path codeLine="323" d="M1799.81,2493.3892 C1805.16,2568.1892 1814.62,2700.5992 1818.83,2759.4092 " fill="none" id="DocumentFactory-backto-TextDocumentFactory" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1792.84,2494.1292,1798.4,2473.6792,1806.81,2493.1292,1792.84,2494.1292" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[0fd01c083a6a39316b5d1ac56b723274]
+reverse link IStorage to FileSystemStorage--><path codeLine="324" d="M2324.94,1481.9592 C2324.94,1602.1392 2324.94,1850.8692 2324.94,1950.5792 " fill="none" id="IStorage-backto-FileSystemStorage" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2317.94,1482.2592,2324.94,1462.2592,2331.94,1482.2592,2317.94,1482.2592" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[6d49110face5b86f7a663104a5736814]
+reverse link QMainWindow to MainWindow--><path codeLine="325" d="M1108.94,97.7392 C1108.94,114.6592 1108.94,135.3092 1108.94,157.7092 " fill="none" id="QMainWindow-backto-MainWindow" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="none" points="1101.94,98.0192,1108.94,78.0192,1115.94,98.0192,1101.94,98.0192" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[fb019cb439973d0fbf0c8d92aa880994]
+reverse link QWidget to TaskSelector--><path codeLine="326" d="M2094.96,435.0492 C2094.75,486.8592 2086.11,571.5292 2036.94,620.7592 C1935.09,722.7292 1853.2,638.2392 1721.94,697.7592 C1702.05,706.7792 1682.07,717.8592 1662.85,729.7892 " fill="none" id="QWidget-backto-TaskSelector" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="none" points="2087.97,435.4392,2094.6,415.3192,2101.96,435.1892,2087.97,435.4392" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[d157f6f145395cf4f647fc55cfe139b5]
+reverse link QWidget to TaskCalendar--><path codeLine="327" d="M2096.03,435.0392 C2097,487.8692 2089.64,574.5492 2036.94,620.7592 C1977.03,673.2992 1398.59,669.8892 1323.94,697.7592 C1294.49,708.7592 1265.27,725.0592 1238.6,742.6792 " fill="none" id="QWidget-backto-TaskCalendar" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="none" points="2089.04,435.5192,2095.21,415.2492,2103.03,434.9392,2089.04,435.5192" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[4f668ab7e5e8ddd75f3e69945866fa6e]
+reverse link QWidget to DrawingCanvas--><path codeLine="328" d="M2087.38,434.7992 C2080.22,482.4492 2065.21,559.5892 2036.94,620.7592 C2024.91,646.7892 2009.55,672.8692 1993.16,697.4492 " fill="none" id="QWidget-backto-DrawingCanvas" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="none" points="2080.42,434.0192,2090.11,415.1792,2094.28,435.9492,2080.42,434.0192" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[a8b6cdb10113379119bc1716bcc0d5e7]
+reverse link QWidget to PomodoroWidget--><path codeLine="329" d="M2105.64,434.3492 C2135.42,547.5292 2195.81,851.1092 2036.94,1002.9492 C1993.2,1044.7592 1553.42,1026.0392 1492.94,1027.9492 C1479.97,1028.3592 1037.33,1029.7392 1025.94,1035.9492 C918.31,1094.6492 848.36,1221.4392 810.09,1311.7492 " fill="none" id="QWidget-backto-PomodoroWidget" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="none" points="2098.94,436.3792,2100.4,415.2392,2112.44,432.6792,2098.94,436.3792" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[c990cf74aed6abbcb6c5a35cd4c77bb2]
+reverse link QObject to DashboardManager--><path codeLine="330" d="M769.61,883.9192 C777.18,930.0192 796.87,999.1992 847.94,1027.9492 C877.8,1044.7592 972.27,1018.7992 1001.94,1035.9492 C1022.69,1047.9492 1041.98,1062.4992 1059.86,1078.8192 " fill="none" id="QObject-backto-DashboardManager" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="none" points="762.71,885.0992,766.93,864.3392,776.58,883.1992,762.71,885.0992" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[7169811d71c3161e1ee6ca0f583e557f]
+reverse link QObject to PomodoroSessionManager--><path codeLine="331" d="M759.89,883.9692 C753.01,922.1992 736.84,975.3192 698.94,1002.9492 C617.38,1062.4192 314.67,962.0292 245.94,1035.9492 C134.44,1155.8692 172.83,1626.2792 245.94,1772.7992 C266.48,1813.9492 298.76,1849.4392 334.52,1879.1892 " fill="none" id="QObject-backto-PomodoroSessionManager" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="none" points="752.97,882.9692,762.83,864.2192,766.81,885.0292,752.97,882.9692" style="stroke:#888888;stroke-width:1.0;"/><!--MD5=[dc027356008e8d0a2da138a42b94cc5f]
+reverse link Task to ChecklistItem--><path codeLine="334" d="M1431.1,2632.3292 C1440.59,2673.8092 1449.77,2713.9092 1456.46,2743.1492 " fill="none" id="Task-backto-ChecklistItem" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1428.22,2619.6992,1425.6594,2626.4404,1430.8971,2631.3968,1433.4577,2624.6556,1428.22,2619.6992" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="1437.46" y="2661.2976">contains</text><!--MD5=[f825cb83652b028487f4734ee9b47f05]
+reverse link DashboardManager to Task--><path codeLine="335" d="M1294.02,1763.5192 C1316.98,1929.9792 1343.47,2122.0992 1362.28,2258.4792 " fill="none" id="DashboardManager-backto-Task" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#1E1E1E" points="1292.27,1750.7892,1289.1254,1757.2786,1293.9061,1762.6772,1297.0507,1756.1878,1292.27,1750.7892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="1349.28" y="1999.3676">manages</text><!--MD5=[2365a9ac1aaa5ab86449fbc2e272d0d4]
+reverse link DashboardManager to Document--><path codeLine="336" d="M1206.16,1763.1492 C1192.75,1896.6992 1179.52,2050.6392 1172.94,2190.8092 C1164.6,2368.5792 1167.42,2576.4092 1170.2,2694.3792 " fill="none" id="DashboardManager-backto-Document" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#1E1E1E" points="1207.43,1750.5592,1202.8498,1756.1289,1206.2294,1762.499,1210.8096,1756.9293,1207.43,1750.5592" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="1173.94" y="2204.3776">manages</text><!--MD5=[e100d0d9b796ee9587146640bf5cee79]
+reverse link DashboardManager to SessionRecord--><path codeLine="337" d="M1033.95,1751.7492 C991.6,1819.0392 951.49,1882.7792 923.11,1927.8792 " fill="none" id="DashboardManager-backto-SessionRecord" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#1E1E1E" points="1040.79,1740.8792,1034.2094,1743.8281,1034.4004,1751.0367,1040.981,1748.0878,1040.79,1740.8792" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="1011.07" y="1794.3676">stores</text><!--MD5=[c8971297255547ac6837c3ab1c46d308]
+reverse link PomodoroSessionManager to IntervalRecord--><path codeLine="338" d="M581.65,2175.0792 C601.23,2257.4892 622.69,2347.8292 634.62,2398.0292 " fill="none" id="PomodoroSessionManager-backto-IntervalRecord" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#1E1E1E" points="578.69,2162.5992,576.1833,2169.3606,581.4605,2174.275,583.9672,2167.5136,578.69,2162.5992" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="589.29" y="2204.3776">tracks</text><!--MD5=[d328b83c3e9eb1728ca114212590f361]
+reverse link SessionRecord to IntervalRecord--><path codeLine="339" d="M839.99,2073.1992 C788.86,2168.1492 704.44,2324.9192 665.21,2397.7792 " fill="none" id="SessionRecord-backto-IntervalRecord" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="846.1,2061.8492,839.7345,2065.2375,840.4139,2072.4166,846.7794,2069.0282,846.1,2061.8492" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="774.64" y="2204.3776">contains</text><!--MD5=[edc2f0c180d72dd48a0a6e85f18a2f6c]
+link MainWindow to DashboardManager--><path codeLine="342" d="M945.07,594.0192 C864,720.8092 800.85,882.1792 890.94,1002.9492 C921.71,1044.2092 960.74,1005.1092 1001.94,1035.9492 C1017.49,1047.5892 1032.33,1060.5392 1046.44,1074.4292 " fill="none" id="MainWindow-to-DashboardManager" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1049.73,1077.6992,1046.1759,1068.514,1046.1873,1074.1708,1040.5305,1074.1823,1049.73,1077.6992" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="891.94" y="843.4276">uses</text><!--MD5=[2dde62f64adeb26498f0bfaa4bb0d870]
+link MainWindow to PomodoroWidget--><path codeLine="343" d="M945.12,453.1892 C841.21,502.5492 715.21,582.4392 653.94,697.7592 C549.55,894.2292 646.48,1160.2392 716.52,1306.1392 " fill="none" id="MainWindow-to-PomodoroWidget" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="718.55,1310.3492,718.2412,1300.5052,716.3771,1305.8461,711.0362,1303.9819,718.55,1310.3492" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="654.94" y="843.4276">displays</text><!--MD5=[b1fb0c90462eade4e847bdb81f6cafcb]
+link MainWindow to PomodoroSessionManager--><path codeLine="344" d="M945.01,444.7192 C719.2,529.6492 322.8,718.0392 167.94,1035.9492 C24.52,1330.3592 6,1488.1492 167.94,1772.7992 C203.91,1836.0092 265.94,1882.9892 329.1,1916.9592 " fill="none" id="MainWindow-to-PomodoroSessionManager" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="333.48,1919.2892,327.4055,1911.5368,329.0635,1916.9452,323.6551,1918.6032,333.48,1919.2892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="179.54" y="1024.5176">uses</text><!--MD5=[1f00e55f317787ba8c620e18aa69ccb7]
+link MainWindow to DrawingCanvas--><path codeLine="345" d="M1272.75,458.6092 C1400.02,514.7892 1578.41,600.7992 1721.94,697.7592 C1725.99,700.4992 1730.05,703.3292 1734.11,706.2392 " fill="none" id="MainWindow-to-DrawingCanvas" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1738.01,709.0692,1733.0876,700.5387,1733.9676,706.1267,1728.3796,707.0066,1738.01,709.0692" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="1676.42" y="664.3276">uses</text><!--MD5=[2a20a177a4ec7e365c367951efbd1d6d]
+link MainWindow to TaskCalendar--><path codeLine="346" d="M1116.17,621.1192 C1117.43,661.5992 1118.69,701.7692 1119.77,736.2992 " fill="none" id="MainWindow-to-TaskCalendar" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1119.93,741.1692,1123.6453,732.048,1119.7729,736.1717,1115.6493,732.2993,1119.93,741.1692" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="1118.61" y="664.3276">uses</text><!--MD5=[6336e96f5a166f2fd51604f3f13c3ee3]
+link MainWindow to TaskSelector--><path codeLine="347" d="M1272.86,567.4192 C1322.1,620.5592 1374.74,677.3792 1418.96,725.1092 " fill="none" id="MainWindow-to-TaskSelector" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1422.18,728.5892,1419.0192,719.2613,1418.7904,724.9136,1413.1382,724.6847,1422.18,728.5892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="1366.2" y="664.3276">uses</text><!--MD5=[c8bd8ce2b693f8466d2cd7c1eafcc451]
+link TaskSelector to DashboardManager--><path codeLine="348" d="M1471,946.8892 C1453.16,983.8292 1432.12,1027.3892 1410.19,1072.7892 " fill="none" id="TaskSelector-to-DashboardManager" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1408.03,1077.2692,1415.5602,1070.9213,1410.2145,1072.7717,1408.3641,1067.426,1408.03,1077.2692" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="1438.24" y="1024.5176">queries</text><!--MD5=[95b07a7bbb4f7b48ecccc125a72cd901]
+link TaskCalendar to DashboardManager--><path codeLine="349" d="M1143.25,934.0592 C1151.69,973.4192 1162.05,1021.7192 1172.91,1072.3392 " fill="none" id="TaskCalendar-to-DashboardManager" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1173.92,1077.0392,1175.9262,1067.3969,1172.8626,1072.1523,1168.1071,1069.0887,1173.92,1077.0392" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="1163.73" y="1024.5176">queries</text><!--MD5=[273449ea80ea482b365688fbdb9d277a]
+link PomodoroWidget to PomodoroSessionManager--><path codeLine="350" d="M732.87,1515.9592 C698.66,1600.1792 649.16,1721.9992 608.74,1821.4892 " fill="none" id="PomodoroWidget-to-PomodoroSessionManager" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="606.91,1826.0092,614.01,1819.1836,608.7965,1821.3788,606.6013,1816.1652,606.91,1826.0092" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="622.66" y="1794.3676">controls</text><!--MD5=[65c74699d73a5ccfcb37500ea7eaa012]
+link PomodoroSessionManager to Task--><path codeLine="351" d="M743.15,2154.0392 C748.72,2156.4792 754.32,2158.7392 759.94,2160.8092 C860.03,2197.6492 1147.81,2135.3992 1238.94,2190.8092 C1264.93,2206.6092 1286.93,2228.8492 1305.37,2253.5692 " fill="none" id="PomodoroSessionManager-to-Task" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1308.12,2257.3292,1306.0352,2247.7036,1305.1681,2253.2936,1299.5781,2252.4265,1308.12,2257.3292" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="1258.84" y="2204.3776">tracks</text><!--MD5=[931d1a5e22bf915687cd0160c3043e41]
+link DashboardManager to DocumentFactory--><path codeLine="352" d="M1425.84,1749.2892 C1556.05,1991.3392 1718.7,2293.6892 1775.36,2398.9992 " fill="none" id="DashboardManager-to-DocumentFactory" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="1777.58,2403.1292,1776.8312,2393.3089,1775.2078,2398.7278,1769.7889,2397.1044,1777.58,2403.1292" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="1646.13" y="1999.3676">uses</text><!--MD5=[52bf6a9d1238f765f106874a1d31d270]
+link DashboardManager to FileSystemStorage--><path codeLine="353" d="M1432.64,1749.2192 C1443.52,1757.8892 1454.95,1765.8092 1466.94,1772.7992 C1487.69,1784.8792 1659.3,1776.5292 1682.94,1780.7992 C1877.57,1815.8792 2094.04,1896.7992 2219.33,1948.0492 " fill="none" id="DashboardManager-to-FileSystemStorage" style="stroke:#888888;stroke-width:1.0;"/><polygon fill="#888888" points="2223.83,1949.8892,2217.0309,1942.7638,2219.2066,1947.9855,2213.9849,1950.1612,2223.83,1949.8892" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="1755.7" y="1794.3676">persists with</text><!--MD5=[5db750d8c091f4b120b304e97ffbe772]
+link Task to Document--><path codeLine="354" d="M1277.43,2618.2192 C1262.49,2642.6492 1247.6,2666.9692 1233.96,2689.2692 " fill="none" id="Task-to-Document" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#888888" points="1231.49,2693.3092,1239.5863,2687.7012,1234.0897,2689.0382,1232.7527,2683.5416,1231.49,2693.3092" style="stroke:#888888;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="1255.48" y="2661.2976">references</text><!--MD5=[404df3d60139ea1893ce71860cfb3aff]
+link Task to GMN67--><path d="M1509.33,2258.3792 C1537.37,2229.9292 1569.62,2204.5692 1605.44,2188.3092 C1646.41,2169.6992 1970.99,2166.6492 2010.44,2188.3092 C2089.08,2231.4692 2116.56,2344.4092 2125.69,2402.5492 " fill="none" id="Task-GMN67" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[96a40d36a8b5f027d205031d82fc9acd]
+link DashboardManager to GMN70--><path d="M1396.72,1078.8092 C1421.9,1053.5492 1450.97,1032.7392 1484.44,1019.4492 C1535.09,999.3392 2414.79,999.3392 2465.44,1019.4492 C2597.97,1072.0792 2602.36,1279.2392 2597.55,1370.4092 " fill="none" id="DashboardManager-GMN70" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[60d943577b112ce722e0d68d29132e0b]
+link TaskCalendar to GMN76--><path d="M1214.07,933.9692 C1246.04,961.2192 1284.02,987.6792 1323.94,1002.9492 C1341.5,1009.6692 1478.78,998.5792 1492.94,1010.9492 C1603.82,1107.8092 1583.57,1311.7092 1571.92,1385.4892 " fill="none" id="TaskCalendar-GMN76" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[c3d4d15f8407cf05568e7710e44849ea]
+link TaskSelector to GMN79--><path d="M1613.07,946.9492 C1633.02,974.6592 1652.5,1005.3392 1666.94,1035.9492 C1724.99,1159.0092 1751.13,1321.8692 1759.63,1385.6292 " fill="none" id="TaskSelector-GMN79" style="stroke:#888888;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[a4a89069c66b11401960aee768345c33]
+@startuml classdiagram
+!define COMPONENT_BG #2b2b2b
+!define TEXT_COLOR #e0e0e0
+
+skinparam backgroundColor #1e1e1e
+skinparam classBackgroundColor COMPONENT_BG
+skinparam classBorderColor #555
+skinparam classFontColor TEXT_COLOR
+skinparam packageBackgroundColor #252525
+skinparam packageBorderColor #555
+skinparam packageFontColor TEXT_COLOR
+skinparam arrowColor #888
+skinparam noteBackgroundColor #3a3a3a
+skinparam noteBorderColor #555
+skinparam noteFontColor TEXT_COLOR
+
+title Study++ Enhanced Class Diagram
+
+package "UI Layer" {
+    class MainWindow {
+        - ui: Ui::MainWindow*
+        - dashboardManager_: unique_ptr<DashboardManager>
+        - pomodoroManager_: PomodoroSessionManager*
+        - pomodoroWidget_: PomodoroWidget*
+        - pomodoroDock_: QDockWidget*
+        - drawingCanvas_: DrawingCanvas*
+        - calendarWidget_: TaskCalendar*
+        - taskSelector_: TaskSelector*
+        - documentDashboard_: QWidget*
+        - documentListLayout_: QVBoxLayout*
+        - currentTask_: Task*
+        - currentDocumentId_: QString
+        
+        + MainWindow(parent: QWidget*)
+        + ~MainWindow()
+        + createTaskCard(task: const Task&): void
+        + openTask(task: Task*): void
+        + loadTaskIntoWorkspace(task: Task*): void
+        + setupDocumentDashboard(task: Task*): void
+        + setupDrawingTab(task: Task*): void
+        + setupCalendarView(): void
+        + setupTaskSelector(): void
+        + setupTaskMetadataUI(task: Task*): void
+        + refreshDashboard(): void
+        + refreshDocumentList(task: Task*): void
+        + createDocumentCard(doc: Document*, task: Task*): void
+        + saveDrawing(): void
+        + updateTaskCompletion(completed: bool): void
+        + updateDeadline(date: const QDate&): void
+        + startPomodoroSession(): void
+        + updateStatistics(): void
+        + addChecklistItem(): void
+        + refreshChecklist(): void
+    }
+    
+    class TaskSelector {
+        - manager_: DashboardManager*
+        - taskList_: QListWidget*
+        - searchBox_: QLineEdit*
+        - filterCombo_: QComboBox*
+        - countLabel_: QLabel*
+        
+        + TaskSelector(manager: DashboardManager*, parent: QWidget*)
+        + refreshTaskList(): void
+        - onFilterChanged(index: int): void
+        - onSearchTextChanged(text: const QString&): void
+        - populateTaskList(searchText: QString, filter: FilterType): void
+        - matchesFilter(task: const Task*, filter: FilterType): bool
+        
+        <<signal>> taskSelected(task: Task*)
+    }
+    
+    class TaskCalendar {
+        - manager_: DashboardManager*
+        - calendar_: QCalendarWidget*
+        - taskList_: QListWidget*
+        - dateLabel_: QLabel*
+        
+        + TaskCalendar(manager: DashboardManager*, parent: QWidget*)
+        + refreshCalendar(): void
+        - onDateSelected(date: const QDate&): void
+        - updateTasksForDate(date: const QDate&): void
+        - highlightDeadlineDates(): void
+        
+        <<signal>> taskSelected(task: Task*)
+    }
+    
+    class DrawingCanvas {
+        - image_: QImage
+        - drawing_: bool
+        - lastPoint_: QPoint
+        - currentPen_: QPen
+        
+        + DrawingCanvas(parent: QWidget*)
+        + clearCanvas(): void
+        + setPenColor(color: const QColor&): void
+        + setPenWidth(width: int): void
+        + getImage(): QImage
+        + setImage(image: const QImage&): void
+        + toBase64(): QString
+        + fromBase64(data: const QString&): void
+        # paintEvent(event: QPaintEvent*): void
+        # mousePressEvent(event: QMouseEvent*): void
+        # mouseMoveEvent(event: QMouseEvent*): void
+        # mouseReleaseEvent(event: QMouseEvent*): void
+        
+        <<signal>> drawingChanged()
+    }
+}
+
+package "Controller Layer" {
+    class DashboardManager {
+        - tasks_: vector<unique_ptr<Task>>
+        - documents_: vector<unique_ptr<Document>>
+        - sessionsByTask_: unordered_map<string, vector<SessionRecord>>
+        - storage_: FileSystemStorage
+        - documentFactory_: unique_ptr<DocumentFactory>
+        - currentTask_: Task*
+        - currentDocumentId_: QString
+        - tasksFilePath_: QString
+        - sessionsFilePath_: QString
+        - documentsFilePath_: QString
+        
+        + DashboardManager(parent: QObject*)
+        + addTask(title: const QString&): void
+        + addTaskWithDocuments(title: const QString&): void
+        + removeTask(id: const QString&): void
+        + findTaskById(id: const QString&): Task*
+        + tasks(): const vector<unique_ptr<Task>>&
+        + createDocument(taskId: QString, name: QString): void
+        + deleteDocument(docId: QString, taskId: QString): void
+        + findDocumentById(docId: const QString&): Document*
+        + documents(): const vector<unique_ptr<Document>>&
+        + setCurrentTask(taskId: const QString&): void
+        + getCurrentTask(): Task*
+        + setCurrentDocument(docId: const QString&): void
+        + getCurrentDocumentId(): QString
+        + addChecklistItem(taskId: QString, text: QString): void
+        + toggleChecklistItem(taskId: QString, index: size_t): void
+        + removeChecklistItem(taskId: QString, index: size_t): void
+        + setTaskCompleted(taskId: QString, completed: bool): void
+        + setTaskDrawingData(taskId: QString, data: QString): void
+        + recordSession(session: const SessionRecord&): void
+        + getTotalTasks(): int
+        + getCompletedTasks(): int
+        + getTotalDocuments(): int
+        + getTotalPomodoroSessions(): int
+        + getTotalFocusMinutes(): int
+        + saveToJson(): void
+        + loadFromJson(): void
+        - taskToJson(task: const Task&): QJsonObject
+        - taskFromJson(obj: const QJsonObject&): unique_ptr<Task>
+        - documentToJson(doc: const Document&): QJsonObject
+        - documentFromJson(obj: const QJsonObject&): unique_ptr<Document>
+        
+        <<signal>> tasksUpdated()
+        <<signal>> sessionsUpdated()
+        <<signal>> documentsUpdated()
+        <<signal>> checklistUpdated(taskId: QString)
+        <<signal>> currentTaskChanged(task: Task*)
+        <<signal>> currentDocumentChanged(docId: QString)
+    }
+}
+
+package "Core Models" {
+    abstract class Document {
+        # id_: string
+        # name_: string
+        # created_: chrono::system_clock::time_point
+        # updated_: chrono::system_clock::time_point
+        
+        + Document(id: string, name: string)
+        + {abstract} ~Document()
+        + id(): const string&
+        + name(): const string&
+        + created(): time_point
+        + updated(): time_point
+        + {abstract} type(): const char*
+    }
+    
+    class TextDocument {
+        - content_: string
+        
+        + TextDocument(id: string, name: string)
+        + content(): const string&
+        + setContent(content: const string&): void
+        + type(): const char* override
+    }
+    
+    class Task {
+        - id_: string
+        - title_: string
+        - deadline_: optional<QDate>
+        - documentIds_: vector<string>
+        - checklistItems_: vector<ChecklistItem>
+        - completed_: bool
+        - drawingData_: string
+        
+        + Task(id: string, title: string, deadline: optional<QDate>)
+        + id(): const string&
+        + title(): const string&
+        + deadline(): const optional<QDate>&
+        + isCompleted(): bool
+        + getDrawingData(): const string&
+        + setTitle(title: string): void
+        + setDeadline(deadline: optional<QDate>): void
+        + setCompleted(completed: bool): void
+        + setDrawingData(data: string): void
+        + addDocumentId(docId: string): void
+        + removeDocumentId(docId: string): void
+        + getDocumentIds(): const vector<string>&
+        + addChecklistItem(text: const string&): void
+        + toggleChecklistItem(index: size_t): void
+        + removeChecklistItem(index: size_t): void
+        + getChecklistItems(): const vector<ChecklistItem>&
+    }
+    
+    class ChecklistItem <<struct>> {
+        + text: string
+        + completed: bool
+        
+        + ChecklistItem(text: string, completed: bool)
+    }
+    
+    interface DocumentFactory <<interface>> {
+        + {abstract} createDocument(id: string, name: string): unique_ptr<Document>
+    }
+    
+    class TextDocumentFactory {
+        + createDocument(id: string, name: string): unique_ptr<Document>
+    }
+}
+
+package "Pomodoro System" {
+    class PomodoroInterval {
+        - duration_: int
+        - type_: string
+        - startTime_: time_point
+        - endTime_: time_point
+        - completed_: bool
+        
+        + PomodoroInterval(duration: int, type: string)
+        + start(): void
+        + complete(): void
+        + isCompleted(): bool
+        + getDuration(): int
+        + getType(): const string&
+    }
+    
+    class IntervalRecord <<struct>> {
+        + type: IntervalType
+        + durationMinutes: int
+    }
+    
+    class SessionRecord <<struct>> {
+        + taskId: string
+        + startTime: QDateTime
+        + endTime: QDateTime
+        + intervals: vector<IntervalRecord>
+        
+        + getTotalFocusMinutes(): int
+        + getIntervalCount(): int
+    }
+    
+    class PomodoroSessionManager {
+        - task_: Task*
+        - sessionId_: int
+        - currentSession_: SessionRecord
+        - intervals_: vector<IntervalRecord>
+        - currentInterval_: PomodoroInterval*
+        - timer_: QTimer*
+        - state_: SessionState
+        
+        + PomodoroSessionManager(task: Task*, sessionId: int, parent: QObject*)
+        + start(): void
+        + pause(): void
+        + resume(): void
+        + skip(): void
+        + end(): void
+        + getTask(): Task*
+        + getCurrentSession(): const SessionRecord&
+        + getState(): SessionState
+        - onIntervalComplete(): void
+        - startNextInterval(): void
+        
+        <<signal>> sessionEnded(record: const SessionRecord&)
+        <<signal>> intervalChanged(interval: IntervalRecord)
+        <<signal>> timeUpdated(remaining: int)
+    }
+    
+    class PomodoroWidget {
+        - sessionManager_: PomodoroSessionManager*
+        - timeLabel_: QLabel*
+        - intervalLabel_: QLabel*
+        - startButton_: QPushButton*
+        - pauseButton_: QPushButton*
+        - skipButton_: QPushButton*
+        - endButton_: QPushButton*
+        - progressBar_: QProgressBar*
+        
+        + PomodoroWidget(manager: PomodoroSessionManager*, parent: QWidget*)
+        - updateDisplay(): void
+        - onStateChanged(): void
+        - playSound(): void
+    }
+}
+
+package "Infrastructure" {
+    interface IStorage <<interface>> {
+        + {abstract} ensureDir(path: const string&): bool
+        + {abstract} writeText(path: string, content: string): bool
+        + {abstract} readText(path: const string&): optional<string>
+    }
+    
+    class FileSystemStorage {
+        + ensureDir(path: const string&): bool
+        + writeText(path: string, content: string): bool
+        + readText(path: const string&): optional<string>
+    }
+}
+
+' Inheritance relationships
+TextDocument -up-|> Document
+TextDocumentFactory .up.|> DocumentFactory
+FileSystemStorage .up.|> IStorage
+MainWindow -up-|> QMainWindow
+TaskSelector -up-|> QWidget
+TaskCalendar -up-|> QWidget
+DrawingCanvas -up-|> QWidget
+PomodoroWidget -up-|> QWidget
+DashboardManager -up-|> QObject
+PomodoroSessionManager -up-|> QObject
+
+' Composition relationships
+Task *- - ChecklistItem : contains
+DashboardManager o- - Task : manages
+DashboardManager o- - Document : manages
+DashboardManager o- - SessionRecord : stores
+PomodoroSessionManager o- - IntervalRecord : tracks
+SessionRecord *- - IntervalRecord : contains
+
+' Association relationships
+MainWindow - -> DashboardManager : uses
+MainWindow - -> PomodoroWidget : displays
+MainWindow - -> PomodoroSessionManager : uses
+MainWindow - -> DrawingCanvas : uses
+MainWindow - -> TaskCalendar : uses
+MainWindow - -> TaskSelector : uses
+TaskSelector - -> DashboardManager : queries
+TaskCalendar - -> DashboardManager : queries
+PomodoroWidget - -> PomodoroSessionManager : controls
+PomodoroSessionManager - -> Task : tracks
+DashboardManager - -> DocumentFactory : uses
+DashboardManager - -> FileSystemStorage : persists with
+Task ..> Document : references
+
+' Notes
+note right of Task
+  Enhanced with:
+  - completion status
+  - deadline management
+  - drawing data storage
+end note
+
+note right of DashboardManager
+  Central controller for:
+  - Task lifecycle
+  - Document management
+  - Session tracking
+  - Persistence
+end note
+
+note bottom of DrawingCanvas
+  New feature:
+  Freehand drawing canvas
+  with pen customization
+end note
+
+note bottom of TaskCalendar
+  New feature:
+  Visual deadline tracker
+  with date highlighting
+end note
+
+note bottom of TaskSelector
+  New feature:
+  Smart task navigation
+  with search & filters
+end note
+
+@enduml
+
+@startuml classdiagram
+
+skinparam backgroundColor #1e1e1e
+skinparam classBackgroundColor #2b2b2b
+skinparam classBorderColor #555
+skinparam classFontColor #e0e0e0
+skinparam packageBackgroundColor #252525
+skinparam packageBorderColor #555
+skinparam packageFontColor #e0e0e0
+skinparam arrowColor #888
+skinparam noteBackgroundColor #3a3a3a
+skinparam noteBorderColor #555
+skinparam noteFontColor #e0e0e0
+
+title Study++ Enhanced Class Diagram
+
+package "UI Layer" {
+    class MainWindow {
+        - ui: Ui::MainWindow*
+        - dashboardManager_: unique_ptr<DashboardManager>
+        - pomodoroManager_: PomodoroSessionManager*
+        - pomodoroWidget_: PomodoroWidget*
+        - pomodoroDock_: QDockWidget*
+        - drawingCanvas_: DrawingCanvas*
+        - calendarWidget_: TaskCalendar*
+        - taskSelector_: TaskSelector*
+        - documentDashboard_: QWidget*
+        - documentListLayout_: QVBoxLayout*
+        - currentTask_: Task*
+        - currentDocumentId_: QString
+        
+        + MainWindow(parent: QWidget*)
+        + ~MainWindow()
+        + createTaskCard(task: const Task&): void
+        + openTask(task: Task*): void
+        + loadTaskIntoWorkspace(task: Task*): void
+        + setupDocumentDashboard(task: Task*): void
+        + setupDrawingTab(task: Task*): void
+        + setupCalendarView(): void
+        + setupTaskSelector(): void
+        + setupTaskMetadataUI(task: Task*): void
+        + refreshDashboard(): void
+        + refreshDocumentList(task: Task*): void
+        + createDocumentCard(doc: Document*, task: Task*): void
+        + saveDrawing(): void
+        + updateTaskCompletion(completed: bool): void
+        + updateDeadline(date: const QDate&): void
+        + startPomodoroSession(): void
+        + updateStatistics(): void
+        + addChecklistItem(): void
+        + refreshChecklist(): void
+    }
+    
+    class TaskSelector {
+        - manager_: DashboardManager*
+        - taskList_: QListWidget*
+        - searchBox_: QLineEdit*
+        - filterCombo_: QComboBox*
+        - countLabel_: QLabel*
+        
+        + TaskSelector(manager: DashboardManager*, parent: QWidget*)
+        + refreshTaskList(): void
+        - onFilterChanged(index: int): void
+        - onSearchTextChanged(text: const QString&): void
+        - populateTaskList(searchText: QString, filter: FilterType): void
+        - matchesFilter(task: const Task*, filter: FilterType): bool
+        
+        <<signal>> taskSelected(task: Task*)
+    }
+    
+    class TaskCalendar {
+        - manager_: DashboardManager*
+        - calendar_: QCalendarWidget*
+        - taskList_: QListWidget*
+        - dateLabel_: QLabel*
+        
+        + TaskCalendar(manager: DashboardManager*, parent: QWidget*)
+        + refreshCalendar(): void
+        - onDateSelected(date: const QDate&): void
+        - updateTasksForDate(date: const QDate&): void
+        - highlightDeadlineDates(): void
+        
+        <<signal>> taskSelected(task: Task*)
+    }
+    
+    class DrawingCanvas {
+        - image_: QImage
+        - drawing_: bool
+        - lastPoint_: QPoint
+        - currentPen_: QPen
+        
+        + DrawingCanvas(parent: QWidget*)
+        + clearCanvas(): void
+        + setPenColor(color: const QColor&): void
+        + setPenWidth(width: int): void
+        + getImage(): QImage
+        + setImage(image: const QImage&): void
+        + toBase64(): QString
+        + fromBase64(data: const QString&): void
+        # paintEvent(event: QPaintEvent*): void
+        # mousePressEvent(event: QMouseEvent*): void
+        # mouseMoveEvent(event: QMouseEvent*): void
+        # mouseReleaseEvent(event: QMouseEvent*): void
+        
+        <<signal>> drawingChanged()
+    }
+}
+
+package "Controller Layer" {
+    class DashboardManager {
+        - tasks_: vector<unique_ptr<Task>>
+        - documents_: vector<unique_ptr<Document>>
+        - sessionsByTask_: unordered_map<string, vector<SessionRecord>>
+        - storage_: FileSystemStorage
+        - documentFactory_: unique_ptr<DocumentFactory>
+        - currentTask_: Task*
+        - currentDocumentId_: QString
+        - tasksFilePath_: QString
+        - sessionsFilePath_: QString
+        - documentsFilePath_: QString
+        
+        + DashboardManager(parent: QObject*)
+        + addTask(title: const QString&): void
+        + addTaskWithDocuments(title: const QString&): void
+        + removeTask(id: const QString&): void
+        + findTaskById(id: const QString&): Task*
+        + tasks(): const vector<unique_ptr<Task>>&
+        + createDocument(taskId: QString, name: QString): void
+        + deleteDocument(docId: QString, taskId: QString): void
+        + findDocumentById(docId: const QString&): Document*
+        + documents(): const vector<unique_ptr<Document>>&
+        + setCurrentTask(taskId: const QString&): void
+        + getCurrentTask(): Task*
+        + setCurrentDocument(docId: const QString&): void
+        + getCurrentDocumentId(): QString
+        + addChecklistItem(taskId: QString, text: QString): void
+        + toggleChecklistItem(taskId: QString, index: size_t): void
+        + removeChecklistItem(taskId: QString, index: size_t): void
+        + setTaskCompleted(taskId: QString, completed: bool): void
+        + setTaskDrawingData(taskId: QString, data: QString): void
+        + recordSession(session: const SessionRecord&): void
+        + getTotalTasks(): int
+        + getCompletedTasks(): int
+        + getTotalDocuments(): int
+        + getTotalPomodoroSessions(): int
+        + getTotalFocusMinutes(): int
+        + saveToJson(): void
+        + loadFromJson(): void
+        - taskToJson(task: const Task&): QJsonObject
+        - taskFromJson(obj: const QJsonObject&): unique_ptr<Task>
+        - documentToJson(doc: const Document&): QJsonObject
+        - documentFromJson(obj: const QJsonObject&): unique_ptr<Document>
+        
+        <<signal>> tasksUpdated()
+        <<signal>> sessionsUpdated()
+        <<signal>> documentsUpdated()
+        <<signal>> checklistUpdated(taskId: QString)
+        <<signal>> currentTaskChanged(task: Task*)
+        <<signal>> currentDocumentChanged(docId: QString)
+    }
+}
+
+package "Core Models" {
+    abstract class Document {
+        # id_: string
+        # name_: string
+        # created_: chrono::system_clock::time_point
+        # updated_: chrono::system_clock::time_point
+        
+        + Document(id: string, name: string)
+        + {abstract} ~Document()
+        + id(): const string&
+        + name(): const string&
+        + created(): time_point
+        + updated(): time_point
+        + {abstract} type(): const char*
+    }
+    
+    class TextDocument {
+        - content_: string
+        
+        + TextDocument(id: string, name: string)
+        + content(): const string&
+        + setContent(content: const string&): void
+        + type(): const char* override
+    }
+    
+    class Task {
+        - id_: string
+        - title_: string
+        - deadline_: optional<QDate>
+        - documentIds_: vector<string>
+        - checklistItems_: vector<ChecklistItem>
+        - completed_: bool
+        - drawingData_: string
+        
+        + Task(id: string, title: string, deadline: optional<QDate>)
+        + id(): const string&
+        + title(): const string&
+        + deadline(): const optional<QDate>&
+        + isCompleted(): bool
+        + getDrawingData(): const string&
+        + setTitle(title: string): void
+        + setDeadline(deadline: optional<QDate>): void
+        + setCompleted(completed: bool): void
+        + setDrawingData(data: string): void
+        + addDocumentId(docId: string): void
+        + removeDocumentId(docId: string): void
+        + getDocumentIds(): const vector<string>&
+        + addChecklistItem(text: const string&): void
+        + toggleChecklistItem(index: size_t): void
+        + removeChecklistItem(index: size_t): void
+        + getChecklistItems(): const vector<ChecklistItem>&
+    }
+    
+    class ChecklistItem <<struct>> {
+        + text: string
+        + completed: bool
+        
+        + ChecklistItem(text: string, completed: bool)
+    }
+    
+    interface DocumentFactory <<interface>> {
+        + {abstract} createDocument(id: string, name: string): unique_ptr<Document>
+    }
+    
+    class TextDocumentFactory {
+        + createDocument(id: string, name: string): unique_ptr<Document>
+    }
+}
+
+package "Pomodoro System" {
+    class PomodoroInterval {
+        - duration_: int
+        - type_: string
+        - startTime_: time_point
+        - endTime_: time_point
+        - completed_: bool
+        
+        + PomodoroInterval(duration: int, type: string)
+        + start(): void
+        + complete(): void
+        + isCompleted(): bool
+        + getDuration(): int
+        + getType(): const string&
+    }
+    
+    class IntervalRecord <<struct>> {
+        + type: IntervalType
+        + durationMinutes: int
+    }
+    
+    class SessionRecord <<struct>> {
+        + taskId: string
+        + startTime: QDateTime
+        + endTime: QDateTime
+        + intervals: vector<IntervalRecord>
+        
+        + getTotalFocusMinutes(): int
+        + getIntervalCount(): int
+    }
+    
+    class PomodoroSessionManager {
+        - task_: Task*
+        - sessionId_: int
+        - currentSession_: SessionRecord
+        - intervals_: vector<IntervalRecord>
+        - currentInterval_: PomodoroInterval*
+        - timer_: QTimer*
+        - state_: SessionState
+        
+        + PomodoroSessionManager(task: Task*, sessionId: int, parent: QObject*)
+        + start(): void
+        + pause(): void
+        + resume(): void
+        + skip(): void
+        + end(): void
+        + getTask(): Task*
+        + getCurrentSession(): const SessionRecord&
+        + getState(): SessionState
+        - onIntervalComplete(): void
+        - startNextInterval(): void
+        
+        <<signal>> sessionEnded(record: const SessionRecord&)
+        <<signal>> intervalChanged(interval: IntervalRecord)
+        <<signal>> timeUpdated(remaining: int)
+    }
+    
+    class PomodoroWidget {
+        - sessionManager_: PomodoroSessionManager*
+        - timeLabel_: QLabel*
+        - intervalLabel_: QLabel*
+        - startButton_: QPushButton*
+        - pauseButton_: QPushButton*
+        - skipButton_: QPushButton*
+        - endButton_: QPushButton*
+        - progressBar_: QProgressBar*
+        
+        + PomodoroWidget(manager: PomodoroSessionManager*, parent: QWidget*)
+        - updateDisplay(): void
+        - onStateChanged(): void
+        - playSound(): void
+    }
+}
+
+package "Infrastructure" {
+    interface IStorage <<interface>> {
+        + {abstract} ensureDir(path: const string&): bool
+        + {abstract} writeText(path: string, content: string): bool
+        + {abstract} readText(path: const string&): optional<string>
+    }
+    
+    class FileSystemStorage {
+        + ensureDir(path: const string&): bool
+        + writeText(path: string, content: string): bool
+        + readText(path: const string&): optional<string>
+    }
+}
+
+TextDocument -up-|> Document
+TextDocumentFactory .up.|> DocumentFactory
+FileSystemStorage .up.|> IStorage
+MainWindow -up-|> QMainWindow
+TaskSelector -up-|> QWidget
+TaskCalendar -up-|> QWidget
+DrawingCanvas -up-|> QWidget
+PomodoroWidget -up-|> QWidget
+DashboardManager -up-|> QObject
+PomodoroSessionManager -up-|> QObject
+
+Task *- - ChecklistItem : contains
+DashboardManager o- - Task : manages
+DashboardManager o- - Document : manages
+DashboardManager o- - SessionRecord : stores
+PomodoroSessionManager o- - IntervalRecord : tracks
+SessionRecord *- - IntervalRecord : contains
+
+MainWindow - -> DashboardManager : uses
+MainWindow - -> PomodoroWidget : displays
+MainWindow - -> PomodoroSessionManager : uses
+MainWindow - -> DrawingCanvas : uses
+MainWindow - -> TaskCalendar : uses
+MainWindow - -> TaskSelector : uses
+TaskSelector - -> DashboardManager : queries
+TaskCalendar - -> DashboardManager : queries
+PomodoroWidget - -> PomodoroSessionManager : controls
+PomodoroSessionManager - -> Task : tracks
+DashboardManager - -> DocumentFactory : uses
+DashboardManager - -> FileSystemStorage : persists with
+Task ..> Document : references
+
+note right of Task
+  Enhanced with:
+  - completion status
+  - deadline management
+  - drawing data storage
+end note
+
+note right of DashboardManager
+  Central controller for:
+  - Task lifecycle
+  - Document management
+  - Session tracking
+  - Persistence
+end note
+
+note bottom of DrawingCanvas
+  New feature:
+  Freehand drawing canvas
+  with pen customization
+end note
+
+note bottom of TaskCalendar
+  New feature:
+  Visual deadline tracker
+  with date highlighting
+end note
+
+note bottom of TaskSelector
+  New feature:
+  Smart task navigation
+  with search & filters
+end note
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 05:25:05 EST 2021)
+(MIT source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: CA
+--></g></svg>

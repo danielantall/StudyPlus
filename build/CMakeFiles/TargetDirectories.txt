@@ -1,0 +1,3 @@
+/Users/danielantal/VsCodeProjects/git_repos/oop-assignment-2-daniel-rumen/build/CMakeFiles/assignment2.dir
+/Users/danielantal/VsCodeProjects/git_repos/oop-assignment-2-daniel-rumen/build/CMakeFiles/edit_cache.dir
+/Users/danielantal/VsCodeProjects/git_repos/oop-assignment-2-daniel-rumen/build/CMakeFiles/rebuild_cache.dir
