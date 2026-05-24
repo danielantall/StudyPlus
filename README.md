@@ -1,35 +1,38 @@
 # Study++ - Made for 3307 Software Engineering
 
-Study++ was made to replace you online tools into an all in one note taking, and school management app. Runs locally on any machine supporting QMake.
+Study++ is an all-in-one note-taking and school management desktop app built with C++17 and Qt. It replaces multiple online tools with a single local application that runs on any machine supporting QMake.
+
+## Video Demo
+https://www.youtube.com/watch?v=-M3_kgILIXM
+
+## Features
+
+- **Task Management** — Create, open, and organize tasks with titles, deadlines, and completion tracking
+- **Document Editor** — Create and edit text documents linked to each task; documents are auto-saved to local JSON storage
+- **Pomodoro Timer** — Built-in focus timer with work/break intervals, audio alerts, and session history tracking
+- **Drawing Canvas** — Freehand sketch pad for diagrams and annotations, with adjustable pen color/width and base64 export
+- **Calendar View** — Visual calendar highlighting task deadlines; click any date to see tasks due that day
+- **Task Selector** — Searchable, filterable task list with filters for All, Incomplete, Completed, Has Deadline, and Overdue
+- **Checklists** — Add checklist items to any task and toggle them as complete
+- **Local Persistence** — All data (tasks, documents, sessions) is saved locally as JSON files via the `FileSystemStorage` layer
 
 ## Quick Start
 
 ### Prerequisites
 
-- A C++17-compatible compiler (e.g., `g++`, `clang++`)
-- **CMake** (≥ 3.5) — or — **QMake** (bundled with Qt)
-- Git
+| Dependency | Version | Notes |
+|---|---|---|
+| C++17 compiler | `g++` or `clang++` | Xcode Command Line Tools on macOS |
+| Qt | 5 or 6 | Must include `core`, `gui`, `widgets`, and `multimedia` modules |
+| QMake | Bundled with Qt | Used to generate Makefiles |
+| Git | Any | To clone the repository |
 
-### Running Locally (CMake)
+### Running Locally
 
 ```bash
 # Clone the repository
 git clone https://github.com/danielantall/StudyPlus.git
-cd StudyPlus
-
-# Create a build directory and compile
-mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-cmake --build .
-
-# Run the app
-./assignment2
-```
-
-### Running Locally (QMake)
-
-```bash
-cd code/ProjectTemplate
+cd StudyPlus/code/ProjectTemplate
 
 # Generate the Makefile and compile
 qmake ProjectTemplate.pro
@@ -39,21 +42,16 @@ make
 ./ProjectTemplate
 ```
 
-## Video Demo
-https://www.youtube.com/watch?v=-M3_kgILIXM
+> **Note:** On macOS you may need to run `open ProjectTemplate.app` instead if Qt builds an app bundle.
 
-## Repository Structure
 
-- `code/` – C++ source code and tests
-- `report/` – Project report, UML diagrams, and any design files
-- `README.md` – This file
+```
 
 ## Build & Test Instructions
 
-To compile and test locally (assuming you're using CMake and GoogleTest):
+To compile and test locally using CMake and GoogleTest:
 
 ```bash
-
 mkdir build && cd build
 
 # Generate build files
@@ -64,3 +62,4 @@ cmake --build .
 
 # Run tests (if using GoogleTest)
 ctest --output-on-failure
+```
